@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_title %}- Internal Server Error{% endblock %}
+
+{% block page_header %}
+<div class="container header-container">
+  <div class="row">
+    <div class="col"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="error-container bg-white m-5 rounded shadow-lg">
+  <div class="content-box text-center p-5">
+    <div class="logo-section">
+      <img src="{% static 'images/stylestreet-logo.png' %}" alt="brand icon" class="logo-icon">
+      <h3 class="logo-font text-pink"><strong>StyleStreet</strong></h3>
+    </div>
+    <div class="message-section my-4">
+      <h1 class="text-black"><strong>500 Error</strong></h1>
+      <h4>Internal Server Error</h4>
+    </div>
+    <div class="home-button">
+      <a class="btn btn-aa" href="{% url 'home' %}" role="button">Refresh<i class="fa-solid fa-arrow-rotate-left"></i></a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

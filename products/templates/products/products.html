@@ -1,0 +1,283 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-8 col-lg-6 text-center mx-auto text-pink">
+            <hr>
+            <h2 class="logo-font">Shop on <span class="text-pink"><strong>Style</strong>Street</h2></span>
+            <p>Fashion that exists in everything
+                Wear the best.</p>
+            <hr>
+            <!-- category badge when sorted (at the top of Product page) -->
+            {% for c in current_categories %}
+                <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
+                    <span class="p-2 mt-2 btn-aa">{{ c.friendly_name }}</span>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="product-container col-10 offset-1">
+            <div class="row mt-1 mb-2">
+                <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
+                    <div class="sort-select-wrapper w-50">
+                        <select id="sort-selector" class="custom-select custom-select-sm rounded-4 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
+                            <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
+                            <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
+                            <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
+                            <option value="rating_asc" {% if current_sorting == 'rating_asc' %}selected{% endif %}>Rating (low to high)</option>
+                            <option value="rating_desc" {% if current_sorting == 'rating_desc' %}selected{% endif %}>Rating (high to low)</option>
+                            <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
+                            <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name (Z-A)</option>
+                            <option value="category_asc" {% if current_sorting == 'category_asc' %}selected{% endif %}>Category (A-Z)</option>
+                            <option value="category_desc" {% if current_sorting == 'category_desc' %}selected{% endif %}>Category (Z-A)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-md-first">
+                    <p class="text-muted mt-3 text-center text-md-left">
+                        {% if search_term or current_categories or current_sorting != 'None_None' %}
+                            <span class="a-link"><a href="{% url 'products' %}">Products Home</a> | </span>
+                        {% endif %}
+                        {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                {% for product in products %}
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        {% if product.image %}
+                            <div class="cover" style="background-image: 
+                            url('{{ product.image.url }}');">
+                              {% if product.condition %}
+                              <span class="badge product-condition-badge">
+                                {% if product.stock < 1 %}
+                                <span class="badge badge-danger">SOLD OUT</span>
+                            {% elif product.stock > 0 and product.stock < 4 %} 
+                                <span class="badge badge-warning">{{ product.stock }} in stock</span>
+                            {% elif product.stock > 3 %} 
+                                <span class="badge badge-info">in stock</span>
+                            {% endif %}
+                        </span>
+                          {% endif %}
+
+                          <span class="badge product-condition-badge">
+
+                          </span>
+                            <h1>{{ product.name }}</h1>
+                           
+                            <span class="price">€{{ product.price }}</span>
+                            <div class="card-back row">
+                               
+                                {% if request.user.is_superuser %}
+                                <br>
+                                <a href="{% url 'edit_product' product.id %}"> Edit</a> 
+                                <a href="{% url 'delete_product' product.id %}"> Delete</a>
+                            
+                            {% endif %}
+                                
+                                <a href="{% url 'product_detail' product.id %}">View Detail</a>
+                            
+                            </div>
+                            
+                        </div>
+                        
+                        {% else %}
+                            <div class="cover" style="background-image: 
+                            url('{{ MEDIA_URL }}noimage.jpg');">
+                       
+                           {% if product.condition %}
+                           <span class="badge product-condition-badge">
+                             {% if product.stock < 1 %}
+                             <span class="badge badge-danger">SOLD OUT</span>
+                         {% elif product.stock > 0 and product.stock < 4 %} 
+                             <span class="badge badge-warning">{{ product.stock }} in stock</span>
+                         {% elif product.stock > 3 %} 
+                             <span class="badge badge-info">in stock</span>
+                         {% endif %}
+                     </span>
+                       {% endif %}
+
+                       <span class="badge product-condition-badge">
+
+                       </span>
+                         <h1>{{ product.name }}</h1>
+                        
+                         <span class="price">€{{ product.price }}</span>
+                         <div class="card-back row">
+                            
+                             {% if request.user.is_superuser %}
+                             <br>
+                             <a href="{% url 'edit_product' product.id %}"> Edit</a> 
+                             <a href="{% url 'delete_product' product.id %}"> Delete</a>
+                         
+                         {% endif %}
+                             
+                             <a href="{% url 'product_detail' product.id %}">View Detail</a>
+                         
+                         </div>
+                         
+                     </div>
+                        {% endif %}
+                       
+                    </div>
+                    <div class="card-footer pt-0 text-left">
+                        <div class="col-12 my-auto justify-content-center">
+                            {% if product.stock > 0 or quantity == 1 %}
+                                <form method="POST" action="{% url 'add_to_bag' product.id %}">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="quantity" value="1">
+                                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                                    <input type="submit" value="Add to Cart" class="btn add-to-bag-card-btn btn-block text-beig">
+                                </form>
+                            {% else %}
+                            <button class="btn text-white btn-block disabled">SOLD OUT</button>
+                            {% endif %}
+                            </div>
+                            <br>
+                        <!-- Additional Card info-->
+                        <div class=" pb-0 text-black text-center">
+                            <div class="row">
+                                <div class="col-4">    
+                                    <i class="card-info-icon fa-solid fa-up-right-and-down-left-from-center "></i>
+                                    <p class="mb-0 text-black text-center card-info"> Size: {{ product.size }}</p>
+                                </div>
+                                <div class="col-4">
+                                    <svg width="24" height="24" viewBox="0 0 40 40">
+                                        <defs>
+                                            <pattern id="fabricPattern" patternUnits="userSpaceOnUse" width="10" height="10">
+                                                <path d="M0 0L10 10M10 0L0 10" stroke="#607D8B" stroke-width="1"/>
+                                            </pattern>
+                                        </defs>
+                                        <rect x="0" y="0" width="40" height="40" fill="url(#fabricPattern)"></rect>
+                                    </svg>
+                                    
+                                    <p class="mb-0 text-black text-center card-info">Fabric: {{ product.fabric }} </p>
+                                </div>
+                                <div class="col-4">
+                                    <svg width="24" height="24" viewBox="0 0 40 40">
+                                        <defs>
+                                            <linearGradient id="colorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+                                                <stop offset="50%" style="stop-color:rgb(0,255,0);stop-opacity:1" />
+                                                <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+                                            </linearGradient>
+                                        </defs>
+                                        <circle cx="20" cy="20" r="15" fill="url(#colorGradient)" />
+                                    </svg>
+                                    <p class="mb-0 text-black text-center card-info">Color: {{ product.color }}</p>
+                                </div>
+                                
+                                <div class="col-4 mt-3">         
+                                    <i class="fas fa-heart mr-1 cat-badge-icon-heart"></i>
+                                    <p class="mb-0 text-black text-center card-info">{{ product.number_of_likes }}</p>  
+                                </div>
+                                <div class="col-4 mt-3">
+                                    {% if product.category.cat_image %}
+                                    <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                                        <img src="{{ product.category.cat_image.url }}" 
+                                        class="card-info-icon cat-badge-icon"
+                                        alt="{{ product.category.name }} category">
+                                        <p class="mb-0 text-black text-center card-info">{{ product.category.friendly_name }}</p>                                    
+                                    </a>
+                                    {% endif %}
+                                </div>
+                                <div class="col-4 mt-3">         
+                                    {% if product.rating %}
+                                    <small><i class="fas fa-star mr-1 cat-badge-icon"></i>
+                                        <p class="mb-0 text-black text-center card-info">{{ product.rating }} </p>  
+                                    </small>
+                                    {% else %}
+                                    <small>No Rating</small>
+                                    {% endif %}
+                                </div>                                        
+                            </div>
+                        </div>
+
+                    <!-- HR every row -->
+                    {% if forloop.counter|divisibleby:1 %}
+                        <div class="col-12 d-sm-none mb-5">
+                            <hr>
+                        </div>
+                    {% endif %}                        
+                    {% if forloop.counter|divisibleby:2 %}
+                        <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
+                            <hr>
+                        </div>
+                    {% endif %}
+                    {% if forloop.counter|divisibleby:3 %}
+                        <div class="col-12 d-none d-lg-block d-xl-none mb-5">
+                            <hr>
+                        </div>
+                    {% endif %}
+                    {% if forloop.counter|divisibleby:4 %}
+                        <div class="col-12 d-none d-xl-block mb-5">
+                            <hr>
+                        </div>
+                    {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+<!-- Arrow to the top -->
+<div class="btt-button shadow-sm rounded-4 border border-black">
+    <a class="btt-link d-flex h-100">
+        <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
+    </a>	
+</div>
+    
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script>
+		$('.btt-link').click(function(e) {
+			window.scrollTo(0,0);
+		});
+
+        $('#sort-selector').change(function() {
+            var selector = $(this);
+            var currentUrl = new URL(window.location);
+
+            var selectedVal = selector.val();
+            if(selectedVal != "reset"){
+                var sort = selectedVal.split("_")[0];
+                var direction = selectedVal.split("_")[1];
+
+                currentUrl.searchParams.set("sort", sort);
+                currentUrl.searchParams.set("direction", direction);
+
+                window.location.replace(currentUrl);
+            } else {
+                currentUrl.searchParams.delete("sort");
+                currentUrl.searchParams.delete("direction");
+
+                window.location.replace(currentUrl);
+            }
+        });
+
+        $(document).on('click', '.confirm-delete', function(){
+            return confirm('Are you sure you want to delete it?');
+        });
+    </script>
+{% endblock %}
