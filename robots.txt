@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://stylestreet-2f7b5324506f.herokuapp.com/sitemap.xml
