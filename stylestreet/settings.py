@@ -30,7 +30,6 @@ SECRET_KEY = 'tl5f@@%^ycl#4+(0l#i=qqz#i7)u6@rg7uh3(heyc+_(ih#6'
 DEBUG = 'DEVELOPMENT' in os.environ
 DEBUG = True
 
-
 ALLOWED_HOSTS = ['*']
 
     
@@ -196,7 +195,7 @@ if 'USE_AWS' in os.environ:
     # Cache control
     AWS_S3_OBJECT_PARAMETERS = {
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
-        # 'CacheControl': 'max-age=94608000',
+        'CacheControl': 'max-age=94608000',
     }
     
     # Bucket Config
