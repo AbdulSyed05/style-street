@@ -1,0 +1,38 @@
+[
+    {
+    "model": "auth.user",
+    "pk": 18,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$Fqy3kVTDOyyMKmaOlg37YP$/4UqoAnGYVzKq/sGftWwqu0dZOjofgHcXuz3QlV37xM=",
+      "last_login": "2024-05-25T14:26:19.243Z",
+      "is_superuser": true,
+      "username": "stylestreet",
+      "first_name": "",
+      "last_name": "",
+      "email": "stylestreetecommerce@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-05-24T21:55:18.386Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 19,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$Jfk07aDSWwaa8FPjPiUWkQ$bzkPwRIkXEs5KqJG+65cA4z++6SE9GP9VBIw/mfpBKA=",
+      "last_login": "2024-05-25T10:44:37.505Z",
+      "is_superuser": false,
+      "username": "zuha",
+      "first_name": "",
+      "last_name": "",
+      "email": "zuhakhalidr@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-25T10:42:54.998Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

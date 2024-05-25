@@ -1,0 +1,430 @@
+[
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+          "category": 4,
+          "name": "White Shirt",
+          "color": "blue",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Satin",
+          "size": "M",
+          "condition": 4,
+          "price": "50.00",
+          "rating": "4.00",
+          "image": "new_shirt_K3LM9LR.jpg",
+          "image2": "new_shirt_3CTExSE.webp",
+          "image3": "product_shirt_men.jpg",
+          "video": null,
+          "stock": 13,
+          "likes": [
+            18,
+            19
+          ]
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+          "category": 2,
+          "name": "New Arrival Shirt",
+          "color": "White",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Dinem",
+          "size": "L",
+          "condition": 2,
+          "price": "99.99",
+          "rating": "4.99",
+          "image": "product_new_men.jpg",
+          "image2": "product_new_men2.jpg",
+          "image3": "product_new_men3.png",
+          "video": null,
+          "stock": 9,
+          "likes": [
+            18
+          ]
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+          "category": 3,
+          "name": "T Shirt Men",
+          "color": "Grey",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Georgette",
+          "size": "L",
+          "condition": 2,
+          "price": "20.00",
+          "rating": "4.50",
+          "image": "product_tshirts_men.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 4,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+          "category": 5,
+          "name": "Jeans Dinem",
+          "color": "Black",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Cotton",
+          "size": "M",
+          "condition": 4,
+          "price": "50.00",
+          "rating": "3.00",
+          "image": "product_jeans_men.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+          "category": 6,
+          "name": "Shorts",
+          "color": "Blue",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Dinem",
+          "size": "M",
+          "condition": 5,
+          "price": "44.99",
+          "rating": "5.00",
+          "image": "product_shorts_men.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+          "category": 7,
+          "name": "Coats Suit",
+          "color": "brown",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Cotton",
+          "size": "S",
+          "condition": 5,
+          "price": "800.00",
+          "rating": "4.20",
+          "image": "product_coats_men.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 12,
+          "likes": [
+            18,
+            19
+          ]
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+          "category": 8,
+          "name": "Active Wear",
+          "color": "Blue",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Boski",
+          "size": "XS",
+          "condition": 3,
+          "price": "9.99",
+          "rating": "4.00",
+          "image": "product_activewear_men.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+          "category": 9,
+          "name": "Women in Style",
+          "color": "Blue",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Chifon",
+          "size": "XS",
+          "condition": 4,
+          "price": "25.83",
+          "rating": "5.00",
+          "image": "product_new_women.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+          "category": 10,
+          "name": "Pretty Top",
+          "color": "Red",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Silk",
+          "size": "L",
+          "condition": 5,
+          "price": "74.00",
+          "rating": "4.20",
+          "image": "product_tops_women.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+          "category": 11,
+          "name": "Dress",
+          "color": "Pink",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Boski",
+          "size": "M",
+          "condition": 3,
+          "price": "25.99",
+          "rating": "3.43",
+          "image": "product_dress_women.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+          "category": 12,
+          "name": "Jeans",
+          "color": "Beig",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Dimen",
+          "size": "M",
+          "condition": 6,
+          "price": "10.00",
+          "rating": "1.99",
+          "image": "product_jeans_women.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+          "category": 13,
+          "name": "Skirt",
+          "color": "white",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Silk",
+          "size": "S",
+          "condition": null,
+          "price": "57.98",
+          "rating": "4.83",
+          "image": "product_skirt_women.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+          "category": 14,
+          "name": "Accessories",
+          "color": "Multi",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "none",
+          "size": "M",
+          "condition": null,
+          "price": "200.00",
+          "rating": "4.23",
+          "image": "product_accessories_women.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+          "category": 15,
+          "name": "New for Kids",
+          "color": "yellow",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Satin",
+          "size": "M",
+          "condition": null,
+          "price": "65.00",
+          "rating": "4.70",
+          "image": "product_new_kids.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+          "category": 16,
+          "name": "Top",
+          "color": "Navy",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Chifon",
+          "size": "M",
+          "condition": null,
+          "price": "100.00",
+          "rating": "2.50",
+          "image": "product_tops_kids.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+          "category": 17,
+          "name": "Jeans",
+          "color": "Blue",
+          "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+          "fabric": "Dinem",
+          "size": "L",
+          "condition": null,
+          "price": "50.00",
+          "rating": "1.00",
+          "image": "product_jeans_kids.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 17,
+        "fields": {
+          "category": 18,
+          "name": "Accessories Sale",
+          "color": "Generic",
+          "description": "SALE!!!",
+          "fabric": "none",
+          "size": "M",
+          "condition": 4,
+          "price": "200.00",
+          "rating": "4.20",
+          "image": "product_accessories_sale.webp",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 0,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 18,
+        "fields": {
+          "category": 19,
+          "name": "Kids Sale",
+          "color": "Generic",
+          "description": "SALE!!!",
+          "fabric": "Blue",
+          "size": "M",
+          "condition": null,
+          "price": "54.00",
+          "rating": "2.30",
+          "image": "product_kids_sale.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 19,
+        "fields": {
+          "category": 20,
+          "name": "Men Sale",
+          "color": "Blue",
+          "description": "SALE!!!",
+          "fabric": "Boski",
+          "size": "M",
+          "condition": null,
+          "price": "48.00",
+          "rating": "3.53",
+          "image": "product_men_sale.jpg",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      },
+      {
+        "model": "products.product",
+        "pk": 20,
+        "fields": {
+          "category": 21,
+          "name": "Women Sale",
+          "color": "Pink",
+          "description": "SALE!!!",
+          "fabric": "Chifon",
+          "size": "M",
+          "condition": null,
+          "price": "94.00",
+          "rating": "4.30",
+          "image": "product_women_sale.webp",
+          "image2": "",
+          "image3": "",
+          "video": null,
+          "stock": 1,
+          "likes": []
+        }
+      }
+]

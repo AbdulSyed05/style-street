@@ -1,0 +1,19 @@
+[
+    
+    {
+        "model": "sites.site",
+        "pk": 2,
+        "fields": {
+          "domain": "stylestreet.example.com",
+          "name": "Style Street"
+        }
+      },
+      {
+        "model": "sites.site",
+        "pk": 3,
+        "fields": {
+          "domain": "stylestreet-2f7b5324506f.herokuapp.com",
+          "name": "Style Street"
+        }
+      }
+]

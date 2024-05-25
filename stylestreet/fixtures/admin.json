@@ -1,0 +1,964 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+          "action_time": "2024-05-24T21:56:44.115Z",
+          "user": 18,
+          "content_type": 8,
+          "object_id": "18",
+          "object_repr": "zuhakhalidr@gmail.com",
+          "action_flag": 3,
+          "change_message": ""
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+          "action_time": "2024-05-24T21:57:00.744Z",
+          "user": 18,
+          "content_type": 4,
+          "object_id": "16",
+          "object_repr": "StyleStreet",
+          "action_flag": 3,
+          "change_message": ""
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+          "action_time": "2024-05-24T21:57:00.804Z",
+          "user": 18,
+          "content_type": 4,
+          "object_id": "17",
+          "object_repr": "Zuhi",
+          "action_flag": 3,
+          "change_message": ""
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 68,
+        "fields": {
+          "action_time": "2024-05-24T22:08:23.743Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "2",
+          "object_repr": "new_arrival_men",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 69,
+        "fields": {
+          "action_time": "2024-05-24T22:10:08.170Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "3",
+          "object_repr": "tshirts_men",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 70,
+        "fields": {
+          "action_time": "2024-05-24T22:11:22.620Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "4",
+          "object_repr": "shirts_men",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 71,
+        "fields": {
+          "action_time": "2024-05-24T22:12:33.114Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "5",
+          "object_repr": "jeans_men",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 72,
+        "fields": {
+          "action_time": "2024-05-24T22:13:49.980Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "6",
+          "object_repr": "shorts_men",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 73,
+        "fields": {
+          "action_time": "2024-05-24T22:15:07.219Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "7",
+          "object_repr": "coats_men",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 74,
+        "fields": {
+          "action_time": "2024-05-24T22:16:24.219Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "8",
+          "object_repr": "activewear_men",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 75,
+        "fields": {
+          "action_time": "2024-05-24T22:17:35.131Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "9",
+          "object_repr": "new_arrivals_women",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 76,
+        "fields": {
+          "action_time": "2024-05-24T22:18:59.319Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "10",
+          "object_repr": "tops_women",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 77,
+        "fields": {
+          "action_time": "2024-05-24T22:20:01.864Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "11",
+          "object_repr": "dress_women",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 78,
+        "fields": {
+          "action_time": "2024-05-24T22:22:26.135Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "12",
+          "object_repr": "jeans_women",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 79,
+        "fields": {
+          "action_time": "2024-05-24T22:23:25.018Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "13",
+          "object_repr": "skirts_women",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 80,
+        "fields": {
+          "action_time": "2024-05-24T22:28:14.147Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "14",
+          "object_repr": "accessories_women",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 81,
+        "fields": {
+          "action_time": "2024-05-24T22:31:29.100Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "15",
+          "object_repr": "new_arrival_kids",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 82,
+        "fields": {
+          "action_time": "2024-05-24T22:32:19.798Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "16",
+          "object_repr": "tops_kids",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 83,
+        "fields": {
+          "action_time": "2024-05-24T22:33:09.169Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "17",
+          "object_repr": "jeans_kids",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 84,
+        "fields": {
+          "action_time": "2024-05-24T22:33:52.395Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "9",
+          "object_repr": "new_arrivals_women",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Cat desc\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 85,
+        "fields": {
+          "action_time": "2024-05-24T22:34:08.943Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "1",
+          "object_repr": "New Arrivals",
+          "action_flag": 3,
+          "change_message": ""
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 86,
+        "fields": {
+          "action_time": "2024-05-24T22:34:55.157Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "1",
+          "object_repr": "White Shirt",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 87,
+        "fields": {
+          "action_time": "2024-05-24T22:52:18.501Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "1",
+          "object_repr": "White Shirt",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Image3\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 88,
+        "fields": {
+          "action_time": "2024-05-24T22:53:17.302Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "1",
+          "object_repr": "White Shirt",
+          "action_flag": 2,
+          "change_message": "[]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 89,
+        "fields": {
+          "action_time": "2024-05-24T22:55:46.484Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "1",
+          "object_repr": "White Shirt",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 90,
+        "fields": {
+          "action_time": "2024-05-24T22:56:41.699Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "1",
+          "object_repr": "White Shirt",
+          "action_flag": 2,
+          "change_message": "[]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 91,
+        "fields": {
+          "action_time": "2024-05-24T22:59:13.347Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "2",
+          "object_repr": "New Arrival Shirt",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 92,
+        "fields": {
+          "action_time": "2024-05-24T23:00:50.843Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "3",
+          "object_repr": "T Shirt Men",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 93,
+        "fields": {
+          "action_time": "2024-05-24T23:01:47.075Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "4",
+          "object_repr": "Jeans Dinem",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 94,
+        "fields": {
+          "action_time": "2024-05-24T23:02:29.871Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "5",
+          "object_repr": "Shorts",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 95,
+        "fields": {
+          "action_time": "2024-05-24T23:03:27.670Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "6",
+          "object_repr": "Coats Suit",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 96,
+        "fields": {
+          "action_time": "2024-05-24T23:04:13.191Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "7",
+          "object_repr": "Active Wear",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 97,
+        "fields": {
+          "action_time": "2024-05-24T23:08:18.768Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "8",
+          "object_repr": "Women in Style",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 98,
+        "fields": {
+          "action_time": "2024-05-24T23:09:21.995Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "9",
+          "object_repr": "Pretty Top",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 99,
+        "fields": {
+          "action_time": "2024-05-24T23:10:04.361Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "10",
+          "object_repr": "Dress",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 100,
+        "fields": {
+          "action_time": "2024-05-24T23:11:00.310Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "11",
+          "object_repr": "Jeans",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 101,
+        "fields": {
+          "action_time": "2024-05-24T23:12:01.006Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "12",
+          "object_repr": "Skirt",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 102,
+        "fields": {
+          "action_time": "2024-05-24T23:12:48.438Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "13",
+          "object_repr": "Accessories",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 103,
+        "fields": {
+          "action_time": "2024-05-24T23:13:50.976Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "14",
+          "object_repr": "New for Kids",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 104,
+        "fields": {
+          "action_time": "2024-05-24T23:14:32.242Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "15",
+          "object_repr": "Top",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 105,
+        "fields": {
+          "action_time": "2024-05-24T23:15:16.160Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "16",
+          "object_repr": "Jeans",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 106,
+        "fields": {
+          "action_time": "2024-05-24T23:25:56.321Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "18",
+          "object_repr": "accessories_sale",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 107,
+        "fields": {
+          "action_time": "2024-05-24T23:27:10.529Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "19",
+          "object_repr": "kids_sale",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 108,
+        "fields": {
+          "action_time": "2024-05-24T23:28:03.103Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "20",
+          "object_repr": "men_sale",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 109,
+        "fields": {
+          "action_time": "2024-05-24T23:28:23.647Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "21",
+          "object_repr": "women_sale",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 110,
+        "fields": {
+          "action_time": "2024-05-24T23:28:38.374Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "19",
+          "object_repr": "kids_sale",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 111,
+        "fields": {
+          "action_time": "2024-05-24T23:28:41.637Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "19",
+          "object_repr": "kids_sale",
+          "action_flag": 2,
+          "change_message": "[]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 112,
+        "fields": {
+          "action_time": "2024-05-24T23:28:50.560Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "18",
+          "object_repr": "accessories_sale",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 113,
+        "fields": {
+          "action_time": "2024-05-24T23:29:08.685Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "17",
+          "object_repr": "jeans_kids",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 114,
+        "fields": {
+          "action_time": "2024-05-24T23:29:24.755Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "16",
+          "object_repr": "tops_kids",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 115,
+        "fields": {
+          "action_time": "2024-05-24T23:29:35.766Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "15",
+          "object_repr": "new_arrival_kids",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 116,
+        "fields": {
+          "action_time": "2024-05-24T23:29:45.626Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "14",
+          "object_repr": "accessories_women",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 117,
+        "fields": {
+          "action_time": "2024-05-24T23:30:07.099Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "13",
+          "object_repr": "skirts_women",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 118,
+        "fields": {
+          "action_time": "2024-05-24T23:30:19.487Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "12",
+          "object_repr": "jeans_women",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 119,
+        "fields": {
+          "action_time": "2024-05-24T23:30:31.924Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "11",
+          "object_repr": "dress_women",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 120,
+        "fields": {
+          "action_time": "2024-05-24T23:30:42.614Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "10",
+          "object_repr": "tops_women",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 121,
+        "fields": {
+          "action_time": "2024-05-24T23:30:54.469Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "9",
+          "object_repr": "new_arrivals_women",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 122,
+        "fields": {
+          "action_time": "2024-05-24T23:31:09.984Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "8",
+          "object_repr": "activewear_men",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 123,
+        "fields": {
+          "action_time": "2024-05-24T23:31:24.106Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "7",
+          "object_repr": "coats_men",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 124,
+        "fields": {
+          "action_time": "2024-05-24T23:31:34.236Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "6",
+          "object_repr": "shorts_men",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 125,
+        "fields": {
+          "action_time": "2024-05-24T23:31:42.779Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "5",
+          "object_repr": "jeans_men",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 126,
+        "fields": {
+          "action_time": "2024-05-24T23:31:53.070Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "4",
+          "object_repr": "shirts_men",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 127,
+        "fields": {
+          "action_time": "2024-05-24T23:32:16.896Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "3",
+          "object_repr": "tshirts_men",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 128,
+        "fields": {
+          "action_time": "2024-05-24T23:32:27.304Z",
+          "user": 18,
+          "content_type": 14,
+          "object_id": "2",
+          "object_repr": "new_arrival_men",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 129,
+        "fields": {
+          "action_time": "2024-05-24T23:37:06.065Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "17",
+          "object_repr": "Accessories Sale",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 130,
+        "fields": {
+          "action_time": "2024-05-24T23:37:58.770Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "18",
+          "object_repr": "Kids Sale",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 131,
+        "fields": {
+          "action_time": "2024-05-24T23:38:31.498Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "19",
+          "object_repr": "Men Sale",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 132,
+        "fields": {
+          "action_time": "2024-05-24T23:39:24.501Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "20",
+          "object_repr": "Women Sale",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 133,
+        "fields": {
+          "action_time": "2024-05-25T00:08:15.711Z",
+          "user": 18,
+          "content_type": 7,
+          "object_id": "3",
+          "object_repr": "https://stylestreet-2f7b5324506f.herokuapp.com/",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 134,
+        "fields": {
+          "action_time": "2024-05-25T00:08:24.228Z",
+          "user": 18,
+          "content_type": 7,
+          "object_id": "3",
+          "object_repr": "stylestreet-2f7b5324506f.herokuapp.com/",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 135,
+        "fields": {
+          "action_time": "2024-05-25T00:08:29.256Z",
+          "user": 18,
+          "content_type": 7,
+          "object_id": "3",
+          "object_repr": "stylestreet-2f7b5324506f.herokuapp.com",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 136,
+        "fields": {
+          "action_time": "2024-05-25T10:41:52.332Z",
+          "user": 18,
+          "content_type": 8,
+          "object_id": "19",
+          "object_repr": "stylestreetecommerce@gmail.com",
+          "action_flag": 1,
+          "change_message": "[{\"added\": {}}]"
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 137,
+        "fields": {
+          "action_time": "2024-05-25T10:49:50.470Z",
+          "user": 18,
+          "content_type": 21,
+          "object_id": "3",
+          "object_repr": "zuhakhalidr@gmail.com",
+          "action_flag": 3,
+          "change_message": ""
+        }
+      },
+      {
+        "model": "admin.logentry",
+        "pk": 138,
+        "fields": {
+          "action_time": "2024-05-25T10:52:57.110Z",
+          "user": 18,
+          "content_type": 16,
+          "object_id": "6",
+          "object_repr": "Coats Suit",
+          "action_flag": 2,
+          "change_message": "[{\"changed\": {\"fields\": [\"Stock\"]}}]"
+        }
+      }
+  ]

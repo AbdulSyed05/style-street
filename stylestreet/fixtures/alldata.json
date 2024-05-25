@@ -1,0 +1,2991 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2024-05-24T21:56:44.115Z",
+      "user": 18,
+      "content_type": 8,
+      "object_id": "18",
+      "object_repr": "zuhakhalidr@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2024-05-24T21:57:00.744Z",
+      "user": 18,
+      "content_type": 4,
+      "object_id": "16",
+      "object_repr": "StyleStreet",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2024-05-24T21:57:00.804Z",
+      "user": 18,
+      "content_type": 4,
+      "object_id": "17",
+      "object_repr": "Zuhi",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2024-05-24T22:08:23.743Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "2",
+      "object_repr": "new_arrival_men",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2024-05-24T22:10:08.170Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "3",
+      "object_repr": "tshirts_men",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2024-05-24T22:11:22.620Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "4",
+      "object_repr": "shirts_men",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2024-05-24T22:12:33.114Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "5",
+      "object_repr": "jeans_men",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2024-05-24T22:13:49.980Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "6",
+      "object_repr": "shorts_men",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2024-05-24T22:15:07.219Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "7",
+      "object_repr": "coats_men",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2024-05-24T22:16:24.219Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "8",
+      "object_repr": "activewear_men",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2024-05-24T22:17:35.131Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "9",
+      "object_repr": "new_arrivals_women",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2024-05-24T22:18:59.319Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "10",
+      "object_repr": "tops_women",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2024-05-24T22:20:01.864Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "11",
+      "object_repr": "dress_women",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2024-05-24T22:22:26.135Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "12",
+      "object_repr": "jeans_women",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2024-05-24T22:23:25.018Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "13",
+      "object_repr": "skirts_women",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2024-05-24T22:28:14.147Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "14",
+      "object_repr": "accessories_women",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2024-05-24T22:31:29.100Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "15",
+      "object_repr": "new_arrival_kids",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2024-05-24T22:32:19.798Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "16",
+      "object_repr": "tops_kids",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2024-05-24T22:33:09.169Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "17",
+      "object_repr": "jeans_kids",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2024-05-24T22:33:52.395Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "9",
+      "object_repr": "new_arrivals_women",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Cat desc\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2024-05-24T22:34:08.943Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "New Arrivals",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2024-05-24T22:34:55.157Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "White Shirt",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2024-05-24T22:52:18.501Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "White Shirt",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image3\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2024-05-24T22:53:17.302Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "White Shirt",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2024-05-24T22:55:46.484Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "White Shirt",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2024-05-24T22:56:41.699Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "White Shirt",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2024-05-24T22:59:13.347Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "2",
+      "object_repr": "New Arrival Shirt",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+      "action_time": "2024-05-24T23:00:50.843Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "3",
+      "object_repr": "T Shirt Men",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+      "action_time": "2024-05-24T23:01:47.075Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "4",
+      "object_repr": "Jeans Dinem",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+      "action_time": "2024-05-24T23:02:29.871Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "5",
+      "object_repr": "Shorts",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+      "action_time": "2024-05-24T23:03:27.670Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "6",
+      "object_repr": "Coats Suit",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+      "action_time": "2024-05-24T23:04:13.191Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "7",
+      "object_repr": "Active Wear",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+      "action_time": "2024-05-24T23:08:18.768Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "8",
+      "object_repr": "Women in Style",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+      "action_time": "2024-05-24T23:09:21.995Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "9",
+      "object_repr": "Pretty Top",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+      "action_time": "2024-05-24T23:10:04.361Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "10",
+      "object_repr": "Dress",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+      "action_time": "2024-05-24T23:11:00.310Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "11",
+      "object_repr": "Jeans",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+      "action_time": "2024-05-24T23:12:01.006Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "12",
+      "object_repr": "Skirt",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+      "action_time": "2024-05-24T23:12:48.438Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "13",
+      "object_repr": "Accessories",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+      "action_time": "2024-05-24T23:13:50.976Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "14",
+      "object_repr": "New for Kids",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+      "action_time": "2024-05-24T23:14:32.242Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "15",
+      "object_repr": "Top",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+      "action_time": "2024-05-24T23:15:16.160Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "16",
+      "object_repr": "Jeans",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+      "action_time": "2024-05-24T23:25:56.321Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "18",
+      "object_repr": "accessories_sale",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+      "action_time": "2024-05-24T23:27:10.529Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "19",
+      "object_repr": "kids_sale",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+      "action_time": "2024-05-24T23:28:03.103Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "20",
+      "object_repr": "men_sale",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+      "action_time": "2024-05-24T23:28:23.647Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "21",
+      "object_repr": "women_sale",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+      "action_time": "2024-05-24T23:28:38.374Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "19",
+      "object_repr": "kids_sale",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+      "action_time": "2024-05-24T23:28:41.637Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "19",
+      "object_repr": "kids_sale",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+      "action_time": "2024-05-24T23:28:50.560Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "18",
+      "object_repr": "accessories_sale",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+      "action_time": "2024-05-24T23:29:08.685Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "17",
+      "object_repr": "jeans_kids",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+      "action_time": "2024-05-24T23:29:24.755Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "16",
+      "object_repr": "tops_kids",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+      "action_time": "2024-05-24T23:29:35.766Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "15",
+      "object_repr": "new_arrival_kids",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+      "action_time": "2024-05-24T23:29:45.626Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "14",
+      "object_repr": "accessories_women",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+      "action_time": "2024-05-24T23:30:07.099Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "13",
+      "object_repr": "skirts_women",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+      "action_time": "2024-05-24T23:30:19.487Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "12",
+      "object_repr": "jeans_women",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+      "action_time": "2024-05-24T23:30:31.924Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "11",
+      "object_repr": "dress_women",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+      "action_time": "2024-05-24T23:30:42.614Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "10",
+      "object_repr": "tops_women",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+      "action_time": "2024-05-24T23:30:54.469Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "9",
+      "object_repr": "new_arrivals_women",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+      "action_time": "2024-05-24T23:31:09.984Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "8",
+      "object_repr": "activewear_men",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+      "action_time": "2024-05-24T23:31:24.106Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "7",
+      "object_repr": "coats_men",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+      "action_time": "2024-05-24T23:31:34.236Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "6",
+      "object_repr": "shorts_men",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+      "action_time": "2024-05-24T23:31:42.779Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "5",
+      "object_repr": "jeans_men",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+      "action_time": "2024-05-24T23:31:53.070Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "4",
+      "object_repr": "shirts_men",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+      "action_time": "2024-05-24T23:32:16.896Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "3",
+      "object_repr": "tshirts_men",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+      "action_time": "2024-05-24T23:32:27.304Z",
+      "user": 18,
+      "content_type": 14,
+      "object_id": "2",
+      "object_repr": "new_arrival_men",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+      "action_time": "2024-05-24T23:37:06.065Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "17",
+      "object_repr": "Accessories Sale",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+      "action_time": "2024-05-24T23:37:58.770Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "18",
+      "object_repr": "Kids Sale",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+      "action_time": "2024-05-24T23:38:31.498Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "19",
+      "object_repr": "Men Sale",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+      "action_time": "2024-05-24T23:39:24.501Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "20",
+      "object_repr": "Women Sale",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+      "action_time": "2024-05-25T00:08:15.711Z",
+      "user": 18,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "https://stylestreet-2f7b5324506f.herokuapp.com/",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+      "action_time": "2024-05-25T00:08:24.228Z",
+      "user": 18,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "stylestreet-2f7b5324506f.herokuapp.com/",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+      "action_time": "2024-05-25T00:08:29.256Z",
+      "user": 18,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "stylestreet-2f7b5324506f.herokuapp.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+      "action_time": "2024-05-25T10:41:52.332Z",
+      "user": 18,
+      "content_type": 8,
+      "object_id": "19",
+      "object_repr": "stylestreetecommerce@gmail.com",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+      "action_time": "2024-05-25T10:49:50.470Z",
+      "user": 18,
+      "content_type": 21,
+      "object_id": "3",
+      "object_repr": "zuhakhalidr@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+      "action_time": "2024-05-25T10:52:57.110Z",
+      "user": 18,
+      "content_type": 16,
+      "object_id": "6",
+      "object_repr": "Coats Suit",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stock\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add site",
+      "content_type": 7,
+      "codename": "add_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change site",
+      "content_type": 7,
+      "codename": "change_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete site",
+      "content_type": 7,
+      "codename": "delete_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view site",
+      "content_type": 7,
+      "codename": "view_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add email address",
+      "content_type": 8,
+      "codename": "add_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change email address",
+      "content_type": 8,
+      "codename": "change_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete email address",
+      "content_type": 8,
+      "codename": "delete_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view email address",
+      "content_type": 8,
+      "codename": "view_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add email confirmation",
+      "content_type": 9,
+      "codename": "add_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change email confirmation",
+      "content_type": 9,
+      "codename": "change_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete email confirmation",
+      "content_type": 9,
+      "codename": "delete_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view email confirmation",
+      "content_type": 9,
+      "codename": "view_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add social account",
+      "content_type": 10,
+      "codename": "add_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change social account",
+      "content_type": 10,
+      "codename": "change_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete social account",
+      "content_type": 10,
+      "codename": "delete_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view social account",
+      "content_type": 10,
+      "codename": "view_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add social application",
+      "content_type": 11,
+      "codename": "add_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change social application",
+      "content_type": 11,
+      "codename": "change_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete social application",
+      "content_type": 11,
+      "codename": "delete_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view social application",
+      "content_type": 11,
+      "codename": "view_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add social application token",
+      "content_type": 12,
+      "codename": "add_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change social application token",
+      "content_type": 12,
+      "codename": "change_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete social application token",
+      "content_type": 12,
+      "codename": "delete_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view social application token",
+      "content_type": 12,
+      "codename": "view_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add age group",
+      "content_type": 13,
+      "codename": "add_agegroup"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change age group",
+      "content_type": 13,
+      "codename": "change_agegroup"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete age group",
+      "content_type": 13,
+      "codename": "delete_agegroup"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view age group",
+      "content_type": 13,
+      "codename": "view_agegroup"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add category",
+      "content_type": 14,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 14,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete category",
+      "content_type": 14,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view category",
+      "content_type": 14,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add condition",
+      "content_type": 15,
+      "codename": "add_condition"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change condition",
+      "content_type": 15,
+      "codename": "change_condition"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete condition",
+      "content_type": 15,
+      "codename": "delete_condition"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view condition",
+      "content_type": 15,
+      "codename": "view_condition"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add product",
+      "content_type": 16,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change product",
+      "content_type": 16,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete product",
+      "content_type": 16,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view product",
+      "content_type": 16,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add special category",
+      "content_type": 17,
+      "codename": "add_specialcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change special category",
+      "content_type": 17,
+      "codename": "change_specialcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete special category",
+      "content_type": 17,
+      "codename": "delete_specialcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view special category",
+      "content_type": 17,
+      "codename": "view_specialcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add order",
+      "content_type": 18,
+      "codename": "add_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change order",
+      "content_type": 18,
+      "codename": "change_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete order",
+      "content_type": 18,
+      "codename": "delete_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view order",
+      "content_type": 18,
+      "codename": "view_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+      "name": "Can add order line item",
+      "content_type": 19,
+      "codename": "add_orderlineitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+      "name": "Can change order line item",
+      "content_type": 19,
+      "codename": "change_orderlineitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+      "name": "Can delete order line item",
+      "content_type": 19,
+      "codename": "delete_orderlineitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+      "name": "Can view order line item",
+      "content_type": 19,
+      "codename": "view_orderlineitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+      "name": "Can add user profile",
+      "content_type": 20,
+      "codename": "add_userprofile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+      "name": "Can change user profile",
+      "content_type": 20,
+      "codename": "change_userprofile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+      "name": "Can delete user profile",
+      "content_type": 20,
+      "codename": "delete_userprofile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+      "name": "Can view user profile",
+      "content_type": 20,
+      "codename": "view_userprofile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+      "name": "Can add newsletter signup",
+      "content_type": 21,
+      "codename": "add_newslettersignup"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+      "name": "Can change newsletter signup",
+      "content_type": 21,
+      "codename": "change_newslettersignup"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+      "name": "Can delete newsletter signup",
+      "content_type": 21,
+      "codename": "delete_newslettersignup"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+      "name": "Can view newsletter signup",
+      "content_type": 21,
+      "codename": "view_newslettersignup"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+      "name": "Can add size",
+      "content_type": 22,
+      "codename": "add_size"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+      "name": "Can change size",
+      "content_type": 22,
+      "codename": "change_size"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+      "name": "Can delete size",
+      "content_type": 22,
+      "codename": "delete_size"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+      "name": "Can view size",
+      "content_type": 22,
+      "codename": "view_size"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+      "name": "Can add sizes",
+      "content_type": 23,
+      "codename": "add_sizes"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+      "name": "Can change sizes",
+      "content_type": 23,
+      "codename": "change_sizes"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+      "name": "Can delete sizes",
+      "content_type": 23,
+      "codename": "delete_sizes"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+      "name": "Can view sizes",
+      "content_type": 23,
+      "codename": "view_sizes"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 18,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$Fqy3kVTDOyyMKmaOlg37YP$/4UqoAnGYVzKq/sGftWwqu0dZOjofgHcXuz3QlV37xM=",
+      "last_login": "2024-05-25T14:26:19.243Z",
+      "is_superuser": true,
+      "username": "stylestreet",
+      "first_name": "",
+      "last_name": "",
+      "email": "stylestreetecommerce@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-05-24T21:55:18.386Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 19,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$Jfk07aDSWwaa8FPjPiUWkQ$bzkPwRIkXEs5KqJG+65cA4z++6SE9GP9VBIw/mfpBKA=",
+      "last_login": "2024-05-25T10:44:37.505Z",
+      "is_superuser": false,
+      "username": "zuha",
+      "first_name": "",
+      "last_name": "",
+      "email": "zuhakhalidr@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-25T10:42:54.998Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "sites",
+      "model": "site"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "account",
+      "model": "emailaddress"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "account",
+      "model": "emailconfirmation"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "socialaccount",
+      "model": "socialaccount"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "socialaccount",
+      "model": "socialapp"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "socialaccount",
+      "model": "socialtoken"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "products",
+      "model": "agegroup"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "products",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+      "app_label": "products",
+      "model": "condition"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+      "app_label": "products",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+      "app_label": "products",
+      "model": "specialcategory"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+      "app_label": "checkout",
+      "model": "order"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+      "app_label": "checkout",
+      "model": "orderlineitem"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+      "app_label": "profiles",
+      "model": "userprofile"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+      "app_label": "newsletter",
+      "model": "newslettersignup"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+      "app_label": "products",
+      "model": "size"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+      "app_label": "products",
+      "model": "sizes"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "1cbulxow082on3192q4ypdj69kpdhj1a",
+    "fields": {
+      "session_data": "eyJzYXZlX2luZm8iOmZhbHNlfQ:1sApCx:nHZIgHtY9ulb5p9fCLA4-_VuZiZEeW2R0pTfQAOt1Dc",
+      "expire_date": "2024-06-08T11:05:03.941Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "2k8mhz3mllt3gup8opb2kjhkzl5xj3h9",
+    "fields": {
+      "session_data": ".eJxVjkFuwyAQRe_COkLAgCFeZp8zoDEzqUkiiAyuGkW9e-0qi3b739PTf4mIa5_j2niJmcQo9CAOf8cJ043LTuiK5aPKVEtf8iR3Rb5pk-dKfD-93X-BGdu8dxUFg5bdUQUPFgkNQ2Bn6UjgLKQQrPdhckqD0z4YS06RUTghXCjBFsWU6lr6b5tLzwk7U8QuRu31YLUzg5EBtAc9bBcat5Zrifz1yMtTjOogGn5yzOVSxdiXlb9_AEOJUss:1s9ykJ:F-qymmkGIq2ner9WxybuDO5zCT_Tjg19LqzSBIM84LQ",
+      "expire_date": "2024-06-06T03:03:59.396Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "2of6naw0op970ensffcwhwgkvjouycg2",
+    "fields": {
+      "session_data": ".eJxVjktuxCAQRO_CeoT4NR8vs58zoKbBY5IIRgZLiaLcPZ5oFsm2XtVTfbGIx9ziMcoea2YLk45d_oYJ6a20B8mv2G6dU29zr4k_KvxJB7_2XN5fnt1_gg3Hdq7RrEVlgOBCXjNJIMoQVq-CSeBQSOGNIFilcNZ6Dd6DNSInZ00KXolTikT9aPPXXdqshLPkiJMt0klrtJLgufZK26DPC6OMUXuL5eNe90-2iO8fHT5Mog:1s9yPe:5CZMVArCJWBK8rIlzA7numTFYIOPZq23-LPEkRoWiKE",
+      "expire_date": "2024-06-06T02:42:38.456Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "durrqkto1cxa8y1jjsle722zhiiaeea4",
+    "fields": {
+      "session_data": ".eJxVjMEOgyAQRP9lz40poAt4qz9ilmWppgaTiifjv1cbD-1x3sy8DXpay9Cvi7z7MUILysHtFwbil-SzoWk6cUXM85pL9d1c9VI9jiS5jExlnHN3vf5UAy3D4QnoWauGopaknVX3yLWJnoMiNlpM3ZBtRJytHSImp8QjmYQxJK_Y2kMa6AntBgit3fcPWNpAeQ:1sAp9u:fjqgd1LFf9ItHq7CDGZLNySds54-KgyIxoowX3Ju2Oo",
+      "expire_date": "2024-06-08T11:01:54.260Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "gxrbhj0wbgghiq8qkhqsjvchtyupe0yi",
+    "fields": {
+      "session_data": ".eJxVjDkOgzAQRe8ydWRlbPBCmT5nQOOZMWQRSCwV4u4JEg3tf-_9DTJ10GyA0Nj9Bi2tS9-us07tS6ABjHAZM_FHh4PIm4ZuNDwOy_TK5lDMSWfzHEW_j9O9HPQ09_86-8QWaxKrxcaAd-HKSeKMxM6qq2oKtWoMVfTel4iaPLniJZeEHALsP6ubO_s:1sApB8:HKI04oCDDNdTEkfQHqdbwXVpgPyvtxGu9-10tbcpc_I",
+      "expire_date": "2024-06-08T11:03:10.050Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "i80rcn7prc7nte8ysexzwpwogkqytez9",
+    "fields": {
+      "session_data": ".eJxVjjsOgzAQRO_iOrL8i39l-pwBrddrTBKBhKFC3D0gUSTtvJmn2VgH61K7tdHcDZlFJtntN0uAbxpPkF8w9hPHaVzmIfGzwi_a-HPK9Hlc3T9BhVaPtb87LJCspgyJhAcvhQXjtDEWtSjBS1LKWZ3Q-WCUwBIEyaKdKgYhHNIEPYvbcTDKff8CB4A7Uw:1s8n7v:8xT5xm6F4vFNuZyoWJTH_l3oQG7RSBGKX655a-32pl0",
+      "expire_date": "2024-06-02T20:27:27.682Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "iv4iikyd1tg6pbulfjd3e24125if88yn",
+    "fields": {
+      "session_data": "eyJzYXZlX2luZm8iOmZhbHNlfQ:1sApAn:EIlVgqOYUN8O3SH26Ogv2EJ4739737UFWZsDDp9WqPM",
+      "expire_date": "2024-06-08T11:02:49.030Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ng70dlrfi9wayzb3nzuedq7edmjbfvbb",
+    "fields": {
+      "session_data": ".eJxVjM0OwiAQhN-Fs2nkbwFv9kXIsixpY0MTCyfju9uaHvQ438x8LxGxtyn2jZ9xzuImpBeXX5iQHlyPBpflwAMSrb224bs5622474lrmwnbvNbxfP2pJtym3ZMgkJIWs-KivJPXTEbnQEkiacXaWHSW2TvjAaB4yQFQF8ipBEnOifcH7dw8wg:1sAsLj:lBHq5u8z5rp2r6l4Kpd2_CZk0BadKqJ7R1PL4aI34YU",
+      "expire_date": "2024-06-08T14:26:19.313Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "qo5kgmwcspufdb0a0zclbr973b05i0tj",
+    "fields": {
+      "session_data": "e30:1s9soV:2xyhqlpRN8DyR3x3eTW-e0GcBuR1gUuIl0B0oHO4YI0",
+      "expire_date": "2024-06-05T20:43:55.842Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "s252uglsvam9bzmq7bk7skssf8k0cljj",
+    "fields": {
+      "session_data": "eyJiYWciOnsiMSI6MX19:1s9qEt:-eL1Qd4jI_NayXmeH6DRKJWCYquqHTL-h0yeimw3dVQ",
+      "expire_date": "2024-06-05T17:58:59.469Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "vmrvjdpze6flp5bjpv2i28cr8e6moj1d",
+    "fields": {
+      "session_data": ".eJxVjrFuwzAMRH9F4CwIiS1FtsfunTpGgUCJtJ3EtQvLGoog_14ZSIF2IcC7xzs-wGPeRp8Tr_5K0MER5F8tYLzzvBt0w3lYVFzmbb0GtSPq5Sb1vhBPby_2X8CIaSzXvTlx3VDskeqDRmqIYxsatFVjY20CMhGZXpeFsQ0hoEWyto_1yQRt2hIacIDuARV0Rwm6zGcp-uSUcOBUKs5nB97f0jL_qg6kOEhRGSkcfOQYi9znafoW5VvemIQWX-tCOW5J7bADB5cLPH8AW5FbHA:1s9w68:Gxig9Pu1bhKkpn2eQnJ82Yn51QFJt_ywAvH-wJEoPZ8",
+      "expire_date": "2024-06-06T00:14:20.740Z"
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 2,
+    "fields": {
+      "domain": "stylestreet.example.com",
+      "name": "Style Street"
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 3,
+    "fields": {
+      "domain": "stylestreet-2f7b5324506f.herokuapp.com",
+      "name": "Style Street"
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 19,
+    "fields": {
+      "user": 18,
+      "email": "stylestreetecommerce@gmail.com",
+      "verified": true,
+      "primary": true
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 20,
+    "fields": {
+      "user": 19,
+      "email": "zuhakhalidr@gmail.com",
+      "verified": true,
+      "primary": true
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "name": "new_arrival_men",
+      "friendly_name": "New Arrivals Men",
+      "cat_desc": "Discover the Latest in Men's Fashion Step into style with our curated collection of new arrivals for men. Our latest additions feature a blend of contemporary trends and timeless classics, ensuring that your wardrobe is always up-to-date. From sharp tail",
+      "cat_image": "new_arrival_men.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+      "name": "tshirts_men",
+      "friendly_name": "Mens TShirts",
+      "cat_desc": "Discover our collection of stylish t-shirts and polos, perfect for any occasion. From classic crewnecks to modern polo shirts, our selection offers comfort, quality, and a variety of designs. Whether you're dressing up or keeping it casual, find the perf",
+      "cat_image": "tshirts_men.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+      "name": "shirts_men",
+      "friendly_name": "Mens Shirts",
+      "cat_desc": "Explore our range of shirts, designed to suit every occasion. From crisp dress shirts for formal events to casual button-downs for everyday wear, our collection features high-quality fabrics and modern designs. Find the perfect shirt to enhance your ward",
+      "cat_image": "shirts_men.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+      "name": "jeans_men",
+      "friendly_name": "Mens Jeans",
+      "cat_desc": "Discover our versatile collection of jeans and trousers, crafted for style and comfort. Whether you need rugged jeans for casual days or tailored trousers for a polished look, our selection offers the perfect fit and contemporary designs to elevate your",
+      "cat_image": "jeans_men.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+      "name": "shorts_men",
+      "friendly_name": "Mens Shorts",
+      "cat_desc": "Browse our collection of shorts, perfect for warm weather and casual outings. Featuring a variety of styles, from classic chino shorts to athletic and cargo designs, our selection ensures comfort and versatility. Find the perfect pair to keep you cool an",
+      "cat_image": "shorts_men.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 7,
+    "fields": {
+      "name": "coats_men",
+      "friendly_name": "Mens Coats and Outwear",
+      "cat_desc": "Explore our premium collection of outerwear and coats, designed to keep you warm and stylish in any weather. From sleek leather jackets to cozy parkas and classic trench coats, our selection offers the perfect blend of fashion and functionality. Find you",
+      "cat_image": "coats_men.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 8,
+    "fields": {
+      "name": "activewear_men",
+      "friendly_name": "Men Active Wear",
+      "cat_desc": "Upgrade your workout wardrobe with our men's activewear collection. Designed for maximum comfort and performance, our range includes breathable t-shirts, flexible shorts, and supportive leggings. Whether you're hitting the gym or going for a run, find th",
+      "cat_image": "activewear_men.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 9,
+    "fields": {
+      "name": "new_arrivals_women",
+      "friendly_name": "New Arrivals Women",
+      "cat_desc": "Explore our latest arrivals for women, featuring the hottest trends and timeless classics. From chic dresses and versatile tops to stylish bottoms and essential accessories, our collection offers fresh and exciting options to elevate your wardrobe. Be th",
+      "cat_image": "new_arrivals_women.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 10,
+    "fields": {
+      "name": "tops_women",
+      "friendly_name": "Women Tops",
+      "cat_desc": "Explore our collection of women's tops, designed to suit any occasion. From elegant blouses and chic camisoles to casual t-shirts and cozy sweaters, our selection offers a variety of styles, fabrics, and colors. Find the perfect top to complement your wa",
+      "cat_image": "tops_women.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 11,
+    "fields": {
+      "name": "dress_women",
+      "friendly_name": "Women Dresses",
+      "cat_desc": "Discover our stunning collection of women's dresses, perfect for every occasion. From casual day dresses to sophisticated evening gowns, our range offers a variety of styles, cuts, and colors to flatter any figure. Find the ideal dress to showcase your p",
+      "cat_image": "dress_women.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 12,
+    "fields": {
+      "name": "jeans_women",
+      "friendly_name": "Women Jeans and Pants",
+      "cat_desc": "Shop our selection of women's jeans and pants for comfortable and stylish bottoms that fit just right. From classic denim jeans to tailored trousers, our collection offers a variety of cuts, colors, and sizes to suit your personal style. Find the perfect",
+      "cat_image": "jeans_women.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 13,
+    "fields": {
+      "name": "skirts_women",
+      "friendly_name": "Women Skirts",
+      "cat_desc": "Explore our collection of skirts and shorts designed to elevate your look with ease. From flowy maxi skirts to tailored shorts, our selection offers a variety of styles, lengths, and prints to suit any occasion. Whether you're dressing up for a night out",
+      "cat_image": "skirts_women.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 14,
+    "fields": {
+      "name": "accessories_women",
+      "friendly_name": "Women Accessories",
+      "cat_desc": "Complete your outfit with our stylish selection of women's accessories. From statement jewelry and chic scarves to practical handbags and trendy sunglasses, our collection offers the perfect finishing touches for any ensemble. Enhance your personal style",
+      "cat_image": "accessories_women.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 15,
+    "fields": {
+      "name": "new_arrival_kids",
+      "friendly_name": "New Arrivals Kids",
+      "cat_desc": "Explore our newest arrivals for kids, featuring a range of stylish and comfortable clothing for boys and girls. From adorable outfits and durable outerwear to playful accessories, our collection offers everything your little ones need to stay fashion-for",
+      "cat_image": "new_arrival_kids.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 16,
+    "fields": {
+      "name": "tops_kids",
+      "friendly_name": "Kids Tops and Tees",
+      "cat_desc": "Find the perfect tops and tees for your little ones in our collection. From playful graphic tees to cozy sweaters and stylish tops, we offer a variety of designs to suit every child's personality. Made with soft and durable fabrics, our tops ensure comfo",
+      "cat_image": "tops_kids.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 17,
+    "fields": {
+      "name": "jeans_kids",
+      "friendly_name": "Kids Jeans and Pants",
+      "cat_desc": "Discover our collection of jeans for kids, designed to keep them comfortable and stylish all day long. From classic blue denim to trendy cuts and washes, our jeans are made with durable fabrics and adjustable waistbands for the perfect fit. Let your litt",
+      "cat_image": "jeans_kids.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 18,
+    "fields": {
+      "name": "accessories_sale",
+      "friendly_name": "Accessories Sale",
+      "cat_desc": "Shop our curated selection of discounted women's accessories and elevate your look without breaking the bank. From statement jewelry to chic scarves and trendy handbags, find the perfect finishing touches to complete your outfit at unbeatable prices. Don",
+      "cat_image": "accessories_women_raDYgZ3.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 19,
+    "fields": {
+      "name": "kids_sale",
+      "friendly_name": "Kids Sale",
+      "cat_desc": "Discover amazing discounts on adorable clothing and accessories for kids in our sale section. From playful outfits to durable outerwear and stylish accessories, shop our selection of discounted items to keep your little ones looking fashionable without c",
+      "cat_image": "new_arrival_kids_a0XRvay.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 20,
+    "fields": {
+      "name": "men_sale",
+      "friendly_name": "Men Sale",
+      "cat_desc": "Explore our men's sale section and discover unbeatable deals on stylish clothing and accessories. From sharp suits and casual shirts to versatile outerwear and trendy accessories, shop our selection of discounted items to elevate your style without break",
+      "cat_image": "new_arrival_men_hLc817d.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 21,
+    "fields": {
+      "name": "women_sale",
+      "friendly_name": "Women Sale",
+      "cat_desc": "Indulge in irresistible savings with our women's sale collection. From chic dresses and trendy tops to essential accessories and cozy loungewear, discover fabulous deals on a wide range of fashion-forward pieces. Upgrade your wardrobe with high-quality i",
+      "cat_image": ""
+    }
+  },
+  {
+    "model": "products.condition",
+    "pk": 2,
+    "fields": {
+      "name": "New",
+      "condition_desc": "Brand new with tags and/or in original packaging."
+    }
+  },
+  {
+    "model": "products.condition",
+    "pk": 3,
+    "fields": {
+      "name": "Like New",
+      "condition_desc": "Looks new, excellent condition, used or worn only a few times."
+    }
+  },
+  {
+    "model": "products.condition",
+    "pk": 4,
+    "fields": {
+      "name": "Gently Loved",
+      "condition_desc": "Looks gently used but still in good condition."
+    }
+  },
+  {
+    "model": "products.condition",
+    "pk": 5,
+    "fields": {
+      "name": "Well Loved",
+      "condition_desc": "Has noticeable signs of love and wear and tear such as frayed edges."
+    }
+  },
+  {
+    "model": "products.condition",
+    "pk": 6,
+    "fields": {
+      "name": "Distressed",
+      "condition_desc": "Previously worn, with visible flaws and/or heavy wash and wear. Possibly multiple repairs, loose seams, holes, pulls, fading."
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "category": 4,
+      "name": "White Shirt",
+      "color": "blue",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Satin",
+      "size": "M",
+      "condition": 4,
+      "price": "50.00",
+      "rating": "4.00",
+      "image": "new_shirt_K3LM9LR.jpg",
+      "image2": "new_shirt_3CTExSE.webp",
+      "image3": "product_shirt_men.jpg",
+      "video": null,
+      "stock": 13,
+      "likes": [
+        18,
+        19
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "category": 2,
+      "name": "New Arrival Shirt",
+      "color": "White",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Dinem",
+      "size": "L",
+      "condition": 2,
+      "price": "99.99",
+      "rating": "4.99",
+      "image": "product_new_men.jpg",
+      "image2": "product_new_men2.jpg",
+      "image3": "product_new_men3.png",
+      "video": null,
+      "stock": 9,
+      "likes": [
+        18
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "category": 3,
+      "name": "T Shirt Men",
+      "color": "Grey",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Georgette",
+      "size": "L",
+      "condition": 2,
+      "price": "20.00",
+      "rating": "4.50",
+      "image": "product_tshirts_men.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 4,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "category": 5,
+      "name": "Jeans Dinem",
+      "color": "Black",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Cotton",
+      "size": "M",
+      "condition": 4,
+      "price": "50.00",
+      "rating": "3.00",
+      "image": "product_jeans_men.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "category": 6,
+      "name": "Shorts",
+      "color": "Blue",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Dinem",
+      "size": "M",
+      "condition": 5,
+      "price": "44.99",
+      "rating": "5.00",
+      "image": "product_shorts_men.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "category": 7,
+      "name": "Coats Suit",
+      "color": "brown",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Cotton",
+      "size": "S",
+      "condition": 5,
+      "price": "800.00",
+      "rating": "4.20",
+      "image": "product_coats_men.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 12,
+      "likes": [
+        18,
+        19
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "category": 8,
+      "name": "Active Wear",
+      "color": "Blue",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Boski",
+      "size": "XS",
+      "condition": 3,
+      "price": "9.99",
+      "rating": "4.00",
+      "image": "product_activewear_men.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "category": 9,
+      "name": "Women in Style",
+      "color": "Blue",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Chifon",
+      "size": "XS",
+      "condition": 4,
+      "price": "25.83",
+      "rating": "5.00",
+      "image": "product_new_women.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "category": 10,
+      "name": "Pretty Top",
+      "color": "Red",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Silk",
+      "size": "L",
+      "condition": 5,
+      "price": "74.00",
+      "rating": "4.20",
+      "image": "product_tops_women.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "category": 11,
+      "name": "Dress",
+      "color": "Pink",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Boski",
+      "size": "M",
+      "condition": 3,
+      "price": "25.99",
+      "rating": "3.43",
+      "image": "product_dress_women.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "category": 12,
+      "name": "Jeans",
+      "color": "Beig",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Dimen",
+      "size": "M",
+      "condition": 6,
+      "price": "10.00",
+      "rating": "1.99",
+      "image": "product_jeans_women.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "category": 13,
+      "name": "Skirt",
+      "color": "white",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Silk",
+      "size": "S",
+      "condition": null,
+      "price": "57.98",
+      "rating": "4.83",
+      "image": "product_skirt_women.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+      "category": 14,
+      "name": "Accessories",
+      "color": "Multi",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "none",
+      "size": "M",
+      "condition": null,
+      "price": "200.00",
+      "rating": "4.23",
+      "image": "product_accessories_women.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+      "category": 15,
+      "name": "New for Kids",
+      "color": "yellow",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Satin",
+      "size": "M",
+      "condition": null,
+      "price": "65.00",
+      "rating": "4.70",
+      "image": "product_new_kids.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+      "category": 16,
+      "name": "Top",
+      "color": "Navy",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Chifon",
+      "size": "M",
+      "condition": null,
+      "price": "100.00",
+      "rating": "2.50",
+      "image": "product_tops_kids.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+      "category": 17,
+      "name": "Jeans",
+      "color": "Blue",
+      "description": "Introducing our versatile and timeless addition to your wardrobe, perfect for you. Crafted with meticulous attention to detail and quality, our product embodies effortless style and comfort. Whether you're dressing up for a special occasion or keeping it casual for everyday wear, this essential piece seamlessly blends into any outfit.\r\n\r\nMade from premium materials, our product offers durability and a perfect fit, ensuring you feel confident and comfortable throughout the day. With its classic design and impeccable craftsmanship, it's a staple item that complements any style and occasion.\r\n\r\nElevate your wardrobe with our product and experience the perfect fusion of fashion and functionality.",
+      "fabric": "Dinem",
+      "size": "L",
+      "condition": null,
+      "price": "50.00",
+      "rating": "1.00",
+      "image": "product_jeans_kids.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+      "category": 18,
+      "name": "Accessories Sale",
+      "color": "Generic",
+      "description": "SALE!!!",
+      "fabric": "none",
+      "size": "M",
+      "condition": 4,
+      "price": "200.00",
+      "rating": "4.20",
+      "image": "product_accessories_sale.webp",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 0,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+      "category": 19,
+      "name": "Kids Sale",
+      "color": "Generic",
+      "description": "SALE!!!",
+      "fabric": "Blue",
+      "size": "M",
+      "condition": null,
+      "price": "54.00",
+      "rating": "2.30",
+      "image": "product_kids_sale.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+      "category": 20,
+      "name": "Men Sale",
+      "color": "Blue",
+      "description": "SALE!!!",
+      "fabric": "Boski",
+      "size": "M",
+      "condition": null,
+      "price": "48.00",
+      "rating": "3.53",
+      "image": "product_men_sale.jpg",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+      "category": 21,
+      "name": "Women Sale",
+      "color": "Pink",
+      "description": "SALE!!!",
+      "fabric": "Chifon",
+      "size": "M",
+      "condition": null,
+      "price": "94.00",
+      "rating": "4.30",
+      "image": "product_women_sale.webp",
+      "image2": "",
+      "image3": "",
+      "video": null,
+      "stock": 1,
+      "likes": []
+    }
+  },
+  {
+    "model": "checkout.order",
+    "pk": 10,
+    "fields": {
+      "order_number": "40A29AE91F8345A380E265E223781109",
+      "user_profile": 19,
+      "full_name": "Zuha Khalid",
+      "email": "zuhakhalidr@gmail.com",
+      "phone_number": "03009764553",
+      "country": "PK",
+      "postcode": "46000",
+      "town_or_city": "ISLAMABAD",
+      "street_address1": "House #32/1-D, street #39, sector #F-6/1, Islamabad",
+      "street_address2": null,
+      "county": null,
+      "date": "2024-05-25T10:47:44.603Z",
+      "delivery_cost": "0.00",
+      "order_total": "949.99",
+      "grand_total": "949.99",
+      "original_bag": "{\"1\": 1, \"2\": 1, \"6\": 1}",
+      "stripe_pid": "pi_3PKI7HBpRVF4CFnk2iWcW7AH"
+    }
+  },
+  {
+    "model": "checkout.order",
+    "pk": 11,
+    "fields": {
+      "order_number": "FA21CD7D5F9045D9AC0EEAC6027975FD",
+      "user_profile": null,
+      "full_name": "Zuha Khalid",
+      "email": "zuhakhalidr@gmail.com",
+      "phone_number": "03009764553",
+      "country": "PK",
+      "postcode": "46000",
+      "town_or_city": "ISLAMABAD",
+      "street_address1": "House #32/1-D, street #39, sector #F-6/1, Islamabad",
+      "street_address2": null,
+      "county": null,
+      "date": "2024-05-25T11:02:46.169Z",
+      "delivery_cost": "5.00",
+      "order_total": "50.00",
+      "grand_total": "55.00",
+      "original_bag": "{\"1\": 1}",
+      "stripe_pid": "pi_3PKIMsBpRVF4CFnk2ckXsQ0D"
+    }
+  },
+  {
+    "model": "checkout.order",
+    "pk": 12,
+    "fields": {
+      "order_number": "D305DE4096A14406AC4DFA9336EB3069",
+      "user_profile": null,
+      "full_name": "sdd",
+      "email": "sss@gmail.com",
+      "phone_number": "deewd",
+      "country": "ZM",
+      "postcode": null,
+      "town_or_city": "dwe",
+      "street_address1": "wed",
+      "street_address2": null,
+      "county": "dwed",
+      "date": "2024-05-25T11:05:00.699Z",
+      "delivery_cost": "0.00",
+      "order_total": "200.00",
+      "grand_total": "200.00",
+      "original_bag": "{\"17\": 1}",
+      "stripe_pid": "pi_3PKIObBpRVF4CFnk33VMkgBY"
+    }
+  },
+  {
+    "model": "checkout.orderlineitem",
+    "pk": 10,
+    "fields": {
+      "order": 10,
+      "product": 1,
+      "quantity": 1,
+      "lineitem_total": "50.00"
+    }
+  },
+  {
+    "model": "checkout.orderlineitem",
+    "pk": 11,
+    "fields": {
+      "order": 10,
+      "product": 2,
+      "quantity": 1,
+      "lineitem_total": "99.99"
+    }
+  },
+  {
+    "model": "checkout.orderlineitem",
+    "pk": 12,
+    "fields": {
+      "order": 10,
+      "product": 6,
+      "quantity": 1,
+      "lineitem_total": "800.00"
+    }
+  },
+  {
+    "model": "checkout.orderlineitem",
+    "pk": 13,
+    "fields": {
+      "order": 11,
+      "product": 1,
+      "quantity": 1,
+      "lineitem_total": "50.00"
+    }
+  },
+  {
+    "model": "checkout.orderlineitem",
+    "pk": 14,
+    "fields": {
+      "order": 12,
+      "product": 17,
+      "quantity": 1,
+      "lineitem_total": "200.00"
+    }
+  },
+  {
+    "model": "profiles.userprofile",
+    "pk": 18,
+    "fields": {
+      "user": 18,
+      "default_phone_number": null,
+      "default_street_address1": null,
+      "default_street_address2": null,
+      "default_town_or_city": null,
+      "default_county": null,
+      "default_postcode": null,
+      "default_country": null
+    }
+  },
+  {
+    "model": "profiles.userprofile",
+    "pk": 19,
+    "fields": {
+      "user": 19,
+      "default_phone_number": "03009764553",
+      "default_street_address1": "House #32/1-D, street #39, sector #F-6/1, Islamabad",
+      "default_street_address2": null,
+      "default_town_or_city": "n  mm",
+      "default_county": null,
+      "default_postcode": "46000",
+      "default_country": "PK"
+    }
+  },
+  {
+    "model": "newsletter.newslettersignup",
+    "pk": 1,
+    "fields": {
+      "email": "shezr69@gmail.com",
+      "date": "2024-05-22T20:29:44.260Z",
+      "date_update": "2024-05-22T20:29:44.260Z",
+      "gdpr": false
+    }
+  },
+  {
+    "model": "newsletter.newslettersignup",
+    "pk": 4,
+    "fields": {
+      "email": "stylestreetecommerce@gmail.com",
+      "date": "2024-05-23T03:03:55.617Z",
+      "date_update": "2024-05-23T03:03:55.617Z",
+      "gdpr": false
+    }
+  },
+  {
+    "model": "newsletter.newslettersignup",
+    "pk": 5,
+    "fields": {
+      "email": "zuhakhalidr@gmail.com",
+      "date": "2024-05-25T10:50:11.912Z",
+      "date_update": "2024-05-25T10:50:11.912Z",
+      "gdpr": false
+    }
+  },
+  {
+    "model": "newsletter.newslettersignup",
+    "pk": 6,
+    "fields": {
+      "email": "shezr6s9@gmail.com",
+      "date": "2024-05-25T11:03:49.907Z",
+      "date_update": "2024-05-25T11:03:49.907Z",
+      "gdpr": false
+    }
+  }
+]

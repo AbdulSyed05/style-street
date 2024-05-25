@@ -1,0 +1,23 @@
+[
+    
+    {
+        "model": "account.emailaddress",
+        "pk": 19,
+        "fields": {
+          "user": 18,
+          "email": "stylestreetecommerce@gmail.com",
+          "verified": true,
+          "primary": true
+        }
+      },
+      {
+        "model": "account.emailaddress",
+        "pk": 20,
+        "fields": {
+          "user": 19,
+          "email": "zuhakhalidr@gmail.com",
+          "verified": true,
+          "primary": true
+        }
+      }
+]

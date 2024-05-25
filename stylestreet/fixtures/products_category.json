@@ -1,0 +1,202 @@
+[
+    {
+        "model": "products.category",
+        "pk": 2,
+        "fields": {
+          "name": "new_arrival_men",
+          "friendly_name": "New Arrivals Men",
+          "cat_desc": "Discover the Latest in Men's Fashion Step into style with our curated collection of new arrivals for men. Our latest additions feature a blend of contemporary trends and timeless classics, ensuring that your wardrobe is always up-to-date. From sharp tail",
+          "cat_image": "new_arrival_men.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 3,
+        "fields": {
+          "name": "tshirts_men",
+          "friendly_name": "Mens TShirts",
+          "cat_desc": "Discover our collection of stylish t-shirts and polos, perfect for any occasion. From classic crewnecks to modern polo shirts, our selection offers comfort, quality, and a variety of designs. Whether you're dressing up or keeping it casual, find the perf",
+          "cat_image": "tshirts_men.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 4,
+        "fields": {
+          "name": "shirts_men",
+          "friendly_name": "Mens Shirts",
+          "cat_desc": "Explore our range of shirts, designed to suit every occasion. From crisp dress shirts for formal events to casual button-downs for everyday wear, our collection features high-quality fabrics and modern designs. Find the perfect shirt to enhance your ward",
+          "cat_image": "shirts_men.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 5,
+        "fields": {
+          "name": "jeans_men",
+          "friendly_name": "Mens Jeans",
+          "cat_desc": "Discover our versatile collection of jeans and trousers, crafted for style and comfort. Whether you need rugged jeans for casual days or tailored trousers for a polished look, our selection offers the perfect fit and contemporary designs to elevate your",
+          "cat_image": "jeans_men.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 6,
+        "fields": {
+          "name": "shorts_men",
+          "friendly_name": "Mens Shorts",
+          "cat_desc": "Browse our collection of shorts, perfect for warm weather and casual outings. Featuring a variety of styles, from classic chino shorts to athletic and cargo designs, our selection ensures comfort and versatility. Find the perfect pair to keep you cool an",
+          "cat_image": "shorts_men.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 7,
+        "fields": {
+          "name": "coats_men",
+          "friendly_name": "Mens Coats and Outwear",
+          "cat_desc": "Explore our premium collection of outerwear and coats, designed to keep you warm and stylish in any weather. From sleek leather jackets to cozy parkas and classic trench coats, our selection offers the perfect blend of fashion and functionality. Find you",
+          "cat_image": "coats_men.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 8,
+        "fields": {
+          "name": "activewear_men",
+          "friendly_name": "Men Active Wear",
+          "cat_desc": "Upgrade your workout wardrobe with our men's activewear collection. Designed for maximum comfort and performance, our range includes breathable t-shirts, flexible shorts, and supportive leggings. Whether you're hitting the gym or going for a run, find th",
+          "cat_image": "activewear_men.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 9,
+        "fields": {
+          "name": "new_arrivals_women",
+          "friendly_name": "New Arrivals Women",
+          "cat_desc": "Explore our latest arrivals for women, featuring the hottest trends and timeless classics. From chic dresses and versatile tops to stylish bottoms and essential accessories, our collection offers fresh and exciting options to elevate your wardrobe. Be th",
+          "cat_image": "new_arrivals_women.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 10,
+        "fields": {
+          "name": "tops_women",
+          "friendly_name": "Women Tops",
+          "cat_desc": "Explore our collection of women's tops, designed to suit any occasion. From elegant blouses and chic camisoles to casual t-shirts and cozy sweaters, our selection offers a variety of styles, fabrics, and colors. Find the perfect top to complement your wa",
+          "cat_image": "tops_women.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 11,
+        "fields": {
+          "name": "dress_women",
+          "friendly_name": "Women Dresses",
+          "cat_desc": "Discover our stunning collection of women's dresses, perfect for every occasion. From casual day dresses to sophisticated evening gowns, our range offers a variety of styles, cuts, and colors to flatter any figure. Find the ideal dress to showcase your p",
+          "cat_image": "dress_women.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 12,
+        "fields": {
+          "name": "jeans_women",
+          "friendly_name": "Women Jeans and Pants",
+          "cat_desc": "Shop our selection of women's jeans and pants for comfortable and stylish bottoms that fit just right. From classic denim jeans to tailored trousers, our collection offers a variety of cuts, colors, and sizes to suit your personal style. Find the perfect",
+          "cat_image": "jeans_women.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 13,
+        "fields": {
+          "name": "skirts_women",
+          "friendly_name": "Women Skirts",
+          "cat_desc": "Explore our collection of skirts and shorts designed to elevate your look with ease. From flowy maxi skirts to tailored shorts, our selection offers a variety of styles, lengths, and prints to suit any occasion. Whether you're dressing up for a night out",
+          "cat_image": "skirts_women.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 14,
+        "fields": {
+          "name": "accessories_women",
+          "friendly_name": "Women Accessories",
+          "cat_desc": "Complete your outfit with our stylish selection of women's accessories. From statement jewelry and chic scarves to practical handbags and trendy sunglasses, our collection offers the perfect finishing touches for any ensemble. Enhance your personal style",
+          "cat_image": "accessories_women.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 15,
+        "fields": {
+          "name": "new_arrival_kids",
+          "friendly_name": "New Arrivals Kids",
+          "cat_desc": "Explore our newest arrivals for kids, featuring a range of stylish and comfortable clothing for boys and girls. From adorable outfits and durable outerwear to playful accessories, our collection offers everything your little ones need to stay fashion-for",
+          "cat_image": "new_arrival_kids.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 16,
+        "fields": {
+          "name": "tops_kids",
+          "friendly_name": "Kids Tops and Tees",
+          "cat_desc": "Find the perfect tops and tees for your little ones in our collection. From playful graphic tees to cozy sweaters and stylish tops, we offer a variety of designs to suit every child's personality. Made with soft and durable fabrics, our tops ensure comfo",
+          "cat_image": "tops_kids.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 17,
+        "fields": {
+          "name": "jeans_kids",
+          "friendly_name": "Kids Jeans and Pants",
+          "cat_desc": "Discover our collection of jeans for kids, designed to keep them comfortable and stylish all day long. From classic blue denim to trendy cuts and washes, our jeans are made with durable fabrics and adjustable waistbands for the perfect fit. Let your litt",
+          "cat_image": "jeans_kids.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 18,
+        "fields": {
+          "name": "accessories_sale",
+          "friendly_name": "Accessories Sale",
+          "cat_desc": "Shop our curated selection of discounted women's accessories and elevate your look without breaking the bank. From statement jewelry to chic scarves and trendy handbags, find the perfect finishing touches to complete your outfit at unbeatable prices. Don",
+          "cat_image": "accessories_women_raDYgZ3.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 19,
+        "fields": {
+          "name": "kids_sale",
+          "friendly_name": "Kids Sale",
+          "cat_desc": "Discover amazing discounts on adorable clothing and accessories for kids in our sale section. From playful outfits to durable outerwear and stylish accessories, shop our selection of discounted items to keep your little ones looking fashionable without c",
+          "cat_image": "new_arrival_kids_a0XRvay.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 20,
+        "fields": {
+          "name": "men_sale",
+          "friendly_name": "Men Sale",
+          "cat_desc": "Explore our men's sale section and discover unbeatable deals on stylish clothing and accessories. From sharp suits and casual shirts to versatile outerwear and trendy accessories, shop our selection of discounted items to elevate your style without break",
+          "cat_image": "new_arrival_men_hLc817d.png"
+        }
+      },
+      {
+        "model": "products.category",
+        "pk": 21,
+        "fields": {
+          "name": "women_sale",
+          "friendly_name": "Women Sale",
+          "cat_desc": "Indulge in irresistible savings with our women's sale collection. From chic dresses and trendy tops to essential accessories and cozy loungewear, discover fabulous deals on a wide range of fashion-forward pieces. Upgrade your wardrobe with high-quality i",
+          "cat_image": ""
+        }
+      }
+]

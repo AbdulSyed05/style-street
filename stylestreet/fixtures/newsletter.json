@@ -1,0 +1,42 @@
+[
+    {
+      "model": "newsletter.newslettersignup",
+      "pk": 1,
+      "fields": {
+        "email": "shezr69@gmail.com",
+        "date": "2024-05-22T20:29:44.260Z",
+        "date_update": "2024-05-22T20:29:44.260Z",
+        "gdpr": false
+      }
+    },
+    {
+      "model": "newsletter.newslettersignup",
+      "pk": 4,
+      "fields": {
+        "email": "stylestreetecommerce@gmail.com",
+        "date": "2024-05-23T03:03:55.617Z",
+        "date_update": "2024-05-23T03:03:55.617Z",
+        "gdpr": false
+      }
+    },
+    {
+      "model": "newsletter.newslettersignup",
+      "pk": 5,
+      "fields": {
+        "email": "zuhakhalidr@gmail.com",
+        "date": "2024-05-25T10:50:11.912Z",
+        "date_update": "2024-05-25T10:50:11.912Z",
+        "gdpr": false
+      }
+    },
+    {
+      "model": "newsletter.newslettersignup",
+      "pk": 6,
+      "fields": {
+        "email": "shezr6s9@gmail.com",
+        "date": "2024-05-25T11:03:49.907Z",
+        "date_update": "2024-05-25T11:03:49.907Z",
+        "gdpr": false
+      }
+    }
+  ]
