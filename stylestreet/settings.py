@@ -28,9 +28,9 @@ SECRET_KEY = 'tl5f@@%^ycl#4+(0l#i=qqz#i7)u6@rg7uh3(heyc+_(ih#6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','stylestreet.herokuapp.com','localhost']
 
     
 
@@ -132,9 +132,12 @@ WSGI_APPLICATION = 'stylestreet.wsgi.application'
 
 
 if 'DATABASE_URL' in os.environ:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+     DATABASES = {
+     'default': dj_database_url.parse('pip install dj_database_url==0.5.0 psycopg2')
     }
+    # DATABASES = {
+    #     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    # }
     print("Connected")
 else:
     DATABASES = {
@@ -194,15 +197,14 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 if 'USE_AWS' in os.environ:
     # Cache control
     AWS_S3_OBJECT_PARAMETERS = {
-        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
-        'CacheControl': 'max-age=94608000',
+        'CacheControl': 'max-age=86400',
     }
     
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'style-street'
-    AWS_S3_REGION_NAME = 'eu-north-1'
-    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_REGION_NAME = 'us-east-1'
+    AWS_ACCESS_KEY_ID = os.environ.get('AKIA6GBMEARNE64TBM4U')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('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')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 
     # Static and media files
