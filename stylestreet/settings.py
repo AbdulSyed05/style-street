@@ -27,7 +27,7 @@ SECRET_KEY = 'tl5f@@%^ycl#4+(0l#i=qqz#i7)u6@rg7uh3(heyc+_(ih#6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*','stylestreet.herokuapp.com','localhost']
 
@@ -132,6 +132,12 @@ WSGI_APPLICATION = 'stylestreet.wsgi.application'
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
     }
     print("Connected")
 else:
