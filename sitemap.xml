@@ -9,207 +9,202 @@
 
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/accounts/signup/</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/accounts/login/</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/bag/</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?sort=price&amp;direction=desc</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=new_arrival_men</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=tshirts_men</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=shirts_men</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Kids</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=jeans_men</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Classic</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=shorts_men</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Solo_Mode</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=coats_men</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Role-Playing</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=activewear_men</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Family,Party,Strategy,Kids,Classic,Solo_Mode,Role-Playing</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=new_arrival_men,tshirts_men,shirts_men,jeans_men,shorts_men,coats_men,activewear_men</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Chess_Sets</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=new_arrivals_women</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Backgammon</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=tops_women</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Carrom</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=dress_women</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Playing_Cards</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=jeans_women</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Chess_Sets,Backgammon,Carrom,Playing_Cards</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=skirts_women</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Dice</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=accessories_women</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Plush</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=new_arrivals_women,tops_women,dress_women,jeans_women,skirts_women,accessories_women</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Collectables</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=new_arrival_kids</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Dice,Plush,Collectables</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=jeans_kids</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=new_arrivals</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=tops_kids</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=deals</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=new_arrival_kids,tops_kids,jeans_kids</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=clearance</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=men_sale</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=new_arrivals,deals,clearance</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=women_sale</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=Chess_sets</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=kid_sale</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/accounts/google/login/?process=login</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=accessories_sale</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=men_sale,women_sale,kid_sale,accessories_sale</loc>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/accounts/password/reset/</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/2/</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=playing_cards</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/1/</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://stylestreet-2f7b5324506f.herokuapp.com/products/?category=dice</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/accounts/login/?next=/profile/</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/accounts/signup/?next=%2Fprofile%2F</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/accounts/google/login/?process=login&amp;next=%2Fprofile%2F</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://stylestreet-2f7b5324506f.herokuapp.com/accounts/login/?next=%2Fprofile%2F</loc>
-  <lastmod>2023-11-04T18:54:47+00:00</lastmod>
+  <lastmod>2024-22-05T18:54:47+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 
