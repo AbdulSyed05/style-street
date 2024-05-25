@@ -27,7 +27,6 @@ SECRET_KEY = 'tl5f@@%^ycl#4+(0l#i=qqz#i7)u6@rg7uh3(heyc+_(ih#6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
-DEBUG = True
 
 ALLOWED_HOSTS = ['*','stylestreet.herokuapp.com','localhost']
 
