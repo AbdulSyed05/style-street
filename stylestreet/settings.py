@@ -30,7 +30,7 @@ SECRET_KEY = 'tl5f@@%^ycl#4+(0l#i=qqz#i7)u6@rg7uh3(heyc+_(ih#6'
 DEBUG = 'DEVELOPMENT' in os.environ
 DEBUG = False
 
-ALLOWED_HOSTS = ['*','stylestreet.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['*','stylestreet.herokuapp.com',]
 
     
 
