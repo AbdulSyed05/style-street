@@ -1,0 +1,32 @@
+[
+    
+
+    {
+        "model": "profiles.userprofile",
+        "pk": 18,
+        "fields": {
+          "user": 18,
+          "default_phone_number": null,
+          "default_street_address1": null,
+          "default_street_address2": null,
+          "default_town_or_city": null,
+          "default_county": null,
+          "default_postcode": null,
+          "default_country": null
+        }
+      },
+      {
+        "model": "profiles.userprofile",
+        "pk": 19,
+        "fields": {
+          "user": 19,
+          "default_phone_number": "03009764553",
+          "default_street_address1": "House #32/1-D, street #39, sector #F-6/1, Islamabad",
+          "default_street_address2": null,
+          "default_town_or_city": "n  mm",
+          "default_county": null,
+          "default_postcode": "46000",
+          "default_country": "PK"
+        }
+      }
+]

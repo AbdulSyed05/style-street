@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-10 col-lg-8 col-xl-6 text-center mx-auto product-heading">
+                <hr>
+                <h2 class="logo-font mb-4 text-black">Product Management</h2>
+                <h5 class="text-muted text-black">Edit Product</h5>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-10 col-lg-8 col-xl-6 mx-auto product-heading text-black">
+                <form method="POST" action="{% url 'edit_product' product.id %}" class="form mb-2" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {% for field in form %}
+                        {% if field.name != 'image' %}
+                            {{ field | as_crispy_field }}
+                        {% else %}
+                            {{ field }}
+                        {% endif %}
+                    {% endfor %}
+                    <div class="text-center">
+                        <br>
+                        <a class="btn btn-aa mb-2 mt-2" href="{% url 'products' %}">Cancel</a>
+                        <button class="btn btn-aa mb-2 mt-2" type="submit">Update Product</button>
+                    </div>
+                </form>
+            </div>            
+        </div>
+    </div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script">
+        $('#new-image').change(function() {
+            var file = $('#new-image')[0].files[0];
+            $('#filename').text(`Image will be set to: ${file.name}`);
+        });
+    </script>
+{% endblock %}

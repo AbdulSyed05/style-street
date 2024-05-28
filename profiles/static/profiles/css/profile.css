@@ -1,0 +1,33 @@
+#profile-update-form .form-control {
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #0f1519;
+}
+
+#profile-update-form--focus,
+#profile-update-form:active {
+  box-shadow: 0 1px 3px 0 #A42435;
+  color: #0f1519;
+  font-weight: 600;
+}
+
+#profile-update-form::placeholder {
+    color: #6a7f91;
+    font-weight: 300;
+}
+
+select option {
+    color: #0f1519 !important;
+    font-weight: 600;
+}
+
+select,
+select:invalid,
+select option[value=""] {
+    color: #6a7f91 !important;
+    font-weight: 300;
+}
+
+.order-history {
+  max-height: 416px;
+  overflow-y: auto;
+}

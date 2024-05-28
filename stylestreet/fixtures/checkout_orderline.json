@@ -1,0 +1,52 @@
+[
+    {
+        "model": "checkout.orderlineitem",
+        "pk": 10,
+        "fields": {
+          "order": 10,
+          "product": 1,
+          "quantity": 1,
+          "lineitem_total": "50.00"
+        }
+      },
+      {
+        "model": "checkout.orderlineitem",
+        "pk": 11,
+        "fields": {
+          "order": 10,
+          "product": 2,
+          "quantity": 1,
+          "lineitem_total": "99.99"
+        }
+      },
+      {
+        "model": "checkout.orderlineitem",
+        "pk": 12,
+        "fields": {
+          "order": 10,
+          "product": 6,
+          "quantity": 1,
+          "lineitem_total": "800.00"
+        }
+      },
+      {
+        "model": "checkout.orderlineitem",
+        "pk": 13,
+        "fields": {
+          "order": 11,
+          "product": 1,
+          "quantity": 1,
+          "lineitem_total": "50.00"
+        }
+      },
+      {
+        "model": "checkout.orderlineitem",
+        "pk": 14,
+        "fields": {
+          "order": 12,
+          "product": 17,
+          "quantity": 1,
+          "lineitem_total": "200.00"
+        }
+      }
+]

@@ -1,0 +1,42 @@
+[
+       {
+      "model": "products.condition",
+      "pk": 2,
+      "fields": {
+        "name": "New",
+        "condition_desc": "Brand new with tags and/or in original packaging."
+      }
+    },
+    {
+      "model": "products.condition",
+      "pk": 3,
+      "fields": {
+        "name": "Like New",
+        "condition_desc": "Looks new, excellent condition, used or worn only a few times."
+      }
+    },
+    {
+      "model": "products.condition",
+      "pk": 4,
+      "fields": {
+        "name": "Gently Loved",
+        "condition_desc": "Looks gently used but still in good condition."
+      }
+    },
+    {
+      "model": "products.condition",
+      "pk": 5,
+      "fields": {
+        "name": "Well Loved",
+        "condition_desc": "Has noticeable signs of love and wear and tear such as frayed edges."
+      }
+    },
+    {
+      "model": "products.condition",
+      "pk": 6,
+      "fields": {
+        "name": "Distressed",
+        "condition_desc": "Previously worn, with visible flaws and/or heavy wash and wear. Possibly multiple repairs, loose seams, holes, pulls, fading."
+      }
+    }
+]
