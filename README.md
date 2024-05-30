@@ -59,6 +59,7 @@ Discover a seamless shopping experience with Style Street, the cutting-edge e-co
 - Manage Inventory Levels: As a site owner, I want to monitor and manage inventory levels to prevent stockouts and overstocking.
 - Optimize SEO: As a site owner, I want to optimize the site for search engines to increase visibility and attract more visitors.
 - Monitor Competitor Activities: As a site owner, I want to monitor competitor activities and trends to stay competitive in the market.
+- Manage Refunds and Returns: As a site owner, I want to handle refunds and returns efficiently to maintain customer trust.
 
 Attach wireframes in this section
 ### Agile Methodology
