@@ -3,6 +3,10 @@
 
 Discover a seamless shopping experience with Style Street, the cutting-edge e-commerce platform designed to elevate your retail experience. Our app combines state-of-the-art technology with intuitive design, ensuring a smooth and enjoyable journey from browsing to checkout.
 
+## Project Goal
+
+Our goal is to develop a user-friendly E-commerce platform using Django, providing customers with seamless browsing, secure transactions, and efficient order management. Through intuitive design and robust features, we aim to enhance the online shopping experience, driving customer satisfaction and facilitating business growth.
+
 ![Responsive](media/Responsive.png.png)
 
 **[View the live project here.](https://stylestreet-2f7b5324506f.herokuapp.com/)**
