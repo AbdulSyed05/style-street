@@ -1,4 +1,4 @@
-# Project-Portfolio-5-Ecommerce
+# Project Portfolio 5 - E-commerce Applications
 ## Welcome to Style Street - Your Premier E-commerce Destination
 
 Discover a seamless shopping experience with Style Street, the cutting-edge e-commerce platform designed to elevate your retail experience. Our app combines state-of-the-art technology with intuitive design, ensuring a smooth and enjoyable journey from browsing to checkout.
