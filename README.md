@@ -83,6 +83,18 @@ Image of the database diagram for your project, you can name your database model
 
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms, input fields, CRUD....)
+
+## Future Features 
+- Personalized Recommendations: Implement a recommendation engine that analyzes user behavior and preferences to suggest relevant products, increasing engagement and sales.
+
+- Social Media Integration: Allow users to share their favorite products on social media platforms and integrate social login options to streamline the registration process.
+
+- Multi-Language Support: Expand your target audience by adding support for multiple languages, enabling users from different regions to access and navigate the site in their preferred language.
+
+- Customer Reviews and Ratings: Enable customers to leave reviews and ratings for products, fostering trust and credibility among potential buyers and helping them make informed purchasing decisions.
+
+- Subscription Services: Introduce subscription-based services or product bundles, providing customers with recurring deliveries and discounts, promoting customer loyalty and repeat purchases.
+
 ## Technologies Used
 List of technologies used for your project
 ## Testing
