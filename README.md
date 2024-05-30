@@ -46,6 +46,12 @@ Discover a seamless shopping experience with Style Street, the cutting-edge e-co
 - Login to Account: As a returning visitor, I want to log in to my account to access my saved information and preferences.
 - View Order History: As a returning visitor, I want to view my past orders to reorder items or check past purchases.
 - Add to Cart: As a returning visitor, I want to add items to my shopping cart to purchase them.
+- Save Payment Methods: As a returning visitor, I want to save and manage my payment methods for quicker checkouts in the future.
+- Receive Personalized Recommendations: As a returning visitor, I want to receive product recommendations based on my previous purchases and preferences.
+- Leave Reviews: As a returning visitor, I want to leave reviews and rate products I have purchased to share my experience with others.
+- Subscribe to Newsletter: As a returning visitor, I want to subscribe to the newsletter to receive updates and promotions.
+- Contact Customer Support: As a returning visitor, I want to contact customer support easily to get help with any issues.
+- View New Arrivals: As a returning visitor, I want to view new product arrivals to stay updated with the latest items.
 
 # Site Owner
 - Manage Products: As a site owner, I want to add, update, or remove products to keep the inventory current.
