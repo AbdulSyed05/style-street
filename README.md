@@ -34,8 +34,32 @@ Discover a seamless shopping experience with Style Street, the cutting-edge e-co
 ## Design & Planning:
 
 ### User Stories
-Write your user stories in this section
-### Wireframes
+
+# First-Time Visitor
+- Learn About the Site: As a first-time visitor, I want to understand the site’s purpose to decide if it meets my needs.
+- Browse Products: As a first-time visitor, I want to browse products to see what is available.
+- Register for an Account: As a first-time visitor, I want to create an account to start shopping.
+- Search for Products: As a first-time visitor, I want to search for specific products to find what I need quickly.
+- View Product Details: As a first-time visitor, I want to view detailed product information to make informed purchase decisions.### Wireframes
+
+# Returning Visitor
+- Login to Account: As a returning visitor, I want to log in to my account to access my saved information and preferences.
+- View Order History: As a returning visitor, I want to view my past orders to reorder items or check past purchases.
+- Add to Cart: As a returning visitor, I want to add items to my shopping cart to purchase them.
+
+# Site Owner
+- Manage Products: As a site owner, I want to add, update, or remove products to keep the inventory current.
+- View Sales Reports: As a site owner, I want to view sales reports to understand the business performance.
+- Manage Users: As a site owner, I want to manage user accounts to ensure a smooth user experience.
+- Update Site Content: As a site owner, I want to update site content to keep information accurate and relevant.
+- Handle Customer Inquiries: As a site owner, I want to handle customer inquiries to maintain customer satisfaction.
+- Process Orders: As a site owner, I want to process and fulfill orders efficiently to ensure timely delivery.
+- Manage Discounts and Promotions: As a site owner, I want to create and manage discounts and promotions to attract and retain customers.
+- Monitor Site Performance: As a site owner, I want to monitor the site’s performance to ensure it runs smoothly and quickly.
+- Manage Inventory Levels: As a site owner, I want to monitor and manage inventory levels to prevent stockouts and overstocking.
+- Optimize SEO: As a site owner, I want to optimize the site for search engines to increase visibility and attract more visitors.
+- Monitor Competitor Activities: As a site owner, I want to monitor competitor activities and trends to stay competitive in the market.
+
 Attach wireframes in this section
 ### Agile Methodology
 Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
