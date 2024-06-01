@@ -101,7 +101,7 @@ List of technologies used for your project
 ## Testing
 Important part of your README!!!
 ### Google's Lighthouse Performance
-Screenshots of certain pages and scores (mobile and desktop)
+![Screenshot](media/Lighthouse.png)
 ### Browser Compatibility
 Check compatability with different browsers (Firefox, Edge, Chrome)
 ### Responsiveness
