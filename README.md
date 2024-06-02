@@ -145,7 +145,6 @@ List of bugs and how did you fix them, you can create simple table
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
 - [Grammarly](https://www.grammarly.com/) used to check typography
 - [Am I Responsive](https://amiresponsive.co.uk/) mockup image of the home page on various devices 
-- [LucidChart](https://lucid.app/) - Data Schema
 - [ChatGPT](chat.openai.com) - Helpful Tool
 
 ### Imported Libraries and Packages
@@ -200,5 +199,36 @@ The live deployed application can be found deployed on [Heroku](https://stylestr
 - Please note that when deploying manually you will have to deploy after each change you make to your repository.
 ## Credits
 List of used resources for your website (text, images, snippets of code, projects....)
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://stylestreet-2f7b5324506f.herokuapp.com/) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://stylestreet-2f7b5324506f.herokuapp.com/`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://abdulsyed05-stylestreet-u3fvmjzsira.ws-eu114.gitpod.io//)
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://stylestreet-2f7b5324506f.herokuapp.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
 ## Acknowledgment
-Mention people who helped you with your project(mentor, colleagues...)
+- I would like to thank Juliaa Konovalova for being my guiding light in the world of Django. Your expertise and encouragement have made this coding journey an incredible experience. I am sincerely grateful for your mentorship .
+
+- I would like to thank Code Institutes Slack Community, and tutor support (Especially Joanne) as this helped me so much when I got stuck on part of my project.
+
+- I would also like to thank our cohort facilitator Marko Tot, for answering any course-related questions I asked and for providing us with weekly guidance information about the project
