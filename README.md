@@ -120,8 +120,6 @@ Test all your features, you can use the same approach
 |:-------:|:--------|
 | &check; | description
 - attach screenshot
-### Automated testing
-If you created automated tests, insert screenshoots of your coverage and number of tests
 
 ## Bugs
 
