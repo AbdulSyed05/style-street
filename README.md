@@ -122,11 +122,49 @@ Test all your features, you can use the same approach
 - attach screenshot
 ### Automated testing
 If you created automated tests, insert screenshoots of your coverage and number of tests
+
 ## Bugs
-List of bugs and how did you fix them, you can create simple table
-| Bug | Fix
-|:-------:|:--------|
-|   |    |
+
+### User Authentication Bugs
+
+1. **Users cannot log in even with correct credentials**
+   - **Description:** Users might face login issues due to incorrect authentication backend configuration or database connection problems.
+   - **Resolution:** Check `settings.py` for correct authentication backend settings and ensure the database is properly connected.
+
+2. **Password reset emails are not being sent**
+   - **Description:** This issue might be due to misconfigured email backend or missing email templates.
+   - **Resolution:** Verify email backend settings in `settings.py` and ensure email server credentials are correct. Check for the existence of email templates.
+
+### Product Management Bugs
+
+1. **New products are not appearing in the product listing**
+   - **Description:** Caching issues or problems with database queries can prevent new products from appearing.
+   - **Resolution:** Clear the cache if enabled and check the views and queries fetching the product list.
+
+2. **Product images are not displaying**
+   - **Description:** Incorrect media file handling or misconfigured URLs can cause this issue.
+   - **Resolution:** Ensure media root and URL settings in `settings.py` are correct and images are uploaded properly.
+
+### Cart Functionality Bugs
+
+1. **Items are not being added to the cart**
+   - **Description:** Issues with session management or cart view logic can prevent items from being added.
+   - **Resolution:** Check session settings in `settings.py` and debug the cart views.
+
+2. **Cart total is incorrect**
+   - **Description:** Rounding errors or incorrect price calculations can lead to an incorrect cart total.
+   - **Resolution:** Verify the logic for calculating the cart total and check for rounding issues.
+
+### Checkout Process Bugs
+
+1. **Checkout process fails at the payment step**
+   - **Description:** Incorrect payment gateway integration or network issues can cause the checkout process to fail.
+   - **Resolution:** Check payment gateway configuration and ensure network connectivity. Handle exceptions properly.
+
+2. **Orders are not being recorded in the database**
+   - **Description:** Problems in the order creation logic or database connectivity issues can prevent orders from being recorded.
+   - **Resolution:** Debug order creation views and models, and check database connection.
+
 
 ### Languages Used
 
