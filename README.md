@@ -197,6 +197,48 @@ The live deployed application can be found deployed on [Heroku](https://stylestr
 - Below that in the **search for a repository to connect to** search box enter the name of your repository that you created on **GitHub** and click **connect**
 - Once it has been connected scroll down to the **Manual Deploy** and click **Deploy branch** when it has deployed you will see a **view app** button below and this will bring you to your newly deployed app.
 - Please note that when deploying manually you will have to deploy after each change you make to your repository.
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+For either method, you will need to install any applicable packages found within the *requirements.txt* file.
+- `pip3 install -r requirements.txt`.
+
+You will need to create a new file called `env.py` at the root-level,
+and include the same environment variables listed above from the Heroku deployment steps.
+
+Sample `env.py` file:
+
+```python
+import os
+
+os.environ.setdefault("AWS_ACCESS_KEY_ID", `HEROKU CONFIG VARS`)
+os.environ.setdefault("AWS_SECRET_ACCESS_KEY", `HEROKU CONFIG VARS`)
+os.environ.setdefault("DATABASE_URL", `HEROKU CONFIG VARS`)
+os.environ.setdefault("EMAIL_HOST_PASS", `HEROKU CONFIG VARS`)
+os.environ.setdefault("EMAIL_HOST_USER", `HEROKU CONFIG VARS`)
+os.environ.setdefault("SECRET_KEY", `HEROKU CONFIG VARS`)
+os.environ.setdefault("STRIPE_PUBLIC_KEY", `HEROKU CONFIG VARS`)
+os.environ.setdefault("STRIPE_SECRET_KEY", `HEROKU CONFIG VARS`)
+os.environ.setdefault("STRIPE_WH_SECRET", `HEROKU CONFIG VARS`)
+
+# local environment only (do not include these in production/deployment!)
+os.environ.setdefault("DEBUG", "True")
+```
+
+Once the project is cloned or forked, in order to run it locally, you'll need to follow these steps:
+- Start the Django app: `python3 manage.py runserver`
+- Stop the app once it's loaded: `CTRL+C` or `⌘+C` (Mac)
+- Make any necessary migrations: `python3 manage.py makemigrations`
+- Migrate the data to the database: `python3 manage.py migrate`
+- Create a superuser: `python3 manage.py createsuperuser`
+- Load fixtures (if applicable): `python3 manage.py loaddata file-name.json` (repeat for each file)
+- Everything should be ready now, so run the Django app again: `python3 manage.py runserver`
+
+[Back to top &uarr;](#contents)
+
+***
 ## Credits
 
 - [Stack Overflow](https://stackoverflow.com/) is probably a developer's best resource, this provided me with many answers to my questions.
