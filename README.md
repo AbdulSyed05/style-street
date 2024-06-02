@@ -96,8 +96,6 @@ Explain your features on the website,(navigation, pages, links, forms, input fie
 
 - Subscription Services: Introduce subscription-based services or product bundles, providing customers with recurring deliveries and discounts, promoting customer loyalty and repeat purchases.
 
-## Technologies Used
-List of technologies used for your project
 ## Testing
 Important part of your README!!!
 
@@ -172,7 +170,7 @@ Test all your features, you can use the same approach
    - **Resolution:** Debug order creation views and models, and check database connection.
 
 
-### Languages Used
+### Technologies Used
 
 - [HTML5](https://html.spec.whatwg.org/) used for page content and structure 
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html) used for page styling
