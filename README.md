@@ -100,10 +100,16 @@ Explain your features on the website,(navigation, pages, links, forms, input fie
 List of technologies used for your project
 ## Testing
 Important part of your README!!!
+
 ### Google's Lighthouse Performance
 ![Screenshot](media/Lighthouse.png)
+
 ### Browser Compatibility
-Check compatability with different browsers (Firefox, Edge, Chrome)
+|  Browser | Links  | Pages  | Responsivnes  | Form fields  |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| Mozila  | Works as expected| Loading pages no issue  |  Responsivness works as expected |  Works as expected |
+|  Chrome | Works as expected  |  Loading pages no issue | Responsivness works as expected  | Works as expected  |
+|  Edge |  Works as expected | Loading pages no issue  | Responsivness works as expected  |  Works as expected |
 
 ### Responsiveness
 
