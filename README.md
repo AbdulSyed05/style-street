@@ -190,13 +190,58 @@ The live deployed application can be found deployed on [Heroku](https://stylestr
 - Head over to gitpod and create a **Database URL** environment variable in your env.py file and set it equal to the copied URL.
 
 #### Deploying to Heroku.
-- Head back over to [heroku](https://www.heroku.com/) and click on your **app** and then go to the **Settings tab**
-- On the **settings page** scroll down to the **config vars** section and enter the **DATABASE_URL** which you will set equal to the elephantSQL URL, create **Secret key** this can be anything,
-**CLOUDINARY_URL** this will be set to your cloudinary url and finally **Port** which will be set to 8000.
-- Then scroll to the top and go to the **deploy tab** and go down to the **Deployment method** section and select **Github** and then sign into your account.
-- Below that in the **search for a repository to connect to** search box enter the name of your repository that you created on **GitHub** and click **connect**
-- Once it has been connected scroll down to the **Manual Deploy** and click **Deploy branch** when it has deployed you will see a **view app** button below and this will bring you to your newly deployed app.
-- Please note that when deploying manually you will have to deploy after each change you make to your repository.
+[Setting up basic Django Project and Deploying to Heroku CI Doc](https://docs.google.com/document/d/1P5CWvS5cYalkQOLeQiijpSViDPogtKM7ZGyqK-yehhQ/edit)
+
+This project uses [Heroku](https://www.heroku.com), a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+
+Deployment steps are as follows, after account setup:
+
+1. Select *New* in the top-right corner of your Heroku Dashboard, and select *Create new app* from the dropdown menu.
+1. Your app name must be unique, and then choose a region closest to you (EU or USA), and finally, select *Create App*.
+1. Further down, to support dependencies, select *Add Buildpack*.
+1. The order of the buildpacks is important, select `Python` first, then `Node.js` second. (if they are not in this order, you can drag them to rearrange them)
+1. From the new app *Settings*, click *Reveal Config Vars*, and set your environment variables.
+
+    
+    -  Key Value
+    -  `AWS_ACCESS_KEY_ID`
+    -  `AWS_SECRET_ACCESS_KEY`
+    -  `DATABASE_URL`
+    -  `DISABLE_COLLECTSTATIC`
+    -  `EMAIL_HOST_PASS`
+    -  `EMAIL_HOST_USER`
+    -  `SECRET_KEY`
+    -  `STRIPE_PUBLIC_KEY`
+    -  `STRIPE_SECRET_KEY`
+    -  `STRIPE_WH_SECRET`
+    -  `USE_AWS`
+
+Heroku needs two additional files in order to deploy properly.
+- requirements.txt
+- Procfile
+
+You can install this project's *requirements* (where applicable) using:
+- `pip3 install -r requirements.txt`
+
+If you have your own packages that have been installed, then the requirements file needs updated using:
+- `pip3 freeze --local > requirements.txt`
+
+The *Procfile* can be created with the following command:
+- `echo web: gunicorn app_name.wsgi > Procfile`
+- *replace *app_name* with the name of your primary Django app name; the folder where settings.py is located*
+
+For Heroku deployment, follow these steps to connect your own GitHub repository to the newly created app:
+
+Either:
+- Select *Automatic Deployment* from the Heroku app.
+
+Or:
+- In the Terminal/CLI, connect to Heroku using this command: `heroku login -i`
+- Set the remote for Heroku: `heroku git:remote -a <app_name>` (replace app_name with your app, without the angle-brackets)
+- After performing the standard Git `add`, `commit`, and `push` to GitHub, you can now type:
+	- `git push heroku main`
+
+The project should now be connected and deployed to Heroku!
 
 ### Local Deployment
 
@@ -236,9 +281,6 @@ Once the project is cloned or forked, in order to run it locally, you'll need to
 - Load fixtures (if applicable): `python3 manage.py loaddata file-name.json` (repeat for each file)
 - Everything should be ready now, so run the Django app again: `python3 manage.py runserver`
 
-[Back to top &uarr;](#contents)
-
-***
 ## Credits
 
 - [Stack Overflow](https://stackoverflow.com/) is probably a developer's best resource, this provided me with many answers to my questions.
