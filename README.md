@@ -198,7 +198,23 @@ The live deployed application can be found deployed on [Heroku](https://stylestr
 - Once it has been connected scroll down to the **Manual Deploy** and click **Deploy branch** when it has deployed you will see a **view app** button below and this will bring you to your newly deployed app.
 - Please note that when deploying manually you will have to deploy after each change you make to your repository.
 ## Credits
-List of used resources for your website (text, images, snippets of code, projects....)
+
+- [Stack Overflow](https://stackoverflow.com/) is probably a developer's best resource, this provided me with many answers to my questions.
+
+- [W3schools](https://www.w3schools.com/) this was great for looking up forgotten **CSS** syntax and how to use it.
+
+- [CodeInstitute](https://learn.codeinstitute.net/) for their walkthrough project, which guided me with website build especially for stripe payment, custom model.
+
+- [youtube](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) Corey Schafer 
+ videos from **codemy**,  **djangolessons**
+
+- [Allauth](https://django-allauth.readthedocs.io/en/latest/) for their documentation which was helpfull in creating user authentication.
+
+- [Djangoforbeginners](https://djangoforbeginners.com/) for providing useful information abut basic concepts and setup for django.
+
+- [DjangoDocumentation](https://docs.djangoproject.com/en/5.0/) Django Documentation used for this project.
+
+- [Bootstrap](https://getbootstrap.com/) Used Bootstrap.
 
 #### Cloning
 
