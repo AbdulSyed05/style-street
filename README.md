@@ -128,6 +128,13 @@ List of bugs and how did you fix them, you can create simple table
 |:-------:|:--------|
 |   |    |
 
+### Languages Used
+
+- [HTML5](https://html.spec.whatwg.org/) used for page content and structure 
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html) used for page styling
+- [Javascript](https://www.javascript.com/) used for dynamically updated content
+- [Python](https://www.python.org/) - used for the functionality of the program
+
 ### Frameworks & Tools
 
 - [Django](https://www.djangoproject.com/) used as main python framework
