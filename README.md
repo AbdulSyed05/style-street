@@ -7,6 +7,10 @@ Discover a seamless shopping experience with Style Street, the cutting-edge e-co
 
 Our goal is to develop a user-friendly E-commerce platform using Django, providing customers with seamless browsing, secure transactions, and efficient order management. Through intuitive design and robust features, we aim to enhance the online shopping experience, driving customer satisfaction and facilitating business growth.
 
+## Commit History
+
+- I am aware my commit history isnt what it needs to be this is because I didnt realise My VS Code was not connected to Github. I was in coding my app and forgot to commit on time. 
+
 ![Responsive](media/Responsive.png.png)
 
 **[View the live project here.](https://stylestreet-2f7b5324506f.herokuapp.com/)**
@@ -75,7 +79,8 @@ Attach wireframes in this section
 ### Agile Methodology
 Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
 ### Typography
-Explain font you've used for your project
+ 
+
 ### Colour Scheme
 
 ![Screenshot](media/colormind.png)
