@@ -104,8 +104,10 @@ Important part of your README!!!
 ![Screenshot](media/Lighthouse.png)
 ### Browser Compatibility
 Check compatability with different browsers (Firefox, Edge, Chrome)
+
 ### Responsiveness
-Screenshots of the responsivness, pick few devices
+
+![Screenshot](media/Responsive.png.png)
 ### Code Validation
 Validate your code HTML, CSS, JS & Python (Validate all your templates, static files, views, forms, models, urls), display screenshots
 ### Manual Testing user stories
