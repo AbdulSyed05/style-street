@@ -127,8 +127,51 @@ List of bugs and how did you fix them, you can create simple table
 | Bug | Fix
 |:-------:|:--------|
 |   |    |
+
+### Frameworks & Tools
+
+- [Django](https://www.djangoproject.com/) used as main python framework
+- [Stripe Payments](https://stripe.com/) Payments infrastructure for the Internet
+- [Bootstrap](https://blog.getbootstrap.com/) used for page layout and spacing
+- [PostgreSQL](https://www.postgresql.org) used for database management
+- [ElephantSQL](https://www.elephantsql.com/) used for production database
+- [Heroku](https://dashboard.heroku.com/apps) used to deploy application
+- [AWS](https://aws.amazon.com/s3/) used for online static file storage
+- [Gitpod](https://www.gitpod.io/) used to create and host the website
+- [Github](https://github.com/) used to deploy the website 
+- [Balsamiq](https://balsamiq.com/) used to create page wireframes
+- [Stackoverflow](https://stackoverflow.com/) used to troubleshoot code issues
+- [CI Python Linter](https://pep8ci.herokuapp.com/) used as Python code validator
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
+- [Grammarly](https://www.grammarly.com/) used to check typography
+- [Am I Responsive](https://amiresponsive.co.uk/) mockup image of the home page on various devices 
+- [LucidChart](https://lucid.app/) - Data Schema
+- [ChatGPT](chat.openai.com) - Helpful Tool
+
+### Imported Libraries and Packages
+
+- [gunicorn]() - Python WSGI HTTP Server for UNIX
+- [psycopg2]() - PostgreSQL database adapter for Python
+- [dj-database-url]() - Django utility to utilise the DATABASE_URL environment variable to configure the Django application. Used with PostgreSQL
+- [Django]() - Python package for the Django framework
+- [django-allauth]() - Django user authentication, registration and account management
+- [django-crispy-forms]() - Django package that provides tags and filters to control the rendering behaviour of Django forms
+- [django-countries] - A Django application that provides country choices for use with forms
+- [django-storages] - provides a variety of storage backends in a single library
+- [sqlparse] - is a non-validating SQL parser for Python. It provides support for parsing, splitting and formatting SQL statements
+- [stripe] - Stripe Payments webhook
+- [boto3] -  to create, configure, and manage AWS services
+- [s3transfer] - a Python library for managing Amazon S3 transfers
+- [botocore] - A low-level interface to a growing number of Amazon Web Services
+- [jmespath] - allows you to declaratively specify how to extract elements from a JSON document.
+- [oauthlib] - is a framework which implements the logic of OAuth1 or OAuth2 without assuming a specific HTTP request object or web framework
+- [asgiref] -  Provides an optional template to start ASGI channel layers from with the two exceptions you need provided and all APIs
+- [Pillow] -  adds image processing capabilities to your Python interpreter
+- [PyJWT] - A library which allows you to encode and decode JSON Web Tokens 
+- [pytz] - This library allows accurate and cross platform timezone calculations using Python
+
 ## Deployment
-This website is deployed to Heroku from a GitHub repository, the following steps were taken:
+The live deployed application can be found deployed on [Heroku](https://stylestreet-2f7b5324506f.herokuapp.com/).
 
 #### Creating Repository on GitHub
 - First make sure you are signed into [Github](https://github.com/) and go to the code institutes template, which can be found [here](https://github.com/Code-Institute-Org/gitpod-full-template).
