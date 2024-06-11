@@ -1,0 +1,17 @@
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+_pycache_/
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+_pycache_/
+*.sqlite3
+# Pytest
+.pytest_cache/
+.cache/
