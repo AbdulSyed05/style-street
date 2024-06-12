@@ -77,11 +77,21 @@ Our goal is to develop a user-friendly E-commerce platform using Django, providi
 
 ## Attach wireframes in this section
 
-# Desktop Wireframe 
+# Desktop Wireframes 
 
 ![Screenshot](media/Desktop%20Wireframe1.png)
 
 ![Screenshot](media/Desktop%20Wireframe2.png)
+
+# Ipad Wireframes
+
+![Screenshot](media/IpadWireframes1.png)
+
+![Screenshot](media/IpadWireframes2.png)
+
+![Screenshot](media/IpadWireframes3.png)
+
+
 
 ### Agile Methodology
 Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
