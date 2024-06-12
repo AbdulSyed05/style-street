@@ -15,3 +15,4 @@ _pycache_/
 # Pytest
 .pytest_cache/
 .cache/
+*.env.py/
