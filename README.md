@@ -91,7 +91,9 @@ Our goal is to develop a user-friendly E-commerce platform using Django, providi
 
 ![Screenshot](media/IpadWireframes3.png)
 
+# Mobile Wireframes
 
+![Screenshot](media/Mobilewireframes.png)
 
 ### Agile Methodology
 Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
