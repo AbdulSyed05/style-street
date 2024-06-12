@@ -75,7 +75,14 @@ Our goal is to develop a user-friendly E-commerce platform using Django, providi
 - Monitor Competitor Activities: As a site owner, I want to monitor competitor activities and trends to stay competitive in the market.
 - Manage Refunds and Returns: As a site owner, I want to handle refunds and returns efficiently to maintain customer trust.
 
-Attach wireframes in this section
+## Attach wireframes in this section
+
+# Desktop Wireframe 
+
+![Screenshot](media/Desktop%20Wireframe1.png)
+
+![Screenshot](media/Desktop%20Wireframe2.png)
+
 ### Agile Methodology
 Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
 ### Typography
