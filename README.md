@@ -206,6 +206,8 @@ Image of the database diagram for your project, you can name your database model
 # Checkout Page
 ![Screenshot](media/Checkout.png)
 
+# Shopping Cart
+![Screenshot](media/shoppingcart.png)
 
 
 ## Future Features 
