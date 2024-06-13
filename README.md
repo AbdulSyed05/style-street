@@ -194,6 +194,12 @@ Image of the database diagram for your project, you can name your database model
 # All Products Page
 ![Screenshot](media/Allproductspage.png)
 
+# Sales Page
+![Screenshot](media/Salepage.png)
+
+# Product Management
+![Screenshot](media/product%20management%20page.png)
+
 
 
 ## Future Features 
