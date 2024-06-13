@@ -188,6 +188,9 @@ Image of the database diagram for your project, you can name your database model
 # Homepage 
 ![Screenshot](media/Homepage.png)
 
+# Loginpage
+![Screenshot](media/Loginpage.png)
+
 ## Future Features 
 - Personalized Recommendations: Implement a recommendation engine that analyzes user behavior and preferences to suggest relevant products, increasing engagement and sales.
 
