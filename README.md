@@ -171,11 +171,13 @@ __[EPIC 1]  Django & Project Basic Setup__
  - As an ADMIN, I want to be able to - Social Media `MUST HAVE`   
  - As an ADMIN, I want to be able to - Social Media Extra `SHOULD HAVE` 
 
-
-
-Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
 ### Typography
  
+ - Montserrat has been used as a main font
+
+ root {
+    --main-font: 'Montserrat', sans-serif;
+}
 
 ### Colour Scheme
 
