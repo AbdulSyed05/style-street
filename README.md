@@ -203,6 +203,9 @@ Image of the database diagram for your project, you can name your database model
 # User Profile Page
 ![Screenshot](media/Userprofile%20page.png)
 
+# Checkout Page
+![Screenshot](media/Checkout.png)
+
 
 
 ## Future Features 
