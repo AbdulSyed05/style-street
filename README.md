@@ -200,6 +200,9 @@ Image of the database diagram for your project, you can name your database model
 # Product Management
 ![Screenshot](media/product%20management%20page.png)
 
+# User Profile Page
+![Screenshot](media/Userprofile%20page.png)
+
 
 
 ## Future Features 
