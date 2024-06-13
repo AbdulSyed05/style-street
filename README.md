@@ -209,6 +209,13 @@ Image of the database diagram for your project, you can name your database model
 # Shopping Cart
 ![Screenshot](media/shoppingcart.png)
 
+# Payment Processing
+![Screenshot](media/shoppingcart.png)
+
+# Thank you for your purchase page
+![Screenshot](media/thankyouforpurchase.png)
+
+
 
 ## Future Features 
 - Personalized Recommendations: Implement a recommendation engine that analyzes user behavior and preferences to suggest relevant products, increasing engagement and sales.
