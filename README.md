@@ -171,6 +171,23 @@ __[EPIC 1]  Django & Project Basic Setup__
  - As an ADMIN, I want to be able to - Social Media `MUST HAVE`   
  - As an ADMIN, I want to be able to - Social Media Extra `SHOULD HAVE` 
 
+ ### MoSCoW Prioritization
+
+This project was developed using agile methodologies by delivering small features (User Stories) across the project.
+
+The Kanban board was created using Github projects and can be located [here](https://github.com/AbdulSyed05/style-street/projects?query=is%3Aopen) and can be viewed to see more information on the project cards. 
+
+Using this approach, I was able to apply the MoSCow prioritization and label user stories.
+User Stories were assigned to Epics, prioritized under the labels:
+
+- `MUST HAVE` - guaranteed to be delivered (*max 60% of stories*)
+- `SHOULD HAVE` - adds significant value, but not vital (*the rest ~20% of stories*)
+- `COULD HAVE` - has small impact if left out (*20% of stories*)
+- `WON'T HAVE` - not a priority for this iteration
+
+To ensure that all core requirements were completed I worked on the 'MUST HAVE' epics/user stories first.
+
+
 ### Typography
  
  - Montserrat has been used as a main font
