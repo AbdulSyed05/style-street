@@ -184,7 +184,9 @@ Explain agile approach to your project (itterations, user stories, tasks,accepta
 Image of the database diagram for your project, you can name your database models as well and how they are connected
 
 ## Features:
-Explain your features on the website,(navigation, pages, links, forms, input fields, CRUD....)
+
+# Homepage 
+![Screenshot](media/Homepage.png)
 
 ## Future Features 
 - Personalized Recommendations: Implement a recommendation engine that analyzes user behavior and preferences to suggest relevant products, increasing engagement and sales.
