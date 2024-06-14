@@ -300,14 +300,19 @@ Important part of your README!!!
 
 # PEP8 CI Validation
 
+# Views.py
 ![Screenshot](media/views.py.png)
 
+# Views.py
 ![Screenshot](media/views.py2.png)
 
+# Urls.py
 ![Screenshot](media/url.py.png)
 
+# Urls.py
 ![Screenshot](media/url.py2.png)
 
+#Apps.py
 ![Screenshot](media/apps.py.png)
 
 
