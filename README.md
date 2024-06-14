@@ -304,9 +304,9 @@ Important part of your README!!!
 
 ![Screenshot](media/views.py2.png)
 
-![Screenshot]
+![Screenshot](media/url.py.png)
 
-![Screenshot]
+![Screenshot](media/url.py2.png)
 
 ![Screenshot]
 
