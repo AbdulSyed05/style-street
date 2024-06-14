@@ -101,6 +101,8 @@ Our goal is to develop a user-friendly E-commerce platform using Django, providi
 
 ![Screenshot](media/KanbanBoard.png)
 
+![Screenshot](media/github%20issues.png)
+
 7 Epics (milestones) were created which were then further developed
 
 __[EPIC 1]  Django & Project Basic Setup__
