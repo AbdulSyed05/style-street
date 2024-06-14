@@ -273,6 +273,9 @@ Important part of your README!!!
 # Login Validation
 ![Screenshot](media/loginvalidation.png)
 
+# Logout Validation
+![Screenshot](media/Logoutvaldiation.png)
+
 ### Manual Testing user stories
 Test all your user stories, you an create table 
 User Story |  Test | Pass
