@@ -298,6 +298,19 @@ Important part of your README!!!
 
 ![Screenshot](media/StripeJS.png)
 
+# PEP8 CI Validation
+
+![Screenshot]
+
+![Screenshot]
+
+![Screenshot]
+
+![Screenshot]
+
+![Screenshot]
+
+
 ### Manual Testing user stories
 Test all your user stories, you an create table 
 User Story |  Test | Pass
