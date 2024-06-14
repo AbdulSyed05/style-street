@@ -312,7 +312,7 @@ Important part of your README!!!
 # Urls.py
 ![Screenshot](media/url.py2.png)
 
-#Apps.py
+# Apps.py
 ![Screenshot](media/apps.py.png)
 
 
