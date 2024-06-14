@@ -59,7 +59,10 @@ Check compatability with different browsers (Firefox, Edge, Chrome)
 ### Responsiveness
 Screenshots of the responsivness, pick few devices
 ### Code Validation
-Validate your code HTML, CSS, JS & Python (Validate all your templates, static files, views, forms, models, urls), display screenshots
+
+# HTML Code Validation
+
+
 ### Manual Testing user stories
 Test all your user stories, you an create table 
 User Story |  Test | Pass
