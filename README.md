@@ -281,6 +281,10 @@ Important part of your README!!!
 
 # Signup Validation
 ![Screenshot](media/SignupValidation.png)
+
+# Update Profile Validation
+![Screenshot](media/updateprofile%20validation.png)
+
 ### Manual Testing user stories
 Test all your user stories, you an create table 
 User Story |  Test | Pass
