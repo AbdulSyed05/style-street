@@ -279,6 +279,8 @@ Important part of your README!!!
 # Product Validation
 ![Screenshot](media/addproductvalidation.png)
 
+# Signup Validation
+![Screenshot](media/SignupValidation.png)
 ### Manual Testing user stories
 Test all your user stories, you an create table 
 User Story |  Test | Pass
