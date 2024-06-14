@@ -288,6 +288,11 @@ Important part of your README!!!
 # Css Code Validation
 ![Screenshot](media/base.cssvalidation.png)
 
+# Javascript Validation 
+![Screenshot](media/NavsidebarJS.png)
+
+![Screenshot](media/StripeJS.png)
+
 ### Manual Testing user stories
 Test all your user stories, you an create table 
 User Story |  Test | Pass
