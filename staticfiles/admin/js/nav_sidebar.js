@@ -1,5 +1,8 @@
-'use strict';
-{
+/* jshint esversion: 6 */
+
+(function () {
+    "use strict";
+
     const toggleNavSidebar = document.getElementById('toggle-nav-sidebar');
     if (toggleNavSidebar !== null) {
         const navSidebar = document.getElementById('nav-sidebar');
@@ -11,29 +14,25 @@
         main.classList.toggle('shifted', navSidebarIsOpen === 'true');
         navSidebar.setAttribute('aria-expanded', navSidebarIsOpen);
 
-        toggleNavSidebar.addEventListener('click', function() {
-            if (navSidebarIsOpen === 'true') {
-                navSidebarIsOpen = 'false';
-            } else {
-                navSidebarIsOpen = 'true';
-            }
+        toggleNavSidebar.addEventListener('click', () => {
+            navSidebarIsOpen = (navSidebarIsOpen === 'true') ? 'false' : 'true';
             localStorage.setItem('django.admin.navSidebarIsOpen', navSidebarIsOpen);
             main.classList.toggle('shifted');
             navSidebar.setAttribute('aria-expanded', navSidebarIsOpen);
         });
     }
 
-    function initSidebarQuickFilter() {
+    const initSidebarQuickFilter = () => {
         const options = [];
         const navSidebar = document.getElementById('nav-sidebar');
         if (!navSidebar) {
             return;
         }
         navSidebar.querySelectorAll('th[scope=row] a').forEach((container) => {
-            options.push({title: container.innerHTML, node: container});
+            options.push({ title: container.innerHTML, node: container });
         });
 
-        function checkValue(event) {
+        const checkValue = (event) => {
             let filterValue = event.target.value;
             if (filterValue) {
                 filterValue = filterValue.toLowerCase();
@@ -61,7 +60,7 @@
                 event.target.classList.add('no-results');
             }
             sessionStorage.setItem('django.admin.navSidebarFilterValue', filterValue);
-        }
+        };
 
         const nav = document.getElementById('nav-filter');
         nav.addEventListener('change', checkValue, false);
@@ -71,9 +70,10 @@
         const storedValue = sessionStorage.getItem('django.admin.navSidebarFilterValue');
         if (storedValue) {
             nav.value = storedValue;
-            checkValue({target: nav, key: ''});
+            checkValue({ target: nav, key: '' });
         }
-    }
+    };
+
     window.initSidebarQuickFilter = initSidebarQuickFilter;
     initSidebarQuickFilter();
-}
+})();
