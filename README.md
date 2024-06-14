@@ -289,7 +289,12 @@ Important part of your README!!!
 ![Screenshot](media/base.cssvalidation.png)
 
 # Javascript Validation 
+
+# Javascript Navsidebar
+
 ![Screenshot](media/NavsidebarJS.png)
+
+# Javascript Stripe
 
 ![Screenshot](media/StripeJS.png)
 
