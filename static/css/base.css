@@ -15,7 +15,6 @@ html {
 }
 
 body {
-  /* background: url('/media/homepage_background.jpg') no-repeat center center fixed; */
   background-size: cover;
   height: calc(100vh - 164px);
   color: #0F1519;
@@ -23,7 +22,6 @@ body {
   font-weight: 300;
 }
 
-/* from Bulma */
 .icon {
   align-items: center;
   display: inline-flex;
@@ -44,10 +42,6 @@ body {
   width: fit-content;
 }
 
-/*--------------------------------
- SSO Button on Login Page 
- --------------------------------*/
-
 .oauthButton {
   min-width: 90%;
   padding: 0.5rem 1.4rem;
@@ -59,12 +53,12 @@ body {
   vertical-align: middle;
   align-items: center;
   border-radius: 0.5rem;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: rgb(0, 0, 0, 0.25) solid 1px;
   gap: 0.75rem;
   color: rgb(65, 63, 63);
   background-color: #fff;
   cursor: pointer;
-  transition: all .6s ease;
+  transition: all 0.6s ease;
 }
 
 .oauthButton svg {
@@ -75,11 +69,7 @@ body {
   transform: scale(1.02);
 }
 
-/*--------------------------------
- Shop Now Button on Main Page 
- --------------------------------*/
 .shop-now-button {
-
   text-decoration: none;
   position: relative;
   border: none;
@@ -114,9 +104,7 @@ body {
 }
 
 .shop-now-button:before {
-
   display: inline-block;
-
   content: '';
   position: absolute;
   top: -5px;
@@ -181,7 +169,6 @@ body {
   font-weight: 400;
 }
 
-
 .icon-pink {
   color: #650031 !important;
 }
@@ -192,15 +179,15 @@ body {
 }
 
 .border-black {
-  border: 1px solid black !important;
+  border: black solid 1px !important;
 }
 
 .border-beig {
-  border: 1px solid beige !important;
+  border: beige solid 1px !important;
 }
 
 .border-pink {
-  border: 1px solid #650031 !important;
+  border: #650031 solid 1px !important;
 }
 
 .bg-black {
@@ -238,7 +225,6 @@ a.category-badge>span.badge:hover {
 }
 
 .product-price {
-
   font-size: x-large;
 }
 
@@ -296,13 +282,10 @@ a.category-badge>span.badge:hover {
 }
 
 .card-footer {
-  background-color: rgba(245, 245, 220, 0.192);
+  background-color: rgb(245, 245, 220, 0.192);
   border-color: #69101d;
 }
 
-/* ------------------------------- 
-        Bootstrap toasts 
--------------------------------*/
 .message-container {
   position: fixed;
   top: 72px;
@@ -311,7 +294,7 @@ a.category-badge>span.badge:hover {
 }
 
 .toast.custom-toast {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
   overflow: hidden;
   border-radius: 8px;
 }
@@ -319,7 +302,6 @@ a.category-badge>span.badge:hover {
 .toast-header {
   border-bottom: none;
   background-color: #dc3545;
-  /* Change background color here */
   color: white;
 }
 
@@ -328,7 +310,6 @@ a.category-badge>span.badge:hover {
   color: #212529;
   padding: 10px;
   border-top: 5px solid #dc3545;
-  /* Add a solid color stripe at the top of the body */
 }
 
 .close {
@@ -340,9 +321,8 @@ a.category-badge>span.badge:hover {
   opacity: 0.85;
 }
 
-
 .toast.custom-toast-alert {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
   overflow: hidden;
   border-radius: 8px;
 }
@@ -350,7 +330,6 @@ a.category-badge>span.badge:hover {
 .toast.custom-toast-alert .toast-header {
   border-bottom: none;
   background-color: #ffc107;
-  /* Using bootstrap warning color for general alerts */
   color: black;
 }
 
@@ -359,7 +338,6 @@ a.category-badge>span.badge:hover {
   color: #212529;
   padding: 10px;
   border-top: 5px solid #ffc107;
-  /* Solid color stripe matches the header for consistency */
 }
 
 .toast.custom-toast-alert .close {
@@ -372,20 +350,18 @@ a.category-badge>span.badge:hover {
 }
 
 .toast.custom-toast-warning {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
   overflow: hidden;
   border-radius: 8px;
 }
 
 .toast.custom-toast-warning .toast-header {
   background-color: #ff9800;
-  /* Using a distinct orange color for warnings */
   color: white;
 }
 
 .toast.custom-toast-warning .toast-body {
   background-color: #f8f9fa;
-  /* Light background for the body to enhance readability */
   color: #343a40;
   padding: 10px;
 }
@@ -402,12 +378,11 @@ a.category-badge>span.badge:hover {
 .toast.custom-toast-success {
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 0 15px rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 15px rgb(0, 128, 0, 0.2);
 }
 
 .toast.custom-toast-success .toast-header {
   background-color: #28a745;
-  /* Bootstrap success green */
   color: white;
   border-bottom: 1px solid #ffffff40;
 }
@@ -440,9 +415,6 @@ a.category-badge>span.badge:hover {
   height: 2px;
 }
 
-/* -------------------------------
-from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ 
--------------------------------*/
 .arrow-up {
   width: 0;
   height: 0;
@@ -454,9 +426,6 @@ from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/
   right: 36px;
 }
 
-/* -------------------------------
-Convenience classes - colors copied from Bootstrap 
--------------------------------*/
 .arrow-primary {
   border-bottom-color: #007bff !important;
 }
@@ -495,20 +464,9 @@ Convenience classes - colors copied from Bootstrap
   overflow-y: auto;
 }
 
-
-/* --------------------------------
-          Product Card 
---------------------------------*/
-/* .card {
-
-  background-image: linear-gradient(163deg, #650031 0%, #f5f5dc 100%);
-  border-radius: 8px;
-  transition: all .3s;
-} */
-
 .card2 {
   background-color: #fff;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .card2:hover {
@@ -517,16 +475,13 @@ Convenience classes - colors copied from Bootstrap
 }
 
 .card:hover {
-  box-shadow: 0px 0px 30px 1px #69101e4d;
+  box-shadow: 0 0 30px 1px #69101e4d;
 }
 
-/* --------------------------------
-        Product Carousel 
---------------------------------*/
 .carousel-control {
   width: 20px;
   background-color: #0f15190e;
-  border: solid #fff 0;
+  border: #fff solid 0;
   border-radius: 4px;
 }
 
@@ -539,9 +494,6 @@ Convenience classes - colors copied from Bootstrap
   color: #0F1519;
 }
 
-/*--------------------------------
-         Product Form 
---------------------------------*/
 .btn-file {
   position: relative;
   overflow: hidden;
@@ -568,7 +520,6 @@ Convenience classes - colors copied from Bootstrap
   border-radius: 4px;
 }
 
-/* Link */
 .a-link {
   line-height: 2;
   position: relative;
@@ -583,9 +534,9 @@ Convenience classes - colors copied from Bootstrap
   border-radius: 2px;
   background-color: #6A7F91;
   position: absolute;
-  bottom: -.25rem;
+  bottom: -0.25rem;
   left: 0;
-  transition: width .4s;
+  transition: width 0.4s;
 }
 
 .a-link:hover::before {
@@ -597,7 +548,6 @@ a:hover {
   text-decoration: none;
 }
 
-/* Go to TOP */
 .btt-button {
   height: 42px;
   width: 42px;
@@ -612,12 +562,10 @@ a:hover {
   cursor: pointer;
 }
 
-input[name='q']::placeholder {
+input[name="q"]::placeholder {
   color: #7a92a5;
 }
 
-
-/* Card - Add to bag btn */
 .add-to-bag-card-btn {
   font-size: 17px;
   color: #6A7F91;
@@ -633,39 +581,30 @@ input[name='q']::placeholder {
 
 @keyframes shake3856 {
   0% {
-    -webkit-transform: translate(0);
     transform: translate(0);
   }
 
   20% {
-    -webkit-transform: translate(-2px, 2px);
     transform: translate(-2px, 2px);
   }
 
   40% {
-    -webkit-transform: translate(-2px, -2px);
     transform: translate(-2px, -2px);
   }
 
   60% {
-    -webkit-transform: translate(2px, 2px);
     transform: translate(2px, 2px);
   }
 
   80% {
-    -webkit-transform: translate(2px, -2px);
     transform: translate(2px, -2px);
   }
 
   100% {
-    -webkit-transform: translate(0);
     transform: translate(0);
   }
 }
 
-/*-------------------------------- 
-        Cart
---------------------------------*/
 .bag-image {
   height: 50px;
 }
@@ -683,7 +622,7 @@ input[name='q']::placeholder {
   box-shadow: 5px 5px 10px #0F1519;
   position: relative;
   overflow: hidden;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .btn-pay-width {
@@ -708,7 +647,7 @@ input[name='q']::placeholder {
   left: -20px;
   top: 50%;
   transform: translate(-150%, -50%);
-  transition-duration: .5s;
+  transition-duration: 0.5s;
   mix-blend-mode: difference;
 }
 
@@ -720,12 +659,9 @@ input[name='q']::placeholder {
 .btn-pay:active,
 .btn-pay-icon:active {
   transform: translateY(4px);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
-/* ------------------------------- 
-      AllAuth  
--------------------------------*/
 .allauth-form-inner-content p {
   margin-top: 1.5rem;
   color: #6A7F91;
@@ -736,7 +672,7 @@ input[name='q']::placeholder {
   color: #0f1519;
 }
 
-.allauth-form-inner-content label:not([for='id_remember']) {
+.allauth-form-inner-content label:not([for="id_remember"]) {
   display: none;
 }
 
@@ -748,7 +684,7 @@ input[name='q']::placeholder {
   width: 15em;
   position: relative;
   height: 2.5em;
-  border: 1px ridge #7a92a5;
+  border: #7a92a5 ridge 1px;
   outline: none;
   background-color: transparent;
   color: #6A7F91;
@@ -789,11 +725,11 @@ input[name='q']::placeholder {
 
 .btn-aa:hover::before,
 .btn-aa:hover::after {
-  transform: scale(0)
+  transform: scale(0);
 }
 
 .btn-aa:hover {
-  box-shadow: inset 0px 0px 25px #7A92A5;
+  box-shadow: 0 0 25px #7A92A5 inset;
 }
 
 .btn-clear {
@@ -806,16 +742,12 @@ input[name='q']::placeholder {
   margin-top: 8px;
 }
 
-/* -------------------------------- 
-        Category Badge 
- --------------------------------*/
 .cat-badge-icon {
   height: 24px;
   width: 24px;
   font-size: 24px;
   margin-bottom: 12px;
   color: yellow;
-
 }
 
 .cat-badge-detail-icon {
@@ -825,9 +757,7 @@ input[name='q']::placeholder {
   margin-bottom: 12px;
   margin-left: 20px;
   color: yellow;
-
 }
-
 
 .cat-badge-icon-heart {
   height: 24px;
@@ -835,66 +765,30 @@ input[name='q']::placeholder {
   font-size: 24px;
   margin-bottom: 12px;
   color: red;
-
 }
 
-/* -------------------------------- 
-        Like  
- --------------------------------*/
 .heart-badge-icon {
   margin: 0 0;
   padding: 0 0;
-  /* height: 24px;
-  width: 24px; */
   font-size: 24px;
-  /* margin-bottom: 12px; */
-}
-
-/* Bob from https://github.com/IanLunn */
-@-webkit-keyframes hvr-bob {
-  0% {
-    -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
-  }
-
-  50% {
-    -webkit-transform: translateY(-4px);
-    transform: translateY(-4px);
-  }
-
-  100% {
-    -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
-  }
 }
 
 @keyframes hvr-bob {
   0% {
-    -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
 
   50% {
-    -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
   }
 
   100% {
-    -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
-  }
-}
-
-@-webkit-keyframes hvr-bob-float {
-  100% {
-    -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
 }
 
 @keyframes hvr-bob-float {
   100% {
-    -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
 }
@@ -902,48 +796,31 @@ input[name='q']::placeholder {
 .hvr-bob {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-
-  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  box-shadow: 0 0 1px rgb(0, 0, 0, 0);
   animation-name: hvr-bob-float, hvr-bob;
-  -webkit-animation-duration: .3s, 1.5s;
-  animation-duration: .3s, 1.5s;
-  -webkit-animation-delay: 0s, .3s;
-  animation-delay: 0s, .3s;
-  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-duration: 0.3s, 1.5s;
+  animation-delay: 0s, 0.3s;
   animation-timing-function: ease-out, ease-in-out;
-  -webkit-animation-iteration-count: 1, infinite;
   animation-iteration-count: 1, infinite;
-  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
 
-/* Like Me! - Bounce In hover from https://github.com/IanLunn  */
 .hvr-bounce-in {
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.5s;
+  box-shadow: 0 0 1px rgb(0, 0, 0, 0);
   transition-duration: 0.5s;
 }
 
 .hvr-bounce-in:hover,
 .hvr-bounce-in:focus,
 .hvr-bounce-in:active {
-  -webkit-transform: scale(1.4);
   transform: scale(1.4);
-  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
-/* -------------------------------- 
-        Footer 
- --------------------------------*/
 footer {
   background-color: #fff;
 }
@@ -966,9 +843,9 @@ footer {
   border-radius: 2px;
   background-color: #6A7F91;
   position: absolute;
-  bottom: -.25rem;
+  bottom: -0.25rem;
   left: 0;
-  transition: width .4s;
+  transition: width 0.4s;
 }
 
 .social-link:hover::before {
@@ -981,7 +858,6 @@ a:hover {
   text-decoration: none;
 }
 
-/* Social icons/links */
 .social-card {
   width: fit-content;
   height: fit-content;
@@ -992,7 +868,6 @@ a:hover {
   background-color: #fff;
 }
 
-/* social containers */
 .socialContainer {
   width: 42px;
   height: 42px;
@@ -1002,36 +877,32 @@ a:hover {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
-/* instagram */
 .containerOne:hover {
   background-color: #d62976;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
-/* twitter */
 .containerTwo:hover {
   background-color: #00acee;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
-/* linkdin */
 .containerThree:hover {
   background-color: #0072b1;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
-/* Whatsapp */
 .containerFour:hover {
   background-color: #128C7E;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .socialContainer:active {
   transform: scale(0.9);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .socialSvg {
@@ -1058,17 +929,12 @@ a:hover {
   }
 }
 
-/* -------------------------------- 
-Media Queries 
---------------------------------*/
-/* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
   }
 }
 
-/* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
   .fixed-top-desktop-only {
     position: fixed;
@@ -1083,9 +949,7 @@ Media Queries
   }
 }
 
-/* pad top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
-
   .header-container {
     padding-top: 136px;
   }
@@ -1116,20 +980,19 @@ Media Queries
   }
 
   .navbar-toggler {
-    padding: .6rem .6rem;
+    padding: 0.6rem 0.6rem;
     font-size: 1rem;
   }
 
   #delivery-banner h4 {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .increment-qty,
   .decrement-qty {
-    padding: .25rem .5rem !important;
+    padding: 0.25rem 0.5rem !important;
   }
 
-  /* Footer font */
   .footer-lg-font {
     font-size: 1rem;
   }
@@ -1138,22 +1001,18 @@ Media Queries
     font-size: 0.8rem;
   }
 
-
   .error-container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 80vh;
-    /* Adjusts the height to vertically center the content */
   }
 
   .content-box {
-    border: 2px solid #f0f0f0;
-    /* Adds a subtle border */
+    border: #f0f0f0 solid 2px;
     border-radius: 15px;
     background-color: #ffffff;
     color: #333;
-    /* Dark grey text color for better readability */
     max-width: 600px;
   }
 
@@ -1163,55 +1022,42 @@ Media Queries
 
   .logo-icon {
     width: 80px;
-    /* Uniform size for logos */
     height: auto;
     margin: 0 10px;
   }
 
   .message-section h1 {
     font-size: 2.5em;
-    /* Larger text for the error code */
     color: #cc0000;
-    /* Red color for emphasis */
   }
 
   .message-section h4 {
     font-size: 1.5em;
-    /* Appropriately sized message text */
     color: #555;
-    /* Slightly lighter grey for the message */
   }
 
   .btn-aa {
     background-color: #0062cc;
-    /* A more vibrant button color */
     color: #ffffff;
     padding: 10px 20px;
     font-size: 1.2em;
-    /* Larger font size for better readability */
     border-radius: 5px;
-    /* Rounded corners for the button */
     text-decoration: none;
-    /* Removes underline from the link */
     transition: background-color 0.3s;
-    /* Smooth transition for hover effect */
   }
 
   .btn-aa:hover {
     background-color: #004885;
-    /* Darker shade on hover for interactive feel */
+  }
+}
+
+@media (max-width: 768px) {
+  .content-box {
+    padding: 20px;
   }
 
-  @media (max-width: 768px) {
-    .content-box {
-      padding: 20px;
-      /* More padding on smaller screens */
-    }
-
-    .logo-icon {
-      width: 60px;
-      /* Smaller logos on mobile */
-    }
+  .logo-icon {
+    width: 60px;
   }
 }
 
@@ -1233,7 +1079,6 @@ Media Queries
 
 .li_ {
   padding: 1rem 1.5rem 1.5rem 1.15rem;
-  /* Assuming the intention was to use four values for padding */
   text-transform: uppercase;
   cursor: pointer;
   color: #650031;
@@ -1256,23 +1101,19 @@ Media Queries
 
 @keyframes spring {
   15% {
-    -webkit-transform-origin: center center;
-    -webkit-transform: scale(1.2, 1.1);
+    transform: translateY(4px);
   }
 
   40% {
-    -webkit-transform-origin: center center;
-    -webkit-transform: scale(0.95, 0.95);
+    transform: translateY(4px);
   }
 
   75% {
-    -webkit-transform-origin: center center;
-    -webkit-transform: scale(1.05, 1);
+    transform: translateY(4px);
   }
 
   100% {
-    -webkit-transform-origin: center center;
-    -webkit-transform: scale(1, 1);
+    transform: translateY(4px);
   }
 }
 
@@ -1282,9 +1123,7 @@ Media Queries
 
 .footer {
   background-color: #650031;
-  /* Dark background for contrast */
   color: #f8f9fa;
-  /* Light text for readability */
 }
 
 .footer .footer-link {
@@ -1300,12 +1139,10 @@ Media Queries
   color: #f8f9fa;
   margin: 0 10px;
   font-size: 24px;
-  /* Larger icons for better clickability and visibility */
 }
 
 .social-icons a:hover {
   color: #ffc107;
-  /* Highlight color on hover */
 }
 
 .footer-newsletter .btn-outline-secondary {
@@ -1318,89 +1155,58 @@ Media Queries
   border-color: #ffc107;
 }
 
-/* Responsive adjustments */
 @media (max-width: 767px) {
   .social-icons {
     margin-bottom: 20px;
-    /* Extra space in smaller screens */
   }
 }
 
 .top-div {
   position: absolute;
   top: 0;
-  /* Adjusted to proper use */
-  /* other properties */
 }
-
 
 .carousel-item img {
   height: 80vh;
-  /* Adjust the height of the images in the carousel */
   object-fit: cover;
-  /* Ensures images cover the div without being stretched */
 }
 
 .carousel-caption {
   top: 0;
-  /* Position at the top of the carousel */
   right: 15%;
-  /* Right alignment with some padding from the right edge */
   left: 15%;
-  /* Maintain consistent padding from the left edge */
   bottom: auto;
-  /* Remove any bottom positioning */
   text-align: center;
-  /* Align text to center if that suits your design */
-  /* background: rgba(0, 0, 0, 0.1); /* Optional: adds a semi-transparent background for readability */
   padding: 20px;
-  /* Padding to keep content from touching the edges */
   border-radius: 8px;
-  /* Optional: adds rounded corners */
 }
 
 .carousel-caption-left {
   top: 0;
-  /* Position at the top of the carousel */
   left: 5%;
-  /* Maintain consistent padding from the left edge */
   text-align: left;
-  /* Align text to center if that suits your design */
-  padding: 0px;
-  /* Padding to keep content from touching the edges */
+  padding: 0;
   border-radius: 8px;
-  /* Optional: adds rounded corners */
 }
 
 .carousel-caption-center {
   top: 50px;
-  /* Position at the top of the carousel */
   background: #65003124;
-  /* Optional: adds a semi-transparent background for readability*/
-
   padding: 100px;
-  /* Padding to keep content from touching the edges */
-
 }
 
-/* Ensure the captions don't overlap the indicators or controls */
 .carousel-indicators {
   top: auto;
   bottom: 10px;
-  /* Position indicators at the bottom */
 }
 
-/* Adjust the size and position of control icons if needed */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   filter: invert(100%);
-  /* Makes the arrows more visible on darker backgrounds */
 }
-
 
 .carousel-indicators li {
   background-color: #650031;
-  /* Make the indicators more visible */
 }
 
 .top-div {
@@ -1408,13 +1214,12 @@ Media Queries
   top: 0;
 }
 
-
 .card {
   position: relative;
   height: 350px;
   width: 350px;
   margin: 10px 0;
-  transition: ease all 1.3s;
+  transition: all 1.3s ease;
   perspective: 1200px;
 }
 
@@ -1424,7 +1229,6 @@ Media Queries
 
 .card .cover .price {
   text-shadow: 2px 2px 5px #0f15196c;
-  /* example values */
 }
 
 .card:hover .cover:before {
@@ -1452,7 +1256,7 @@ Media Queries
   height: 100%;
   width: 100%;
   transform-style: preserve-3d;
-  transition: ease all 0.8s;
+  transition: all 0.8s ease;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1461,40 +1265,40 @@ Media Queries
 .card .cover:before {
   content: '';
   position: absolute;
-  border: 5px solid rgba(255, 255, 255, .5);
-  box-shadow: 0 0 12px rgba(69, 4, 25, .3);
+  border: rgb(255, 255, 255, 0.5) solid 5px;
+  box-shadow: 0 0 12px rgb(69, 4, 25, 0.3);
   top: 20px;
   left: 20px;
   right: 20px;
   bottom: 20px;
   z-index: 2;
-  transition: ease all 1.3s;
+  transition: all 1.3s ease;
   transform-style: preserve-3d;
-  transform: translateZ(0px);
+  transform: translateZ(0);
 }
 
 .card .cover:after {
   content: '';
   position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 2;
-  transition: ease all 1.3s;
-  background: rgba(245, 245, 220, 0.163);
+  transition: all 1.3s ease;
+  background: rgb(245, 245, 220, 0.163);
 }
 
 .card .cover.item-a {
-  background-image: url('https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=600&q=80');
+  background-image: url("https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=600&q=80");
 }
 
 .card .cover.item-b {
-  background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=600&q=80');
+  background-image: url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=600&q=80");
 }
 
 .card .cover.item-c {
-  background-image: url('https://images.unsplash.com/photo-1525945518069-b924046d1385?auto=format&fit=crop&w=600&q=80');
+  background-image: url("https://images.unsplash.com/photo-1525945518069-b924046d1385?auto=format&fit=crop&w=600&q=80");
 }
 
 .card .cover h1 {
@@ -1505,11 +1309,11 @@ Media Queries
   color: beige;
   padding: 10px;
   transform-style: preserve-3d;
-  transition: ease all 1.3s;
+  transition: all 1.3s ease;
   z-index: 3;
   background: #6500318e;
   font-size: 2.5em;
-  transform: translateZ(0px);
+  transform: translateZ(0);
 }
 
 .card .cover .price {
@@ -1519,13 +1323,12 @@ Media Queries
   right: 30px;
   color: #650031;
   transform-style: preserve-3d;
-  transition: ease all 1.3s;
-  text-shadow: 2px 2px 5px rgba(15, 21, 25, 0.42);
+  transition: all 1.3s ease;
+  text-shadow: 2px 2px 5px rgb(15, 21, 25, 0.42);
   z-index: 4;
-  background: rgba(245, 245, 220, 0.577);
-
+  background: rgb(245, 245, 220, 0.577);
   font-size: 1.5em;
-  transform: translateZ(0px);
+  transform: translateZ(0);
 }
 
 .card .card-back {
@@ -1534,7 +1337,7 @@ Media Queries
   width: 100%;
   background: #650031;
   transform-style: preserve-3d;
-  transition: ease all 1.3s;
+  transition: all 1.3s ease;
   transform: translateZ(-1px);
   display: flex;
   align-items: center;
@@ -1543,10 +1346,10 @@ Media Queries
 
 .card .card-back a {
   transform-style: preserve-3d;
-  transition: ease transform 1.3s, ease background 0.5s;
+  transition: transform 1.3s ease, background 0.5s ease;
   transform: translateZ(-1px) rotatey(-180deg);
   background: transparent;
-  border: 1px solid #f5f5dc;
+  border: #f5f5dc solid 1px;
   font-weight: 200;
   font-size: 1.3em;
   color: #f5f5dc;
@@ -1560,17 +1363,8 @@ Media Queries
   color: #0b0f08;
 }
 
-
-
 .preview {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -1581,9 +1375,6 @@ Media Queries
 }
 
 .preview-pic {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
@@ -1617,44 +1408,29 @@ Media Queries
 
 .tab-content img {
   width: 100%;
-  -webkit-animation-name: opacity;
   animation-name: opacity;
-  -webkit-animation-duration: .3s;
-  animation-duration: .3s;
+  animation-duration: 0.3s;
 }
 
 .card-detail {
   margin-top: 50px;
-  background: rgba(245, 245, 220, 0.366);
+  background: rgb(245, 245, 220, 0.366);
   padding: 3em;
   line-height: 1.5em;
 }
 
 @media screen and (min-width: 997px) {
   .wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 .details {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .colors {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
@@ -1679,7 +1455,6 @@ Media Queries
 .sizes {
   margin-bottom: 15px;
 }
-
 
 .rating-checked {
   margin-bottom: 15px;
@@ -1733,8 +1508,7 @@ Media Queries
   text-transform: UPPERCASE;
   font-weight: bold;
   color: #fff;
-  -webkit-transition: background .3s ease;
-  transition: background .3s ease;
+  transition: background 0.3s ease;
 }
 
 .add-to-cart:hover,
@@ -1770,30 +1544,14 @@ Media Queries
   padding: 1.3em;
 }
 
-@-webkit-keyframes opacity {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(3);
-    transform: scale(3);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
 @keyframes opacity {
   0% {
     opacity: 0;
-    -webkit-transform: scale(3);
     transform: scale(3);
   }
 
   100% {
     opacity: 1;
-    -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
