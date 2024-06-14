@@ -286,7 +286,7 @@ Important part of your README!!!
 ![Screenshot](media/updateprofile%20validation.png)
 
 # Css Code Validation
-1[Screenshot](media/base.cssvalidation.png)
+![Screenshot](media/base.cssvalidation.png)
 
 ### Manual Testing user stories
 Test all your user stories, you an create table 
