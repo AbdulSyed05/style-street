@@ -267,7 +267,11 @@ Important part of your README!!!
 
 # HTML Code Validation
 
+# Home
 ![Screenshot](media/homevalidation.png)
+
+# Login Validation
+![Screenshot](media/loginvalidation.png)
 
 ### Manual Testing user stories
 Test all your user stories, you an create table 
