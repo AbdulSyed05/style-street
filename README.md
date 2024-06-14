@@ -308,7 +308,7 @@ Important part of your README!!!
 
 ![Screenshot](media/url.py2.png)
 
-![Screenshot]
+![Screenshot](media/apps.py.png)
 
 
 ### Manual Testing user stories
