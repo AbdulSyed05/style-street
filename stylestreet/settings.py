@@ -14,6 +14,7 @@ from pathlib import Path
 import os
 import dj_database_url
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -23,10 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get("SECRET_KEY")
-SECRET_KEY = "tl5f@@%^ycl#4+(0l#i=qqz#i7)u6@rg7uh3(heyc+_(ih#6"
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = "DEVELOPMENT" in os.environ
-DEBUG = True
 
 ALLOWED_HOSTS = ["*", "stylestreet.herokuapp.com", "localhost"]
 
@@ -127,7 +127,7 @@ WSGI_APPLICATION = "stylestreet.wsgi.application"
 if "DATABASE_URL" in os.environ:
     DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}
 
-    print("Connected")
+    print("Production")
 else:
     DATABASES = {
         "default": {

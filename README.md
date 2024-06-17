@@ -318,19 +318,6 @@ Important part of your README!!!
 ![Screenshot](media/apps.py.png)
 
 
-### Manual Testing user stories
-Test all your user stories, you an create table 
-User Story |  Test | Pass
---- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
-- attach screenshot
-### Manual Testing features
-Test all your features, you can use the same approach 
-| Status | feature
-|:-------:|:--------|
-| &check; | description
-- attach screenshot
-
 ## Bugs
 
 ### User Authentication Bugs
