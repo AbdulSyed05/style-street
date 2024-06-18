@@ -1000,4 +1000,4 @@ You can fork this repository by using the following steps:
 the project
 
 
-[Back to top &uarr;](#contents)
+[Back to top &uarr;](
