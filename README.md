@@ -275,161 +275,273 @@ Testing was done throughout site development, for each feature before it was mer
 Usability was tested with the below user acceptance testing, sent to new users to ensure testing from different users, on different devices and browsers to ensure issues were caught and where possible fixed during development.
 
 
-| Page    | User Actions           | Expected Results | Y/N | Comments    |
-|-------------|------------------------|------------------|------|-------------|
-| Sign Up     |                        |                  |      |             |
-| 1           | Click on Sign Up button | Redirection to Sign Up page | Y |          |
-| 2           | Click on the Login link in the form | Redirection to Login page | Y |          |
-| 3           | Enter valid email 2 times | Field will only accept email address format | Y |          |
-| 4           | Enter valid password 2 times | Field will only accept password format | Y |          |
-| 5           | Click on Sign Up button | asks user to confirm email page Sends address a confirmation request email | Y |          |
-| 6           | Confirm email | Redirects user to blank Sign In page | Y |          |
-| 7           | Sign In | Redirects user to blank In page | Y |          |
-| 8           | Sign In with the same email/username and password | Takes user to schedule page with pop-up confirming successful sign in. Get started button now missing in main nav, replaced by Menu | Y |          |
-| 9           | Click "Logout" button  in the center of the page| Redirects user to home page | Y |          |
-| 10          | Click browser back button | You are still logged out | Y |          |
-| Log In      |                        |                  |      |             |
-| 1           | Click on Log In button | Redirection to Log In page | Y |          |
-| 2           | Click on the Sign Up link in the form | Redirection to Sign Up page | Y |          |
-| 3           | Enter valid email | Field will only accept email address format | Y |          |
-| 4           | Enter valid password | Field will only accept password format | Y |          |
-| 5           | Click on Log In button | Redirects user to blank In page | Y |          |
-| 6           | click logout button | Redirects user to home page | Y |          |
-| 7           | Click browser back button | You are still logged out | Y |          |
-| 8           | Click on Log In button | Redirection to Log In page | Y |          |
-| 9           | Enter valid email | Field will only accept email address format | Y |          |
-| 10          | Enter valid password | Field will only accept password format | Y |          |
-| 11          | Click Remember Me checkbox | Remembers user | Y |          |
-| 12          | Click on Log In button | Redirects user to blank In page | Y |          |
-| 13          | Click logout button | Redirects user to home page | Y |          |
-| 14          | Click browser back button | You are still logged out | Y |          |
-| 15          | Click on Log In button | Redirection to Log In page prefilled | Y |          |
-| Navigation  |                        |                  |      |             |
-| 1           | Click on the logo | Redirection to home page | Y |          |
-| 2           | Click Store | Redirection to Store page | Y |          |
-| 3           | Click wishlist button | Redirection to wishlist page | Y |          |
-| 4           | Click bag button | Redirection to bag page | Y |          |
-| 5           | Click Profile button | Redirection to Profile page | Y |          |
-| 6           | Click Logout button | Redirection to logout page | Y |          |
-| Admin Navigation |                        |                  |      |             |
-| 1           | Click Personnel dashboard | Dropdown menu opens | Y |          |
-| 2           | Click on Promo | Redirection to Promo page | Y |          |
-| 3           | Click on Emails | Redirection to create email page | Y |          |
-| 4           | Click Categories | Redirection to Categories page | Y |          |
-| 5           | Click Brands | Redirection to Brands page | Y |          |
-| 6           | Click on Tags | Redirection to Tags page | Y |          |
-| 7           | Click on Product Types | Redirection to Product Types page | Y |          |
-| 8           | Click on Product attributes | Redirection to Product attributes page | Y |          |
-| 9           | Click on Attributes values | Redirection to Attributes values page | Y |          |
-| 11          | Click on Products | Redirection to Products page | Y |          |
-| 12          | Click on Users | Redirection to Users page | Y |          |
-| 13          | Click on Stock | Redirection to Stock page | Y |          |
-| 14          | Click on Orders | Redirection to Orders page | Y |          |
-| 15          | Click on Stock Requests | Redirection to Stock Requests page | Y |          |
-| Store       |                        |                  |      |             |
-| 1           | Type in search bar | Search results are displayed | Y |          |
-| 2           | Select a category | Products are displayed | Y |          |
-| 3           | Click on like button | Product is added to wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
-| 4           | Click on the unlike button | Product is removed from wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
-| 5           | Click on the product cart | User will be redirected to the product details page | Y | |
-| 6           | Click on page navigation | User will be redirected to the correct page | Y | |
-| Product Details |                        |                  |      |             |
-| 1           | Click on left or right carousel | Carousel will change | Y | If there is only 1 image, there will be no arrow to click |
-| 2           | Click on heart button | Product is added to wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
-| 3           | Click on the unlike button | Product is removed from wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
-| 4           | Click on View Reviews button | User will be redirected to the product reviews page | Y | If product hasn't been reviewed, user will not see the button |
-| 5           | Click on the product options (color, size, etc) | User will see price changes | Y | |
-| 6           | Click reset button | All selections are reset | Y | |
-| 7           | User selects all options | User will see price changes and add to bag button will be enable| Y | |
-| 8           | Click on plus-minus quantity | Quantity will change | Y | If there is not enough stock, the quantity will not change, plus button will be disabled when the user reach the limited number, and a warning message will be displayed |
-| 9           | Click on add to bag button | Product is added to bag and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
-| 10          | Click Yes on request item pop-up | User will see a modal with products options and quantity | Y | Displayed only if the product inventory not in stock at this moment        |
-| 11          | Click on the product options (color, size, etc) and clicks send request button | Modal will be closed, and user will see a message to notify user, the user will also receive an email with the product options and quantity | Y |  If user requested a product inventory which is not in stock, modal will be closed, notification will not be sent and user will see a message that he/she may purchase the product right now |
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Welcome screen has loaded correctly and as intended | Pass |
+| Verified that the user can click sign-up button when not authenticated | Pass |
+| Verified that the user can click login button when not authenticated | Pass |
+| Verified that the user can logout from user profile dropdown when authenticated | Pass |
+| Verified that the user can click browse products by pressing 'Shop Now' button | Pass |
+| Verified that the user gets redirected to home page when logo is clicked  | Pass |
+| Verified that the user gets redirected to 'Shoppin Bag' when 'Bag' icon is clicked  | Pass |
+| Verified that the user can search product (search inludes product name and description) | Pass |
+| Verified that the 'Keep Shopping' link on empty 'Bag' page works as intended  | Pass |
+| Verified that the user can use a drop down links | Pass |
+| Verified that the user can click links in navbar and each link opens as intended | Pass |
+| Verified that the user can choose user add product from 'My Account' dropdown when authenticated | Pass |
+| Verified that the user can choose user profile from 'My Account' dropdown when authenticated | Pass |
+| Verified that the nav search menu works as intended and takes user to particular search | Pass |
+| Verified that the nav filtering menu works as intended and takes user to particular filter  | Pass |
+| Verified that the footer social links work as intended  | Pass |
+| Verified that the user can click each social link and all open on a new page | Pass |
+| Verified that the footer category links work as intended  | Pass |
 
-| Profile     |                        |                  |      |             |
-| 1           | Click on the edit button | User will be redirected to the edit profile page | Y | |
-| 2           | Click on the add address button | User will be redirected to the add address page | Y | |
-| 3           | Click on the manage addresses button | User will be redirected to the manage addresses page | Y |  |
-| 4           | Click on the My Orders button | User will be redirected to the My Orders page | Y | |
-| 5           | Click on the My Reviews button | User will be redirected to the My Reviews page | Y | |
-| 6           | Click on the My Wishlist button | User will be redirected to the My Wishlist page | Y | |
-| Edit Profile Data |                        |                  |      |             |
-| 1           | Type in the first name | First name is changed | Y | |
-| 2           | Type in the last name | Last name is changed | Y | |
-| 3           | Select birth date | Birth date is changed | Y | |
-| 4           | Click subscribe checkbox | User will be subscribed to the newsletter | Y | |
-| 5           | Click Save changes button | Changes will be confirmed and the user will see a message to notify them | Y | |
-| My addresses|                        |                  |      |             |
-| 1           | Click on the add address button | User will be redirected to the add address page | Y | |
-| 2           | Click on the edit button on the address card | User will be redirected to the edit address page | Y | |
-| 3           | Click on Enable as Primary button | Address is set as primary | Y | If there were another primary address, it will be set as not primary |
-| 4           | Click on Disable as Primary button | Address is set as not primary | Y | |
-| Add Address |                        |                  |      |             |
-| 1           | Select country | Country is selected | Y | |
-| 2           | Select state | State is selected | Y | |
-| 3           | Select city | City is selected | Y | |
-| 4           | Type in the address | Address is changed | Y | |
-| 5           | Type in a zip code | Zip code is changed | Y | |
-| 6           | Type in the phone number | Phone number is changed | Y | |
-| 7           | Check primary checkbox | Address is set as primary | Y | |
-| 8           | Click Save changes button | Changes will be confirmed and the user will see a message to notify them | Y | |
-| 9           | Click on the cancel button | Changes will not be confirmed and the user will be redirected to the manage addresses page | Y | |
-| Edit Address|                        |                  |      |             |
-| 1           | Select country | Country is selected | Y | |
-| 2           | Select state | State is selected | Y | |
-| 3           | Select city | City is selected | Y | |
-| 4           | Type in the address | Address is changed | Y | |
-| 5           | Type in a zip code | Zip code is changed | Y | |
-| 6           | Type in the phone number | Phone number is changed | Y | |
-| 7           | Check primary checkbox | Address is set as primary | Y | |
-| 8           | Click Save changes button | Changes will be confirmed and the user will see a message to notify them | Y | |
-| 9           | Click on the cancel button | Changes will not be confirmed and the user will be redirected to the manage addresses page | Y | |
-| 10          | Click on Delete address button | User will see a dropdown menu with the confirmation message | Y | |
-| 11          | Click Yes button in the dropdown menu | User will be redirected to the manage addresses page and the message will appear to notify user | Y | |
-| 12          | Click No button in the dropdown menu | The dropdown menu will be closed | Y | |
-| My Orders   |                        |                  |      |             |
-| 1           | Click on the order card | User will be redirected to the order page | Y | |
-| My Order Details |                        |                  |      |             |
-| 1           | Click on the Back to my orders button | User will be redirected to the My Orders page | Y | |
-| 2           | Click on the Add review button | User will be redirected to the Add review page | Y | This button is available only if the order is completed |
-| 3           | Click on the View review button | User will be redirected to the View review page | Y | This button is available only if the order is completed  and the user has already reviewed the order |
-| 4           | Click on the product's name | User will be redirected to the product page | Y | |
-| Add Review  |                        |                  |      |             |
-| 1           | Select rating | Rating is selected | Y | |
-| 2           | Type in the review | Review is changed | Y | |
-| 3           | Click on the add review image button | User will see a pop up window to upload an image | Y | |
-| 4           | Click on the upload button | User will see a pop up window to upload an image | Y | |
-| 5           | Click on the cancel button | Changes will not be confirmed | Y | |
-| 6           | Click on the save button | Changes will be confirmed and the review will be added | Y | |
-| View Review |                        |                  |      |             |
-| 1           | Click on the Product card | User will be redirected to the product page | Y | |
-| My Reviews  |                        |                  |      |             |
-| 1           | Click on the review card | User will be redirected to the review page | Y | |
-| Bag         |                        |                  |      |             |
-| 1           | Click on ready to purchase button | the page will smoothly scroll to the bottom of the page | Y | |
-| 2           | Click on the product's name | User will be redirected to the product page | Y | |
-| 3           | Click on the minus button | Quantity is decreased and the user will see a message to notify them | Y | If there was only one product in the bag, the product will be removed and the user will see a message to notify them |
-| 4           | Click on the plus button | Quantity is increased and the user will see a message to notify them | Y | If there was not enough products in the stock, the quantity will not be increased and the user will see a message to notify them |
-| 5           | Click on the remove button | Product is removed from the bag and the user will see a message to notify them | Y | |
-| 6           | Click on empty bag button | The user will see a modal window to confirm the empty bag | Y | |
-| 7           | Click on the cancel button | Changes will not be confirmed | Y | |
-| 8           | Click on the confirm button | Changes will be confirmed and the bag will be emptied and the user will see a message to notify them | Y | |
-| 9           | Type in the coupon code and click on the apply button | Coupon is applied and the user will see a message to notify them | Y | If the coupon is not valid, the user will see a message to notify them |
-| 10          | Click on the checkout button | User will be redirected to the checkout page | Y | |
-| Checkout    |                        |                  |      |             |
-| 1           | Type in the Full name | Full name is changed | Y | If user has filled out the profile fully, the filled will be filled automatically |
-| 2           | Type in the email | Email is changed | Y | |
-| 3           | Type in the phone number | Phone number is changed | Y | If user has set the primary address, the phone number will be set automatically |
-| 4           | Type in the address | Address is changed | Y | If user has set the primary address, the address will be set automatically |
-| 5           | Type in the zip code | Zip code is changed | Y | If user has set the primary address, the zip code will be set automatically |
-| 6           | Select country | Country is selected | Y | If user has set the primary address, the country will be set automatically |
-| 7           | Select state | State is selected | Y | If user has set the primary address, the state will be set automatically |
-| 8           | Select city | City is selected | Y | If user has set the primary address, the city will be set automatically |
-| 9           | Type payment card data | Payment card data is changed | Y | |
-| 10          | Click on the pay button | The pay button will be disabled and the user will see a message to notify them | Y | If the payment card is not valid, the user will see a message to notify them. If the payment was successful, the user will be redirected to the order placed page and user will also receive an email notification |
-| Order Placed|                        |                  |      |             |
-| 1           | Click on the View my orders button | User will be redirected to the My Orders page | Y | |
-| Personnel Apps |                        |                  |      | Access only to personnel members |
+
+## __Sign Up__
+
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Sign Up screen has loaded correctly and as intended | Pass |
+| Varified that the User is edirected to sign up page when 'Register' is clicked in "My Account' nav menu | Pass |
+| Varified that the User must type in correct characters in username, email and passwrods fields | Pass |
+| Varified that the when all required info is provided, User account is created after pressing sign up button | Pass |
+| Varified that a confirmation email is sent to user requesting to confirm email address  | Pass |
+| Varified that after account is created and email confirmed, User can login menu shows only create profile link | Pass |
+| Varified that after account is created and email confirmed, User can update his details | Pass |
+| Varified that the user is being updated by quick messages as intended | Pass |
+
+
+## __Login__
+
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Login screen has loaded correctly and as intended | Pass |
+| Varified that the User must type in username and passwrod to login | Pass |
+| Varified that after login User is redirected to main screen | Pass |
+| Varified that after login User is presented with correct nav links | Pass |
+| Varified that after login User given all user rights | Pass |
+| Varified that after login Superuser is redirected to main screen | Pass |
+| Varified that after login Superuser is presented with correct nav links | Pass |
+| Varified that after login Superuser given all superuser rights | Pass |
+| Verified that when User clicks 'Forgot Password' it's being redirected to password reset page | Pass |
+| Varified that the user is being updated by quick messages as intended | Pass |
+
+
+## __Update Profile Screen__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| 'My Profile' link has opened and loaded correctly and as intended | Pass |
+| Verified that the User can update Phone number | Pass |
+| Verified that the User can update Street Address 1 | Pass |
+| Verified that the User can update Street Address 2 | Pass |
+| Verified that the User can update Town or City | Pass |
+| Verified that the User can update County | Pass |
+| Verified that the User can update Postal Code | Pass |
+| Verified that the User can update Phone number | Pass |
+| Verified that the User can update Country | Pass |
+| Verified that 'Update Profile' button updates data | Pass |
+| Verified that User is shown 'Order History'  | Pass |
+| Verified that User can open any saved 'Order History' and view details  | Pass |
+| Varified that the user is being updated by quick messages as intended | Pass |
+
+
+## __Change Password Screen__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Change password screen has loaded correctly and as intended | Pass |
+| Verified that the User can update their password via email| Fail |
+
+
+## __Search__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Search product screen has loaded correctly and as intended | Pass |
+| Varified that the User is allowed to search product db when authenticated or not | Pass |
+| Varified that the User is presented with search result page regardles of whether capital or lowercase characters are typed in | Pass |
+| Varified that the User is redirected to search results screen once clicked 'Search' | Pass |
+| Verified that the user can open products loaded from search results | Pass |
+| Verified that the user can go back to products page when clicking 'Home' | Pass |
+| Varified that the user is being updated by quick messages as intended | Pass |
+
+
+## __Products Screen__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Products screen has loaded correctly and as intended | Pass |
+| Verified that the user can open Products loaded when authenticated or not  | Pass |
+| Verified that the user can sort by category by clicking category name | Pass |
+| Verified that pagination is working as intended | Pass |
+| Verified that 'All Products' link in navbar redirects to 'All Products' page | Pass |
+| Verified that 'All Products' by Price after clicking are being shown sorted as intended  | Pass |
+| Verified that 'All Products' by Category after clicking are being shown sorted as intended  | Pass |
+| Verified that 'Sale' link in navbar redirects user to chosen 'Category' as intended   | Pass |
+| Verified that 'Products Home' link on top-left of the page redirects user to chosen 'home' page as intended   | Pass |
+| Verified that Products count on top-left of the page counts products correctly and as intended   | Pass |
+| Verified that product images are displayed correctly with all links working  | Pass |
+| Verified that product details are displayed correctly  | Pass |
+| Verified that product badges are displayed correctly  | Pass |
+| Verified that User can click on Product image to be redirected and view Product details page  | Pass |
+| Verified that User can click on Product category to be redirected and shown all Product in this category  | Pass |
+| Verified that User can click on 'Add to bag' for the product to be added to the bag  | Pass |
+| Verified that User cannot click on 'Add to bag' when product is out of stock  | Pass |
+| Verified that 'Add to bag' is replaced by 'Out of stock" when product is out of stock | Pass |
+| Verified that when logged in as Superuser, edit and delete links are shown | Pass |
+| Verified that when logged in as Superuser and clicked Edit, User is redireced to 'Edit Product' page | Pass |
+| Verified that when logged in as Superuser and clicked Delete, confirmation msg comes up to confirm deletion | Pass |
+| Varified that the user is being updated by quick messages as intended | Pass |
+
+
+## __Product details Screen__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+info  | Pass |
+| Verified that product badges are displayed correctly  | Pass |
+| Verified that the User can click on Product category to be redirected and shown all Product in this category  | Pass |
+| Verified that the User can click + button on quantity selector form to increases number + 1 | Pass |
+| Verified that the User can click - button on quantity selector form to decreases number - 1 | Pass |
+| Verified that the User is shown a message if added more to the bag then what's in stock | Pass |
+| Verified that the User is shown a message if added more to the bag then 
+|category | Pass |
+| Verified that when logged in as Superuser, edit and delete links are shown | Pass |
+| Verified that when logged in as Superuser and clicked Edit, User is redireced to 'Edit Product' page | Pass |
+| Verified that when logged in as Superuser and clicked Delete, confirmation msg comes up to confirm deletion | Pass |
+| Varified that the User is being updated by quick messages as intended | Pass |
+
+## __Admin__ (Superuser only)
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Superuser can use a quick link from User manu to open Admin Panel | Pass |
+
+
+## __Logout__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Varified that the User can logout by clicking Logout in User manu quick link | Pass |
+| Varified that the User is shown confirmation page before logout | Pass |
+| Varified that the User is logout after confirmation | Pass |
+| Varified that the User logout page redirects user to 'All Products' | Pass |
+| Varified that the User is being updated by quick messages as intended | Pass |
+
+## __Bag__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Verified that Checkout screen has loaded correctly and as intended | Pass |
+| Verified that Cash Register icon in main nav redirects user to bag page | Pass |
+| Verified that + button on quantity selector form increases product by + 1 if it is less than or equal to product's stock | Pass |
+| Verified that - button on quantity selector form decreases product by -1 if it is greater than one | Pass |
+| Verified that update button under quantity selector form updates quantity of product in Bag to number in quantity select form | Pass |
+| Verified that remove button under quantity selector form removes product from Bag completely | Pass |
+| Verified that manually entered number greater than product stock in quantity selector form shows stock availabity error message | Pass |
+| Verified that removing item from basket brings total to below €50 and changes delivery from FREE to 10% | Pass |
+| Verified that 'Keep Shopping' button redirects to 'All Products' page | Pass |
+| Verified that 'Pay Stripe' button redirects to checkout page | Pass |
+| Varified that the User is being updated by quick messages as intended | Pass |
+
+
+## __Checkout__
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Checkout screen has loaded correctly and as intended | Pass |
+| Verified that 'Pay Stripe' button redirects to checkout page | Pass |
+| Click 'Complete Order' button without all required fields filled out shows error message | Pass |
+| Checked 'Save delivery information to profile' button causes information to save data to profile if logged in | Pass |
+| Verified that clicking 'Create Account' link, redirects to sign up page | Pass |
+| Verified tha clicking 'Login' in nav, redirects to sign in page | Pass |
+| Varified that clicking 'Complete Order' button without card details filled out shows error message | Pass |
+| Verified that clicking 'Complete Order' button with all details filled out loads spinner and order is processed | Pass |
+| Varified that 'Order completed' status sends confirmation email, updates stock levels and redirects to checkout success page | Pass | 
+| Verified that the User is being updated by quick messages as intended | Pass |
+
+## __Checkout Success Page__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Checkout success screen has loaded correctly and as intended | Pass |
+| Varified that Order completed redirects to checkout success page | Pass |
+| Varified that clicking 'Checkout latest deals' button redirects user to all products page | Pass |
+| Varified that clicking Back to profile button button redirects user to their profile | Pass | 
+| Varified that the User is being updated by quick messages as intended | Pass |
+ 
+## __Add Product Page__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Add Product screen has loaded correctly and as intended | Pass |
+| Varified that clicking 'Add Product' link from Admin dropdown redirects admin to 'Add product' page | Pass | 
+| Varified that clicking 'Cancel' button redirects admin to all products page | Pass | 
+| Varified that clicking 'Add Product' button with form filled correctly creates a new product | Pass | 
+| Varified that clicking 'Add Product' button with form filled incorrectly shows error message | Pass | 
+| Varified that set product's stock to be less than 1 creates product which is shown as sold out | Pass | 
+| Varified that clicking 'Add Product' button with no image set displayes product with default product image | Pass | 
+| Verified that forcing the URL to add a new product if not Admin  does not work | Pass | 
+| Varified that the User is being updated by quick messages as intended | Pass |
+
+
+## __Edit Product Page__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| 'Edit Product' screen has loaded correctly and as intended | Pass |
+| Verified that clicking edit link on product card redirects user to Edit Product page | Pass |
+| Verified that clicking 'Cancel' button Redirects Admin to 'All Products' page | Pass |
+| Verified that clicking 'Update' Product button with form filled correctly updates product correctly | Pass |
+| Verified that clicking 'Update' Product button with form filled incorrectly shows error message | Pass |
+| Verified that setting product's stock to be less than 1 shows product as 'sold out' with add to basket button disabled | Pass |
+| Verified that setting product's stock to be less than 3 shows product as limited availability | Pass |
+| Verified that setting product's stock to be more than 3 shows product as 'in stock' | Pass |
+| Varified that the User is being updated by quick messages as intended | Pass |
+
+
+## __Delete Product__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| Verified that clicking 'delete' link on product causes a popup message to appear | Pass | 
+| Varified that if the User clickes ok on popup message, product is deleted | Pass |
+| Varified that forcing the URL to delete a product if not an admin does not work | Pass |
+| Varified that the User is being updated by quick messages as intended | Pass |
+
+## __Footer__
+
+
+| Verification | Result |
+| :----------------------------------------------------------: | :-------------: |
+| screen has loaded correctly and as intended | Pass |
+| Verified that clicking social media icons in footer opens social media site clicked in a new tab | Pass |
+| Verified that clicking on for One category link in footer redirects to products page by category | Pass |
+| Verified that clicking on for Kids category link in footer redirects to products page by category | Pass |
+| Verified that clicking on for Families category link in footer redirects to products page by category | Pass |
+| Verified that clicking on for All category link in footer redirects to products page by category | Pass |
+| Verified that clicking on Subscribe button on blank newsletter form shows error message | Pass |
+| Verified that clicking on Subscribe button on filled newsletter form shows alert message | Pass |
+| Verified that clicking subscribe to newsletter with already subscribed email address shows error message | Pass |
+| Varified that the User is being updated by quick messages as intended | Pass |
+
 
 ### Code Validation
 
