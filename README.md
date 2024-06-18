@@ -343,10 +343,10 @@ Usability was tested with the below user acceptance testing, sent to new users t
 | 7           | User selects all options | User will see price changes and add to bag button will be enable| Y | |
 | 8           | Click on plus-minus quantity | Quantity will change | Y | If there is not enough stock, the quantity will not change, plus button will be disabled when the user reach the limited number, and a warning message will be displayed |
 | 9           | Click on add to bag button | Product is added to bag and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
-| 10          | Click Yes on request item pop-up | User will see a modal with products options and quantity | Y | Displayed only if the product inventory not in stock at this moment |
+| 10          | Click Yes on request item pop-up | User will see a modal with products options and quantity | Y | Displayed only if the product inventory not in stock at this moment        |
 | 11          | Click on the product options (color, size, etc) and clicks send request button | Modal will be closed, and user will see a message to notify user, the user will also receive an email with the product options and quantity | Y |  If user requested a product inventory which is not in stock, modal will be closed, notification will not be sent and user will see a message that he/she may purchase the product right now |
 
-| Profile |                        |                  |      |             |
+| Profile     |                        |                  |      |             |
 | 1           | Click on the edit button | User will be redirected to the edit profile page | Y | |
 | 2           | Click on the add address button | User will be redirected to the add address page | Y | |
 | 3           | Click on the manage addresses button | User will be redirected to the manage addresses page | Y |  |
