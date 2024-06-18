@@ -999,4 +999,5 @@ You can fork this repository by using the following steps:
 - I would also like to thank our cohort facilitator Marko Tot, for answering any course-related questions I asked and for providing us with weekly guidance information about 
 the project
 
-Back to [README.md](README.md) file.
+
+[Back to top &uarr;](#contents)
