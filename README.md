@@ -9,7 +9,7 @@ Our goal is to develop a user-friendly E-commerce platform using Django, providi
 
 ## Commit History
 
-- I am aware my commit history isnt what it needs to be this is because I didnt realise My VS Code was not connected to Github. I was in coding my app and forgot to commit on time. 
+- I am aware my commit history isnt what it needs to be this is because I didnt realise My VS Code was not connected to Github. I got lost into coding my app and forgot to commit on time. 
 
 ![Responsive](media/Responsive.png.png)
 
@@ -265,6 +265,445 @@ Important part of your README!!!
 ### Responsiveness
 
 ![Screenshot](media/Responsive.png.png)
+
+# TESTING
+
+## Manual Testing
+
+Testing was done throughout site development, for each feature before it was merged into the master file.
+
+Usability was tested with the below user acceptance testing, sent to new users to ensure testing from different users, on different devices and browsers to ensure issues were caught and where possible fixed during development.
+
+
+| Page    | User Actions           | Expected Results | Y/N | Comments    |
+|-------------|------------------------|------------------|------|-------------|
+| Sign Up     |                        |                  |      |             |
+| 1           | Click on Sign Up button | Redirection to Sign Up page | Y |          |
+| 2           | Click on the Login link in the form | Redirection to Login page | Y |          |
+| 3           | Enter valid email 2 times | Field will only accept email address format | Y |          |
+| 4           | Enter valid password 2 times | Field will only accept password format | Y |          |
+| 5           | Click on Sign Up button | asks user to confirm email page Sends address a confirmation request email | Y |          |
+| 6           | Confirm email | Redirects user to blank Sign In page | Y |          |
+| 7           | Sign In | Redirects user to blank In page | Y |          |
+| 8           | Sign In with the same email/username and password | Takes user to schedule page with pop-up confirming successful sign in. Get started button now missing in main nav, replaced by Menu | Y |          |
+| 9           | Click "Logout" button  in the center of the page| Redirects user to home page | Y |          |
+| 10          | Click browser back button | You are still logged out | Y |          |
+| Log In      |                        |                  |      |             |
+| 1           | Click on Log In button | Redirection to Log In page | Y |          |
+| 2           | Click on the Sign Up link in the form | Redirection to Sign Up page | Y |          |
+| 3           | Enter valid email | Field will only accept email address format | Y |          |
+| 4           | Enter valid password | Field will only accept password format | Y |          |
+| 5           | Click on Log In button | Redirects user to blank In page | Y |          |
+| 6           | click logout button | Redirects user to home page | Y |          |
+| 7           | Click browser back button | You are still logged out | Y |          |
+| 8           | Click on Log In button | Redirection to Log In page | Y |          |
+| 9           | Enter valid email | Field will only accept email address format | Y |          |
+| 10          | Enter valid password | Field will only accept password format | Y |          |
+| 11          | Click Remember Me checkbox | Remembers user | Y |          |
+| 12          | Click on Log In button | Redirects user to blank In page | Y |          |
+| 13          | Click logout button | Redirects user to home page | Y |          |
+| 14          | Click browser back button | You are still logged out | Y |          |
+| 15          | Click on Log In button | Redirection to Log In page prefilled | Y |          |
+| Navigation  |                        |                  |      |             |
+| 1           | Click on the logo | Redirection to home page | Y |          |
+| 2           | Click Store | Redirection to Store page | Y |          |
+|            | Click bag button | Redirection to bag page | Y |          |
+| 5           | Click Profile button | Redirection to Profile page | Y |          |
+| 6           | Click Logout button | Redirection to logout page | Y |          |
+| Admin Navigation |                        |                  |      |             |
+| 1           | Click Personnel dashboard | Dropdown menu opens | Y |          |
+| 2           | Click on Emails | Redirection to create email page | Y |          |
+| 3            | Click Categories | Redirection to Categories page | Y |          |
+| 4           | Click Brands | Redirection to Brands page | Y |          |
+| 5           | Click on Tags | Redirection to Tags page | Y |          |
+| 6           | Click on Product Types | Redirection to Product Types page | Y |          |
+| 7           | Click on Product attributes | Redirection to Product attributes page | Y |          |
+| 8           | Click on Attributes values | Redirection to Attributes values page | Y |          |
+| 9          | Click on Products | Redirection to Products page | Y |          |
+| 10 | Click on Users | Redirection to Users page | Y |          |
+| 11 | Click on Stock | Redirection to Stock page | Y |          |
+| 12 | Click on Orders | Redirection to Orders page | Y |          |
+| 13 | Click on Stock Requests | Redirection to Stock Requests page | Y |          |
+| Store |                        |                  |      |             |
+| 1 | Type in search bar | Search results are displayed | Y |          |
+| 2  | Select a category | Products are displayed | Y |          |
+| 3  | Click on like button | Product is added to wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
+| 4 | Click on the unlike button | Product is removed from wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
+| 5 | Click on the product cart | User will be redirected to the product details page | Y | |
+| 6 | Click on page navigation | User will be redirected to the correct page | Y | |
+| Product Details |                        |                  |      |             |
+| 1 | Click on left or right carousel | Carousel will change | Y | If there is only 1 image, there will be no arrow to click |
+| 2 | Click on heart button | Product is added to wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
+| 3 | Click on the unlike button | Product is removed from wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
+| 4 | Click on View Reviews button | User will be redirected to the product reviews page | Y | If product hasn't been reviewed, user will not see the button |
+| 5 | Click on the product options (color, size, etc) | User will see price changes | Y | |
+| 6 | Click reset button | All selections are reset | Y | |
+| 7 | User selects all options | User will see price changes and add to bag button will be enable| Y | |
+| 8 | Click on plus-minus quantity | Quantity will change | Y | If there is not enough stock, the quantity will not change, plus button will be disabled when the user reach the limited number, and a warning message will be displayed |
+| 9 | Click on add to bag button | Product is added to bag and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
+| 10 | Click Yes on request item pop-up | User will see a modal with products options and quantity | Y | Displayed only if the product inventory not in stock at this moment |
+| 11 | Click on the product options (color, size, etc) and clicks send request button | Modal will be closed, and user will see a message to notify user, the user will also receive an email with the product options and quantity | Y |  If user requested a product inventory which is not in stock, modal will be closed, notification will not be sent and user will see a message that he/she may purchase the product right now |
+
+| Profile |                        |                  |      |             |
+| 1 | Click on the edit button | User will be redirected to the edit profile page | Y | |
+| 2 | Click on the add address button | User will be redirected to the add address page | Y | |
+| 3 | Click on the manage addresses button | User will be redirected to the manage addresses page | Y |  |
+| 4 | Click on the My Orders button | User will be redirected to the My Orders page | Y | |
+| 5 | Click on the My Reviews button | User will be redirected to the My Reviews page | Y | |
+| 6 | Click on the My Wishlist button | User will be redirected to the My Wishlist page | Y | |
+
+| Edit Profile Data |                        |                  |      |             |
+| 1 | Type in the first name | First name is changed | Y | |
+| 2 | Type in the last name | Last name is changed | Y | |
+| 3 | Select birth date | Birth date is changed | Y | |
+| 4 | Click subscribe checkbox | User will be subscribed to the newsletter | Y | |
+| 5 | Click Save changes button | Changes will be confirmed and the user will see a message to notify them | Y | |
+| Edit Password |                        |                  |      |             |
+| 1 | Type in the old password | Old password is changed | Y | |
+| 2 | Type in the new password | New password is changed | Y | |
+| 3 | Type in the new password confirmation | New password confirmation is changed | Y | |
+| 4 | Click Save changes button | Changes will be confirmed and the user will see a message to notify them | Y | |
+| Delete Account |                        |                  |      |             |
+| 1 | Click on the Delete button | User will see a dropdown menu with the confirmation message | Y | |
+| 2 | Click Yes button in the dropdown menu | User will be redirected to the home page and the message will appear to notify user | Y | |
+| 3 | Click No button in the dropdown menu | The dropdown menu will be closed | Y | |
+| My addresses |                        |                  |      |             |
+| 1 | Click on the add address button | User will be redirected to the add address page | Y | |
+| 2 | Click on the edit button on the address card | User will be redirected to the edit address page | Y | |
+| 3 | Click on Enable as Primary button | Address is set as primary | Y | If there were another primary address, it will be set as not primary |
+| 4 | Click on Disable as Primary button | Address is set as not primary | Y | |
+| Add Address |                        |                  |      |             |
+| 1 | Select country | Country is selected | Y | |
+| 2 | Select state | State is selected | Y | |
+| 3 | Select city | City is selected | Y | |
+| 4 | Type in the address | Address is changed | Y | |
+| 5 | Type in a zip code | Zip code is changed | Y | |
+| 6 | Type in the phone number | Phone number is changed | Y | |
+| 7 | Check primary checkbox | Address is set as primary | Y | |
+| 8 | Click Save changes button | Changes will be confirmed and the user will see a message to notify them | Y | |
+| 9 | Click on the cancel button | Changes will not be confirmed and the user will be redirected to the manage addresses page | Y | |
+| Edit Address |                        |                  |      |             |
+| 1 | Select country | Country is selected | Y | |
+| 2 | Select state | State is selected | Y | |
+| 3 | Select city | City is selected | Y | |
+| 4 | Type in the address | Address is changed | Y | |
+| 5 | Type in a zip code | Zip code is changed | Y | |
+| 6 | Type in the phone number | Phone number is changed | Y | |
+| 7 | Check primary checkbox | Address is set as primary | Y | |
+| 8 | Click Save changes button | Changes will be confirmed and the user will see a message to notify them | Y | |
+| 9 | Click on the cancel button | Changes will not be confirmed and the user will be redirected to the manage addresses page | Y | |
+| 10 | Click on Delete address button | User will see a dropdown menu with the confirmation message | Y | |
+| 11 | Click Yes button in the dropdown menu | User will be redirected to the manage addresses page and the message will appear to notify user | Y | |
+| 12 | Click No button in the dropdown menu | The dropdown menu will be closed | Y | |
+| My Orders |                        |                  |      |             |
+| 1 | Click on the order card | User will be redirected to the order page | Y | |
+| My Order Details |                        |                  |      |             |
+| 1 | Click on the Back to my orders button | User will be redirected to the My Orders page | Y | |
+| 2 | Click on the Add review button | User will be redirected to the Add review page | Y | This button is available only if the order is completed |
+| 3 | Click on the View review button | User will be redirected to the View review page | Y | This button is available only if the order is completed  and the user has already reviewed the order |
+| 4 | Click on the product's name | User will be redirected to the product page | Y | |
+| Add Review |                        |                  |      |             |
+| 1 | Select rating | Rating is selected | Y | |
+| 2 | Type in the review | Review is changed | Y | |
+| 3 | Click on the add review image button | User will see a pop up window to upload an image | Y | |
+| 4 | Click on the upload button | User will see a pop up window to upload an image | Y | |
+| 5 | Click on the cancel button | Changes will not be confirmed | Y | |
+| 6 | Click on the save button | Changes will be confirmed and the review will be added | Y | |
+| View Review |                        |                  |      |             |
+| 1 | Click on the Product card | User will be redirected to the product page | Y | |
+| My Reviews |                        |                  |      |             |
+| 1 | Click on the review card | User will be redirected to the review page | Y | |
+| Bag |                        |                  |      |             |
+| 1 | Click on ready to purchase button | the page will smoothly scroll to the bottom of the page | Y | |
+| 2 | Click on the product's name | User will be redirected to the product page | Y | |
+| 3 | Click on the minus button | Quantity is decreased and the user will see a message to notify them | Y | If there was only one product in the bag, the product will be removed and the user will see a message to notify them |
+| 4 | Click on the plus button | Quantity is increased and the user will see a message to notify them | Y | If there was not enough products in the stock, the quantity will not be increased and the user will see a message to notify them |
+| 5 | Click on the remove button | Product is removed from the bag and the user will see a message to notify them | Y | |
+| 6 | Click on empty bag button | The user will see a modal window to confirm the empty bag | Y | |
+| 7 | Click on the cancel button | Changes will not be confirmed | Y | |
+| 8 | Click on the confirm button | Changes will be confirmed and the bag will be emptied and the user will see a message to notify them | Y | |
+| 9 | Type in the coupon code and click on the apply button | Coupon is applied and the user will see a message to notify them | Y | If the coupon is not valid, the user will see a message to notify them |
+| 10 | Click on the checkout button | User will be redirected to the checkout page | Y | |
+| Checkout |                        |                  |      |             |
+| 1 | Type in the Full name | Full name is changed | Y | If user has filled out the profile fully, the filled will be filled automatically |
+| 2 | Type in the email | Email is changed | Y | |
+| 3 | Type in the phone number | Phone number is changed | Y | If user has set the primary address, the phone number will be set automatically |
+| 4 | Type in the address | Address is changed | Y | If user has set the primary address, the address will be set automatically |
+| 5 | Type in the zip code | Zip code is changed | Y | If user has set the primary address, the zip code will be set automatically |
+| 6 | Select country | Country is selected | Y | If user has set the primary address, the country will be set automatically |
+| 7 | Select state | State is selected | Y | If user has set the primary address, the state will be set automatically |
+| 8 | Select city | City is selected | Y | If user has set the primary address, the city will be set automatically |
+| 9 | Type payment card data | Payment card data is changed | Y | |
+| 10 | Click on the pay button | The pay button will be disabled and the user will see a message to notify them | Y | If the payment card is not valid, the user will see a message to notify them. If the payment was successful, the user will be redirected to the order placed page and user will also receive an email notification |
+| Order Placed |                        |                  |      |             |
+| 1 | Click on the View my orders button | User will be redirected to the My Orders page | Y | |
+|                        |                  |      | Access only to personnel members |
+| Personnel Categories |                        |                  |      |             |
+| 1 | Click on the add category button | User will be redirected to the add category page | Y | |
+| 2 | Click on the edit button | User will be redirected to the edit category page | Y | |
+| 3 | Click on the delete button | User will be redirected to the categories page | Y |  access only to administrators |
+| Personnel Add Category |                        |                  |      | Access only to administrators           |
+| 1 | Type in the category name | Category name is changed | Y | |
+| 2 | Check the category status | Category status is changed | Y | |
+| 3 | Click on the cancel button | Changes will not be confirmed and the admin will be redirected to the categories page | Y | |
+| 4 | Click on the add category button | Changes will be confirmed and the admin will be redirected to the categories page | Y | |
+| Personnel Edit Category |                        |                  |      | Access only to administrators           |
+| 1 | Render the category name | Category name is changed | Y | |
+| 2 | Check the category status | Category status is changed | Y | |
+| 3 | Click on the cancel button | Changes will not be confirmed and the admin will be redirected to the categories page | Y | |
+| 5 | Click on the save changes button | Changes will be confirmed and the admin will be redirected to the categories page | Y | |
+| Personnel Delete Category |                        |                  |      | Access only to administrators           |
+| 1 | Click on the cancel button | Changes will not be confirmed and the admin will be redirected to the categories page | Y | |
+| 6 | Click on the confirm button | Changes will be confirmed and the admin will be redirected to the categories page | Y | |
+| Personnel Brands |                        |                  |      |             |
+| 1 | Click on the add brand button | User will be redirected to the add brand page | Y | |
+| 2 | Click on the brand | User will be redirected to the brand page | Y | |
+| 3 | type in the brand name in search field | if brand is found, it will be displayed in the search results | Y | |
+| Personnel Brand |                        |                  |      |             |
+| 1 | Click on the product | User will be redirected to the product page | Y | |
+| 2 | Click on the edit button | User will be redirected to the edit brand page | Y | |
+| 3 | Click on the delete button | User will be redirected to the brands page | Y | Access only to administrators |
+| Personnel Add Brand |                        |                  |      | |
+| 1 | Type in the brand name | Brand name is changed | Y | |
+| 2 | Check the brand description | Brand description is changed | Y | |
+| 3 | Check the brand status | Brand status is changed | Y | |
+| 4 | Click on the cancel button | Changes will not be confirmed and the admin will be redirected to the brands page | Y | |
+| 5 | Click on the add brand button | Changes will be confirmed and the admin will be redirected to the brands page | Y | |
+| Personnel Edit Brand |                        |                  |      | |
+| 1 | Type in the brand name | Brand name is changed | Y | |
+| 2 | Check the brand description | Brand description is changed | Y | |
+| 3 | Check the brand status | Brand status is changed | Y | |
+| 4 | Click on the cancel button | Changes will not be confirmed and the admin will be redirected to the brands page | Y | |
+| 6 | Click on the save changes button | Changes will be confirmed and the admin will be redirected to the brands page | Y | |
+| Personnel Delete Brand |                        |                  |      | access only to administrators           |
+| 1 | Click on the product | User will be redirected to the product page | Y | |
+| 2 | Click on the cancel button | Changes will not be confirmed and the admin will be redirected to the brands page | Y | |
+| 3 | Click on the confirm button | Changes will be confirmed and the admin will be redirected to the brands page | Y | |
+| Personnel Tags |                        |                  |      |             |
+| 1 | Click on the add tag button | User will be redirected to the add tag page | Y | |
+| 2 | Click on the tag | User will be redirected to the tag page | Y | |
+| 3 | type in the tag name in search field | if tag is found, it will be displayed in the search results | Y | |
+| Personnel Tag |                        |                  |      |             |
+| 1 | Click on the product | User will be redirected to the product page | Y | |
+| 2 | Click on the edit button | User will be redirected to the edit tag page | Y | |
+| 3 | Click on the delete button | User will be redirected to the tags page | Y | |
+| Personnel Add Tag |                        |                  |      | |
+| 1 | Type in the tag name | Tag name is changed | Y | |
+| 2 | | Check the tag status | Tag status is changed | Y | |
+| 3 | Click on the cancel button | Changes will not be confirmed and the admin will be redirected to the tags page | Y | |
+| 4 | Click on the add tag button | Changes will be confirmed and the admin will be redirected to the tags page | Y | |
+| Personnel Edit Tag |                        |                  |      | |
+| 1 | Type in the tag name | Tag name is changed | Y | |
+| 2 | Check the tag status | Tag status is changed | Y | |
+| 3 | Click on the cancel button | Changes will not be confirmed and the admin will be redirected to the tags page | Y | |
+| 5 | Click on the save changes button | Changes will be confirmed and the admin will be redirected to the tags page | Y | |
+| Personnel Delete Tag |                        |                  |      | |
+| 1 | Click on the product | User will be redirected to the product page | Y | |
+| 2 | Click on the cancel button | Changes will not be confirmed and the admin will be redirected to the tags page | Y | |
+| 3 | Click on the confirm button | Changes will be confirmed and the admin will be redirected to the tags page | Y | |
+| Personnel Products types |                        |                  |      |             |
+| 1 | Click on the add product type button | User will be redirected to the add product type page | Y | |
+| 2 | Click on the Attributes button | User will see a dropdown menu with the attributes | Y | If product type does not have attributes, the user will see: no attributes |
+| 3 | Type in the product type name in the search field and click on the search button | If product type is found, it will be displayed in the search results | Y | |
+| 4 | Click on the edit button | User will be redirected to the edit product type page | Y | |
+| 5 | Click on the delete button | User will be redirected to the product types page | Y | access only to administrators |
+| Personnel Add Product type |                        |                  |      | |
+| 1 | Type in the product type name | Product type name is changed | Y | |
+| 2 | Select attributes | Attributes are selected | Y | |
+| 3 | Type product type description | Product type description is changed | Y | |
+| 4 | click cancel button | Changes will not be confirmed and the admin will be redirected to the product types page | Y | |
+| 5 | click add product type button | Changes will be confirmed and the admin will be redirected to the product types page | Y | |
+| Personnel Edit Product type |                        |                  |      | |
+| 1 | Type in the product type name | Product type name is changed | Y | |
+| 2 | Select attributes | Attributes are selected | Y | |
+| 3 | Type product type description | Product type description is changed | Y | |
+| 4 | click cancel button | Changes will not be confirmed and the admin will be redirected to the product types page | Y | |
+| 6 | click save changes button | Changes will be confirmed and the admin will be redirected to the product types page | Y | |
+| Personnel Delete Product type |                        |                  |      | access only to administrators           |
+| 1 | Click on go back button | User will be redirected to the product types page | Y | Deletion is forbidden |
+| Personnel Product attributes |                        |                  |      |             |
+| 1 | Click on the add product attribute button | User will be redirected to the add product attribute page | Y | |
+| 2 | Click on the edit button | User will be redirected to the edit product attribute page | Y | |
+| 3 | Click on the delete button | User will be redirected to the product attributes page | Y | access only to administrators |
+| 4 | Type in the product attribute name in the search field and click on the search button | If product attribute is found, it will be displayed in the search results | Y | |
+| Personnel Add Product attribute |                        |                  |      | |
+| 1 | Type in the product attribute name | Product attribute name is changed | Y | |
+| 2 | Type product attribute description | Product attribute description is changed | Y | |
+| 3 | click cancel button | Changes will not be confirmed and the admin will be redirected to the product attributes page | Y | |
+| 4 | click add product attribute button | Changes will be confirmed and the admin will be redirected to the product attributes page | Y | |
+| Personnel Edit Product attribute |                        |                  |      | |
+| 1 | Type in the product attribute name | Product attribute name is changed | Y | |
+| 2 | Type product attribute description | Product attribute description is changed | Y | |
+| 3 | click cancel button | Changes will not be confirmed and the admin will be redirected to the product attributes page | Y | |
+| 5 | click save changes button | Changes will be confirmed and the admin will be redirected to the product attributes page | Y | |
+| Personnel Delete Product attribute |                        |                  |      | access only to administrators           |
+| 1 | Click on go back button | User will be redirected to the product attributes page | Y | Deletion is forbidden |
+| Personnel Attributes Values |                        |                  |      |             |
+| 1 | Click on the add attribute value button | User will be redirected to the add attribute value page | Y | |
+| 2 | Click on the edit button | User will be redirected to the edit attribute value page | Y | |
+| 3 | Click on the delete button | User will be redirected to the attributes values page | Y | access only to administrators |
+| 4 | Type in the attribute value name in the search field and click on the search button | If attribute value is found, it will be displayed in the search results | Y | |
+
+| Personnel Product table |                        |                  |      |             |
+| 1 | Click on the add product button | User will be redirected to the add product page | Y | |
+| 2 | Type in the product name in the search field and click on the search button | If product is found, it will be displayed in the search results | Y | |
+| 3 | Click on the product | User will be redirected to the personnel product page | Y | |
+| Personnel Product details |                        |                  |      | |
+| 1 | Click view in store button | User will be redirected to the product page | Y | |
+| 2 | Click on the edit button | User will be redirected to the edit product page | Y | |
+| 3 | Click on the delete button | User will be redirected to the personnel product page | Y | |
+| 4 | Click on category assigned button | User will be redirected to the categories page | Y | |
+| 5 | Click on the brand assigned button | User will be redirected to the brand details page | Y | |
+| 6 | Click on the tags assigned button | User will be redirected to the tag which was clicked | Y | |
+| 7 | Click on add image button | User will see a modal window with the image upload form | Y | |
+| 8 | Click on upload image button | User will see window to upload image | Y | |
+| 9 | Type in the image alt text | Image alt text is changed | Y | |
+| 10 | Check the image is default | Image is default | Y | |
+| 11 | Check the image is active | Image is active | Y | |
+| 12 | Click cancel button in modal window | the modal window is closed and image isn't added | Y | |
+| 13 | Click save button in modal window | the modal window is closed and image is added | Y | |
+| 14 | Click on the edit image button on the image card | User will see a modal window with the image upload form | Y | The same result as with add image modal |
+| 15 | Click on delete image button on the image card | User will see a confirm window | Y | If user clicks yes, image is deleted, if not - the modal window is closed |
+| 16 | Click on add unit button | User will be redirected to the add unit page | Y | |
+| 17 | Click on the unit card | User will be redirected to the unit page | Y | |
+| Personnel Add product |                        |                  |      | |
+| 1 | Type in the product name | Product name is changed | Y | |
+| 2 | Type in the product description | Product description is changed | Y | |
+| 3 | Select category | Category is selected | Y | |
+| 4 | Select brand | Brand is selected | Y | |
+| 5 | Select tags | Tags are selected | Y | |
+| 6 | Check the product is active | Product is active | Y | |
+| 7 | Click cancel button | Changes will not be confirmed and the admin will be redirected to the personnel product page | Y | |
+| 8 | Click save button | Changes will be confirmed and the admin will be redirected to the personnel product page | Y | |
+| Personnel Edit product |                        |                  |      | pre-filled |
+| 1 | Type in the product name | Product name is changed | Y | |
+| 2 | Type in the product description | Product description is changed | Y | |
+| 3 | Select category | Category is selected | Y | |
+| 4 | Select brand | Brand is selected | Y | |
+| 5 | Select tags | Tags are selected | Y | |
+| 6 | Check the product is active | Product is active | Y | |
+| 7 | Click cancel button | Changes will not be confirmed and the admin will be redirected to the personnel product page | Y | |
+| 8 | Click save button | Changes will be confirmed and the admin will be redirected to the personnel product page | Y | |
+| Personnel Delete product |                        |                  |      | access only to administrators           |
+| 1 | Click on the cancel button | User will be redirected to the personnel product page | Y | |
+| 2 | Click on the delete button | User will be redirected to the personnel product page and product is deleted | Y | |
+| Personnel Unit details |                        |                  |      |             |
+| 1 | Click on the go to products button | User will be redirected to the personnel product page | Y | |
+| 2 | Click on the edit button | User will be redirected to the edit unit page | Y | |
+| 3 | Click on the delete button | User will be redirected to the personnel product page | Y | |
+| 4 | Click on the add stock button | User will be redirected to the add stock page | Y | access only to administrators and if stock has not been added |
+| 5 | Click on the Update stock button | User will be redirected to the Update stock page | Y | access only to administrators and if stock has been added |
+| 6 | Click on the delete stock button | User will be redirected to the personnel product page | Y | access only to administrators and if stock has been added |
+| Personnel Add unit |                        |                  |      | |
+| 1 | Type in the unit SKU | Unit SKU is changed | Y | |
+| 2 | Type in the unit UPC | Unit UPC is changed | Y | |
+| 3 | Select Product type | Product type is selected and assigned attributes fields are displayed | Y | |
+| 4 | Select attributes values | Attributes values are selected | Y | |
+| 5 | Type in the retail price | Retail price is changed | Y | |
+| 6 | Type in the store price | Store price is changed | Y | |
+| 7 | Type in the sale price | Sale price is changed | Y | |
+| 8 | Type in the weight | Weight is changed | Y | |
+| 9 | Check the unit is active | Unit is active | Y | |
+| 10 | Click back to products button | User will be redirected to the personnel product page and changes will not be saved | Y | |
+| 11 | Click add product Unit button | Unit will be added and the form will be empty to let user add another unit | Y | |
+| Personnel Edit unit |                        |                  |      | pre-filled |
+| 1 | Type in the unit SKU | Unit SKU is changed | Y | |
+| 2 | Type in the unit UPC | Unit UPC is changed | Y | |
+| 3 | Select Product type | Product type is selected and assigned attributes fields are displayed | Y | |
+| 4 | Select attributes values | Attributes values are selected | Y | |
+| 5 | Type in the retail price | Retail price is changed | Y | |
+| 6 | Type in the store price | Store price is changed | Y | |
+| 7 | Type in the sale price | Sale price is changed | Y | |
+| 8 | Type in the weight | Weight is changed | Y | |
+| 9 | Check the unit is active | Unit is active | Y | |
+| 10 | Click back to products button | User will be redirected to the personnel product page and changes will not be saved | Y | |
+| 11 | Click add product Unit button | Unit will be added and the form will be empty to let user check the unit | Y | |
+| Personnel Delete unit |                        |                  |      | access only to administrators           |
+| 1 | Click on the cancel button | User will be redirected to the personnel product page | Y | |
+| 2 | Click on the delete button | User will be redirected to the personnel product page and unit is deleted | Y | |
+| Personnel Add stock |                        |                  |      | access only to administrators           |
+| 1 | select date | Date is selected | Y | not required | |
+| 2 | type purchased quantity | Purchased quantity is changed | Y | |
+| 3 | type left quantity | Left quantity is changed | Y | |
+| 4 | type sold quantity | Sold quantity is changed | Y | |
+| 5 | click cancel button | User will be redirected to the personnel product unit page | Y | |
+| 6 | click save button | User will be redirected to the personnel product unit page | Y | |
+| Personnel Update stock |                        |                  |      | access only to administrators, pre-filled |
+| 1 | select date | Date is selected | Y | not required | |
+| 2 | type purchased quantity | Purchased quantity is changed | Y | |
+| 3 | type left quantity | Left quantity is changed | Y | |
+| 4 | type sold quantity | Sold quantity is changed | Y | |
+| 5 | click cancel button | User will be redirected to the personnel product unit page | Y | |
+| 6 | click save button | User will be redirected to the personnel product unit page | Y | |
+| Personnel Delete stock |                        |                  |      | access only to administrators           |
+| 1 | Click on the cancel button | User will be redirected to the personnel product unit page | Y | |
+| 2 | Click on the delete button | User will be redirected to the personnel product unit page and stock is deleted | Y | |
+| Personnel Units Table |                        |                  |      |             |
+| 1 | Type in SKU or UPC in the search field | units are filtered | Y | |
+| 2 | Click on the unit card | User will be redirected to the unit page | Y | |
+| Personnel Stock Table |                        |                  |      |             |
+| 1 | Click on show units with no stock button | User will see a dropdown table with units with no stock | Y | Available only when there are any units with no stock |
+| 2 | Click on All units button | All units will be displayed | Y | |
+| 3 | Click on Irregularity button | Units with irregularity will be displayed | Y | |
+| 4 | Click on < 50 Units button | Units with less than 50 stock items will be displayed | Y | |
+| 5 | Click on < 20 Units button | Units with less than 20 stock items will be displayed | Y | |
+| 6 | Click on < 10 Units button | Units with less than 10 stock items will be displayed | Y | |
+| 7 | Click on Out of stock button | Units with no stock will be displayed | Y | |
+| 8 | Click on > sales button | Units with high sales will be displayed | Y | |
+| 9 | Click on < sales button | Units with low sales will be displayed | Y | |
+| 10 | Click on SKU link | User will be redirected to the unit page | Y | |
+| Personnel All Orders Table |                        |                  |      |             |
+| 1 | Type in order number/order/key or id in the search field | orders are filtered | Y | |
+| 2 | Select order status in the dropdown | orders are filtered | Y | |
+| 3 | Click on the order card | User will be redirected to the order page | Y | |
+| Personnel Order Details |                        |                  |      |             |
+| 1 | Click on go to orders button | User will be redirected to the personnel orders page | Y | |
+| 2 | Click on the edit button | User will be redirected to the edit order page | Y | access only to administrators |
+| 3 | Click on the delete button | User will be redirected to the personnel orders page | Y | access only to administrators |
+| 4 | Click on edit order status button | Dropdown with order statuses will be displayed | Y | access only to administrators and logistic |
+| 5 | Click on order item product name link | User will be redirected to the product page | Y | |
+| 6 | Click on order item edit button | User will be redirected to the edit order item page | Y | access only to administrators |
+| 7 | Click on order item delete button | User will be redirected to the personnel orders page | Y | access only to administrators |
+| Edit Order |                        |                  |      | Access only to administrators, form pre-filled |
+| 1 | Change customer full name | Customer full name is changed | Y | |
+| 2 | Change customer email | Customer email is changed | Y | |
+| 3 | Change customer phone | Customer phone is changed | Y | |
+| 4 | Change customer address | Customer address is changed | Y | |
+| 5 | Change customer city | Customer city is changed | Y | |
+| 6 | Change customer state | Customer state is changed | Y | |
+| 7 | Change customer country | Customer country is changed | Y | |
+| 8 | Change customer zip | Customer zip is changed | Y | |
+| 9 | Change customer total paid | Customer total paid is changed | Y | |
+| 11 | Render billing status | Billing status is rendered | Y | |
+| 12 | Render Order status | Order status is rendered | Y | |
+| 13 | Click on the cancel button | User will be redirected to the personnel orders page | Y | |
+| 14 | Click on the save button | User will be redirected to the personnel orders page | Y | |
+| Delete Order |                        |                  |      | Access only to administrators           |
+| 1 | Click on the cancel button | User will be redirected to the personnel orders page | Y | |
+| 2 | Click on the delete button | User will be redirected to the personnel orders page and order is deleted | Y | |
+| Edit order Item |                        |                  |      | Access only to administrators, form pre-filled |
+| 1 | Change quantity | Quantity is changed, the total price is recalculated | Y | |
+| 2 | click cancel button | User will be redirected to the personnel orders page | Y | |
+| 3 | click save button | User will be redirected to the personnel orders page | Y | |
+| Delete order Item |                        |                  |      | Access only to administrators           |
+| 1 | Click on the cancel button | User will be redirected to the personnel orders page | Y | 
+| 2 | Click on the delete button | User will be redirected to the personnel orders page and order item is deleted and the total price is recalculated | Y | |
+| Personnel Stock Requests Table |                        |                  |      |             |
+| 1 | Select product in requests in dropdown and click search | requests are filtered | Y | |
+| 2 | Click on the requested product | User will be redirected to the personnel product page | Y | |
+| Page Navigation |                        |                  |      |             |
+| 1 | Click on the arrow left page button | Previous page is displayed | Y | If there not many items on the page, there no arrow left and right buttons + if there is no previous page, there arrow left button is disabled |
+| 2 | Click on the arrow right page button | Next page is displayed | Y | If there not many items on the page, there no arrow left and right buttons + if there is no next page, there arrow right button is disabled |
+| Footer |                        |                  |      |             |
+| 1 | Click on the About us link | User will be redirected to the home page | Y | |
+| 2 | Click on the Contact us link | the email form is displayed | Y | |
+| 3 | Click on the Privacy Policy link | User will be redirected to privacy policy page | Y | |
+| 4 | Click on the Jobs link | User will be redirected to the linked page | Y | This feature is created for the real world project and this it will help the shop owner to display the jobs on Linkedin |
+| 5 | Click on the Products link | User will be redirected to the Stock page | Y | |
+| 6 | Click on the Facebook icon | User will be redirected to the Facebook page | Y | This feature is created for the real world project and this it will help the shop owner to create presence on Facebook |
+
+| 7 | Click on created by ... | User will be redirected to developer GitHub page | Y | |
+
 ### Code Validation
 
 # HTML Code Validation
@@ -718,4 +1157,7 @@ You can fork this repository by using the following steps:
 
 - I would like to thank Code Institutes Slack Community, and tutor support (Especially Joanne) as this helped me so much when I got stuck on part of my project.
 
-- I would also like to thank our cohort facilitator Marko Tot, for answering any course-related questions I asked and for providing us with weekly guidance information about the project
+- I would also like to thank our cohort facilitator Marko Tot, for answering any course-related questions I asked and for providing us with weekly guidance information about 
+the project
+
+Back to [README.md](README.md) file.
