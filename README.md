@@ -285,7 +285,7 @@ Usability was tested with the below user acceptance testing, sent to new users t
 | 5           | Click on Sign Up button | asks user to confirm email page Sends address a confirmation request email | Y |          |
 | 6           | Confirm email | Redirects user to blank Sign In page | Y |          |
 | 7           | Sign In | Redirects user to blank In page | Y |          |
-| 8           | Sign In with the same email/username and password | Takes user to schedule page with pop-up confirming successful sign in. Get started button now missing in main nav, replaced by Menu | Y |          |
+| 8           | Sign In with the same email/username and password | Takes user to schedule page with pop-up confirming successful sign in. Get started button now missing                  in      main nav, replaced by Menu | Y |          |
 | 9           | Click "Logout" button  in the center of the page| Redirects user to home page | Y |          |
 | 10          | Click browser back button | You are still logged out | Y |          |
 | Log In      |                        |                  |      |             |
@@ -307,50 +307,50 @@ Usability was tested with the below user acceptance testing, sent to new users t
 | Navigation  |                        |                  |      |             |
 | 1           | Click on the logo | Redirection to home page | Y |          |
 | 2           | Click Store | Redirection to Store page | Y |          |
-|            | Click bag button | Redirection to bag page | Y |          |
+|             | Click bag button | Redirection to bag page | Y |          |
 | 5           | Click Profile button | Redirection to Profile page | Y |          |
 | 6           | Click Logout button | Redirection to logout page | Y |          |
 | Admin Navigation |                        |                  |      |             |
 | 1           | Click Personnel dashboard | Dropdown menu opens | Y |          |
 | 2           | Click on Emails | Redirection to create email page | Y |          |
-| 3            | Click Categories | Redirection to Categories page | Y |          |
+| 3           | Click Categories | Redirection to Categories page | Y |          |
 | 4           | Click Brands | Redirection to Brands page | Y |          |
 | 5           | Click on Tags | Redirection to Tags page | Y |          |
 | 6           | Click on Product Types | Redirection to Product Types page | Y |          |
 | 7           | Click on Product attributes | Redirection to Product attributes page | Y |          |
 | 8           | Click on Attributes values | Redirection to Attributes values page | Y |          |
-| 9          | Click on Products | Redirection to Products page | Y |          |
-| 10 | Click on Users | Redirection to Users page | Y |          |
-| 11 | Click on Stock | Redirection to Stock page | Y |          |
-| 12 | Click on Orders | Redirection to Orders page | Y |          |
-| 13 | Click on Stock Requests | Redirection to Stock Requests page | Y |          |
-| Store |                        |                  |      |             |
-| 1 | Type in search bar | Search results are displayed | Y |          |
-| 2  | Select a category | Products are displayed | Y |          |
-| 3  | Click on like button | Product is added to wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
-| 4 | Click on the unlike button | Product is removed from wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
-| 5 | Click on the product cart | User will be redirected to the product details page | Y | |
-| 6 | Click on page navigation | User will be redirected to the correct page | Y | |
+| 9           | Click on Products | Redirection to Products page | Y |          |
+| 10          | Click on Users | Redirection to Users page | Y |          |
+| 11          | Click on Stock | Redirection to Stock page | Y |          |
+| 12          | Click on Orders | Redirection to Orders page | Y |          |
+| 13          | Click on Stock Requests | Redirection to Stock Requests page | Y |          |
+| Store       |                        |                  |      |             |
+| 1           | Type in search bar | Search results are displayed | Y |          |
+| 2           | Select a category | Products are displayed | Y |          |
+| 3           | Click on like button | Product is added to wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message        to              login         and        the click will be ignored |
+| 4           | Click on the unlike button | Product is removed from wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
+| 5           | Click on the product cart | User will be redirected to the product details page | Y | |
+| 6           | Click on page navigation | User will be redirected to the correct page | Y | |
 | Product Details |                        |                  |      |             |
-| 1 | Click on left or right carousel | Carousel will change | Y | If there is only 1 image, there will be no arrow to click |
-| 2 | Click on heart button | Product is added to wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
-| 3 | Click on the unlike button | Product is removed from wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
-| 4 | Click on View Reviews button | User will be redirected to the product reviews page | Y | If product hasn't been reviewed, user will not see the button |
-| 5 | Click on the product options (color, size, etc) | User will see price changes | Y | |
-| 6 | Click reset button | All selections are reset | Y | |
-| 7 | User selects all options | User will see price changes and add to bag button will be enable| Y | |
-| 8 | Click on plus-minus quantity | Quantity will change | Y | If there is not enough stock, the quantity will not change, plus button will be disabled when the user reach the limited number, and a warning message will be displayed |
-| 9 | Click on add to bag button | Product is added to bag and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
-| 10 | Click Yes on request item pop-up | User will see a modal with products options and quantity | Y | Displayed only if the product inventory not in stock at this moment |
-| 11 | Click on the product options (color, size, etc) and clicks send request button | Modal will be closed, and user will see a message to notify user, the user will also receive an email with the product options and quantity | Y |  If user requested a product inventory which is not in stock, modal will be closed, notification will not be sent and user will see a message that he/she may purchase the product right now |
+| 1           | Click on left or right carousel | Carousel will change | Y | If there is only 1 image, there will be no arrow to click |
+| 2           | Click on heart button | Product is added to wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
+| 3           | Click on the unlike button | Product is removed from wishlist and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
+| 4           | Click on View Reviews button | User will be redirected to the product reviews page | Y | If product hasn't been reviewed, user will not see the button |
+| 5           | Click on the product options (color, size, etc) | User will see price changes | Y | |
+| 6           | Click reset button | All selections are reset | Y | |
+| 7           | User selects all options | User will see price changes and add to bag button will be enable| Y | |
+| 8           | Click on plus-minus quantity | Quantity will change | Y | If there is not enough stock, the quantity will not change, plus button will be disabled when the user reach the limited number, and a warning message will be displayed |
+| 9           | Click on add to bag button | Product is added to bag and message will appear to notify user | Y | If user is logged out, the user will see a message to login and the click will be ignored |
+| 10          | Click Yes on request item pop-up | User will see a modal with products options and quantity | Y | Displayed only if the product inventory not in stock at this moment                                           |
+| 11          | Click on the product options (color, size, etc) and clicks send request button | Modal will be closed, and user will see a message to notify user, the user will also receive an email with the product options and quantity | Y |  If user requested a product inventory which is not in stock, modal will be closed, notification will not be sent and user will see a message that he/she may purchase the product right now |
 
-| Profile |                        |                  |      |             |
-| 1 | Click on the edit button | User will be redirected to the edit profile page | Y | |
-| 2 | Click on the add address button | User will be redirected to the add address page | Y | |
-| 3 | Click on the manage addresses button | User will be redirected to the manage addresses page | Y |  |
-| 4 | Click on the My Orders button | User will be redirected to the My Orders page | Y | |
-| 5 | Click on the My Reviews button | User will be redirected to the My Reviews page | Y | |
-| 6 | Click on the My Wishlist button | User will be redirected to the My Wishlist page | Y | |
+| Profile     |                        |                  |      |             |
+| 1           | Click on the edit button | User will be redirected to the edit profile page | Y | |
+| 2           | Click on the add address button | User will be redirected to the add address page | Y | |
+| 3           | Click on the manage addresses button | User will be redirected to the manage addresses page | Y |  |
+| 4           | Click on the My Orders button | User will be redirected to the My Orders page | Y | |
+| 5           | Click on the My Reviews button | User will be redirected to the My Reviews page | Y | |
+| 6           | Click on the My Wishlist button | User will be redirected to the My Wishlist page | Y | |
 
 | Edit Profile Data |                        |                  |      |             |
 | 1 | Type in the first name | First name is changed | Y | |
