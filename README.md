@@ -346,6 +346,91 @@ Usability was tested with the below user acceptance testing, sent to new users t
 | 10          | Click Yes on request item pop-up | User will see a modal with products options and quantity | Y | Displayed only if the product inventory not in stock at this moment |
 | 11          | Click on the product options (color, size, etc) and clicks send request button | Modal will be closed, and user will see a message to notify user, the user will also receive an email with the product options and quantity | Y |  If user requested a product inventory which is not in stock, modal will be closed, notification will not be sent and user will see a message that he/she may purchase the product right now |
 
+| Profile |                        |                  |      |             |
+| 1           | Click on the edit button | User will be redirected to the edit profile page | Y | |
+| 2           | Click on the add address button | User will be redirected to the add address page | Y | |
+| 3           | Click on the manage addresses button | User will be redirected to the manage addresses page | Y |  |
+| 4           | Click on the My Orders button | User will be redirected to the My Orders page | Y | |
+| 5           | Click on the My Reviews button | User will be redirected to the My Reviews page | Y | |
+| 6           | Click on the My Wishlist button | User will be redirected to the My Wishlist page | Y | |
+| Edit Profile Data |                        |                  |      |             |
+| 1           | Type in the first name | First name is changed | Y | |
+| 2           | Type in the last name | Last name is changed | Y | |
+| 3           | Select birth date | Birth date is changed | Y | |
+| 4           | Click subscribe checkbox | User will be subscribed to the newsletter | Y | |
+| 5           | Click Save changes button | Changes will be confirmed and the user will see a message to notify them | Y | |
+| My addresses|                        |                  |      |             |
+| 1           | Click on the add address button | User will be redirected to the add address page | Y | |
+| 2           | Click on the edit button on the address card | User will be redirected to the edit address page | Y | |
+| 3           | Click on Enable as Primary button | Address is set as primary | Y | If there were another primary address, it will be set as not primary |
+| 4           | Click on Disable as Primary button | Address is set as not primary | Y | |
+| Add Address |                        |                  |      |             |
+| 1           | Select country | Country is selected | Y | |
+| 2           | Select state | State is selected | Y | |
+| 3           | Select city | City is selected | Y | |
+| 4           | Type in the address | Address is changed | Y | |
+| 5           | Type in a zip code | Zip code is changed | Y | |
+| 6           | Type in the phone number | Phone number is changed | Y | |
+| 7           | Check primary checkbox | Address is set as primary | Y | |
+| 8           | Click Save changes button | Changes will be confirmed and the user will see a message to notify them | Y | |
+| 9           | Click on the cancel button | Changes will not be confirmed and the user will be redirected to the manage addresses page | Y | |
+| Edit Address|                        |                  |      |             |
+| 1           | Select country | Country is selected | Y | |
+| 2           | Select state | State is selected | Y | |
+| 3           | Select city | City is selected | Y | |
+| 4           | Type in the address | Address is changed | Y | |
+| 5           | Type in a zip code | Zip code is changed | Y | |
+| 6           | Type in the phone number | Phone number is changed | Y | |
+| 7           | Check primary checkbox | Address is set as primary | Y | |
+| 8           | Click Save changes button | Changes will be confirmed and the user will see a message to notify them | Y | |
+| 9           | Click on the cancel button | Changes will not be confirmed and the user will be redirected to the manage addresses page | Y | |
+| 10          | Click on Delete address button | User will see a dropdown menu with the confirmation message | Y | |
+| 11          | Click Yes button in the dropdown menu | User will be redirected to the manage addresses page and the message will appear to notify user | Y | |
+| 12          | Click No button in the dropdown menu | The dropdown menu will be closed | Y | |
+| My Orders   |                        |                  |      |             |
+| 1           | Click on the order card | User will be redirected to the order page | Y | |
+| My Order Details |                        |                  |      |             |
+| 1           | Click on the Back to my orders button | User will be redirected to the My Orders page | Y | |
+| 2           | Click on the Add review button | User will be redirected to the Add review page | Y | This button is available only if the order is completed |
+| 3           | Click on the View review button | User will be redirected to the View review page | Y | This button is available only if the order is completed  and the user has already reviewed the order |
+| 4           | Click on the product's name | User will be redirected to the product page | Y | |
+| Add Review  |                        |                  |      |             |
+| 1           | Select rating | Rating is selected | Y | |
+| 2           | Type in the review | Review is changed | Y | |
+| 3           | Click on the add review image button | User will see a pop up window to upload an image | Y | |
+| 4           | Click on the upload button | User will see a pop up window to upload an image | Y | |
+| 5           | Click on the cancel button | Changes will not be confirmed | Y | |
+| 6           | Click on the save button | Changes will be confirmed and the review will be added | Y | |
+| View Review |                        |                  |      |             |
+| 1           | Click on the Product card | User will be redirected to the product page | Y | |
+| My Reviews  |                        |                  |      |             |
+| 1           | Click on the review card | User will be redirected to the review page | Y | |
+| Bag         |                        |                  |      |             |
+| 1           | Click on ready to purchase button | the page will smoothly scroll to the bottom of the page | Y | |
+| 2           | Click on the product's name | User will be redirected to the product page | Y | |
+| 3           | Click on the minus button | Quantity is decreased and the user will see a message to notify them | Y | If there was only one product in the bag, the product will be removed and the user will see a message to notify them |
+| 4           | Click on the plus button | Quantity is increased and the user will see a message to notify them | Y | If there was not enough products in the stock, the quantity will not be increased and the user will see a message to notify them |
+| 5           | Click on the remove button | Product is removed from the bag and the user will see a message to notify them | Y | |
+| 6           | Click on empty bag button | The user will see a modal window to confirm the empty bag | Y | |
+| 7           | Click on the cancel button | Changes will not be confirmed | Y | |
+| 8           | Click on the confirm button | Changes will be confirmed and the bag will be emptied and the user will see a message to notify them | Y | |
+| 9           | Type in the coupon code and click on the apply button | Coupon is applied and the user will see a message to notify them | Y | If the coupon is not valid, the user will see a message to notify them |
+| 10          | Click on the checkout button | User will be redirected to the checkout page | Y | |
+| Checkout    |                        |                  |      |             |
+| 1           | Type in the Full name | Full name is changed | Y | If user has filled out the profile fully, the filled will be filled automatically |
+| 2           | Type in the email | Email is changed | Y | |
+| 3           | Type in the phone number | Phone number is changed | Y | If user has set the primary address, the phone number will be set automatically |
+| 4           | Type in the address | Address is changed | Y | If user has set the primary address, the address will be set automatically |
+| 5           | Type in the zip code | Zip code is changed | Y | If user has set the primary address, the zip code will be set automatically |
+| 6           | Select country | Country is selected | Y | If user has set the primary address, the country will be set automatically |
+| 7           | Select state | State is selected | Y | If user has set the primary address, the state will be set automatically |
+| 8           | Select city | City is selected | Y | If user has set the primary address, the city will be set automatically |
+| 9           | Type payment card data | Payment card data is changed | Y | |
+| 10          | Click on the pay button | The pay button will be disabled and the user will see a message to notify them | Y | If the payment card is not valid, the user will see a message to notify them. If the payment was successful, the user will be redirected to the order placed page and user will also receive an email notification |
+| Order Placed|                        |                  |      |             |
+| 1           | Click on the View my orders button | User will be redirected to the My Orders page | Y | |
+| Personnel Apps |                        |                  |      | Access only to personnel members |
+
 ### Code Validation
 
 # HTML Code Validation
