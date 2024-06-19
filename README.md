@@ -573,6 +573,9 @@ info  | Pass |
 # Apps.py
 ![Screenshot](media/apps.py.png)
 
+# Forms.py 
+![Screenshot](media/forms.py.png)
+
 
 ## Bugs
 
