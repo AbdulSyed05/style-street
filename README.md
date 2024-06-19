@@ -202,7 +202,9 @@ To ensure that all core requirements were completed I worked on the 'MUST HAVE' 
 
 ![Screenshot](media/colormind.png)
 
-Image of the database diagram for your project, you can name your database models as well and how they are connected
+## Database Diagram
+
+![Screenshot](media/databasediagram.png)
 
 ## Features:
 
