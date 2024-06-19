@@ -3,6 +3,8 @@
 
 Discover a seamless shopping experience with Style Street, the cutting-edge e-commerce platform designed to elevate your retail experience. Our app combines state-of-the-art technology with intuitive design, ensuring a smooth and enjoyable journey from browsing to checkout.
 
+**[View the live project here.](https://stylestreet-2f7b5324506f.herokuapp.com/)**
+
 ## Project Goal
 
 Our goal is to develop a user-friendly E-commerce platform using Django, providing customers with seamless browsing, secure transactions, and efficient order management. Through intuitive design and robust features, we aim to enhance the online shopping experience, driving customer satisfaction and facilitating business growth.
@@ -12,32 +14,6 @@ Our goal is to develop a user-friendly E-commerce platform using Django, providi
 - I am aware my commit history isnt what it needs to be this is because I didnt realise My VS Code was not connected to Github. I got lost into coding my app and forgot to commit on time. 
 
 ![Responsive](media/Responsive.png.png)
-
-**[View the live project here.](https://stylestreet-2f7b5324506f.herokuapp.com/)**
-
-1. [Design & Planning](#design-&-planning)
-    * [User Stories](#user-stories)
-    * [Wireframes](#wireframes)
-    * [Agile Methodology](#agile-methodology)
-    * [Typography](#typography)
-    * [Colour Scheme](#colour-scheme)
-    * [Database Diagram](#database-diagram)
-    
-2. [Features](#features)
-    * [Navigation](#Navigation-bar)
-    * [Footer](#footer)
-    * [Home page](#home-page)
-    * [add your pages](#)
-    * [Login page](#profile-page)
-    * [Sign up page](#signup-page)
-
-3. [Technologies Used](#technologies-used)
-4. [Libraries](#libraries-used)
-5. [Testing](#testing)
-6. [Bugs](#bugs)
-7. [Deployment](#deployment)
-8. [Credits](#credits)
-9. [Acknowledgment](#acknowledgment)
 
 ## Design & Planning:
 
