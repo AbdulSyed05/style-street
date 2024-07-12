@@ -214,6 +214,13 @@ To ensure that all core requirements were completed I worked on the 'MUST HAVE' 
 # Thank you for your purchase page
 ![Screenshot](media/thankyouforpurchase.png)
 
+# Facebook Business Page
+
+![Screenshot](media/facebookbusiness%20page.png)
+
+![Screenshot](media/facebookpage1.png)
+
+
 
 
 ## Future Features 
