@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG") == "True"
 
-ALLOWED_HOSTS = ["*", "stylestreet.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["*", "stylestreet.herokuapp.com", "localhost", "https://8000-abdulsyed05-stylestreet-bnc0t3g42k4.ws.codeinstitute-ide.net"]
 
 
 INSTALLED_APPS = [
@@ -79,6 +79,11 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "allauth.account.middleware.AccountMiddleware",
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-abdulsyed05-stylestreet-bnc0t3g42k4.ws.codeinstitute-ide.net',
+]
+
 
 ROOT_URLCONF = "stylestreet.urls"
 
