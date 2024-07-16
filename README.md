@@ -235,7 +235,7 @@ To ensure that all core requirements were completed I worked on the 'MUST HAVE' 
 - Subscription Services: Introduce subscription-based services or product bundles, providing customers with recurring deliveries and discounts, promoting customer loyalty and repeat purchases.
 
 ## Testing
-Important part of your README!!!
+
 
 ### Google's Lighthouse Performance
 ![Screenshot](media/Lighthouse.png)
